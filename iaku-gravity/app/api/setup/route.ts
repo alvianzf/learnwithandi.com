@@ -5,7 +5,7 @@ import { hashPassword } from '@/lib/auth';
 
 export async function GET() {
   try {
-    const pwd = process.env.ADMIN_PASSWORD || 'Dirgahayu7';
+    const pwd = process.env.ADMIN_PASSWORD || '';
     const hashedPassword = await hashPassword(pwd);
 
     const admin = await prisma.user.upsert({
