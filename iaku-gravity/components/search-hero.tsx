@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { useDebounce } from 'use-debounce'; // Need to install or implement manually? Implement manually to avoid dep.
+
 import { Search } from 'lucide-react';
 
 function useDebounceValue<T>(value: T, delay: number): T {
