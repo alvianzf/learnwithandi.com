@@ -55,6 +55,46 @@ You'll need these installed (they're the only real requirements):
 npm install react react-dom framer-motion
 ```
 
+**React Version Compatibility:**
+
+This package supports **both React 18 and React 19**:
+- ✅ React 18.x (`^18.0.0`)
+- ✅ React 19.x (`^19.0.0`)
+
+**Framer Motion Compatibility:**
+- ✅ Framer Motion 10.x (`^10.0.0`)
+- ✅ Framer Motion 11.x (`^11.0.0`)
+
+### 🔧 Installation Troubleshooting
+
+**If you get peer dependency errors:**
+
+The package is designed to work cleanly with both React 18 and 19. However, if you encounter peer dependency conflicts during installation, here are your options:
+
+1. **Option 1 - Use `--legacy-peer-deps` (Quick Fix)**:
+   ```bash
+   npm install @alvianzf/squiggly-lines-go-brrr --legacy-peer-deps
+   ```
+
+2. **Option 2 - Use `--force` (Nuclear Option)**:
+   ```bash
+   npm install @alvianzf/squiggly-lines-go-brrr --force
+   ```
+
+3. **Option 3 - Check Your React Versions** (Recommended):
+   Make sure your `react` and `react-dom` versions match:
+   ```bash
+   npm list react react-dom
+   ```
+   If they don't match (e.g., React 18 with React-DOM 19), update them to the same version:
+   ```bash
+   npm install react@18 react-dom@18
+   # or
+   npm install react@19 react-dom@19
+   ```
+
+**Still having issues?** Open an issue on [GitHub](https://github.com/alvianzf/squiggly-lines-go-brrr/issues) and we'll pretend to look at it.
+
 ### 🎨 About Colors (Tailwind Not Actually Required!)
 
 **Plot twist:** Despite us yelling about Tailwind, you don't *actually* need it! 
