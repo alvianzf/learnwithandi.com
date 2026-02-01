@@ -4,8 +4,14 @@ import { content } from '@/data/content';
 import styles from './Footer.module.css';
 import { Instagram, Linkedin, Youtube, MessageCircle, AtSign } from 'lucide-react';
 
+import { useEffect } from 'react'; // Add import
+
 export default function Footer() {
   const { footer, global } = content;
+
+  useEffect(() => {
+    console.log("%c Crafted by Alvian \n https://alvianzf.id ", "background: #222; color: #bada55; font-size:12px; padding:4px; border-radius: 4px;");
+  }, []);
 
   return (
     <footer className={styles.footer}>
@@ -45,7 +51,9 @@ export default function Footer() {
           </div>
 
           <div className={styles.poweredSection}>
-            <p className={styles.poweredLabel}>{footer.subtitle}</p>
+            <a href="https://alvianzf.id/" target="_blank" rel="noopener noreferrer" className={styles.hiddenLink}>
+              {footer.subtitle}
+            </a>
             <p className={styles.poweredName}>{footer.name}</p>
           </div>
         </div>

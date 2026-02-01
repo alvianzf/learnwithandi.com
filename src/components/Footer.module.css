@@ -72,12 +72,20 @@
   padding-top: 1.5rem;
 }
 
-.poweredLabel {
+.hiddenLink {
   font-size: 0.75rem;
   color: #666;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
+  text-decoration: none;
+  display: block;
+  cursor: default;
+  transition: color 0.3s;
+}
+
+.hiddenLink:hover {
+  color: #888;
 }
 
 .poweredName {
