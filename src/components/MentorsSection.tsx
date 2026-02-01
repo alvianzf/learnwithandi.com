@@ -61,6 +61,33 @@ export default function MentorsSection() {
                 <p className={styles.role}>{mentor.role}</p>
                 <div className={styles.divider}></div>
                 <p className={styles.description}>{mentor.description}</p>
+
+                <div className={styles.socialLinks}>
+                  {mentor.linkedin && (
+                    <a
+                      href={mentor.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.socialButton}
+                      aria-label={`${mentor.name} LinkedIn`}
+                    >
+                      <Linkedin size={18} />
+                      <span>LinkedIn</span>
+                    </a>
+                  )}
+                  {mentor.website && (
+                    <a
+                      href={mentor.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.socialButton}
+                      aria-label={`${mentor.name} Website`}
+                    >
+                      <ArrowUpRight size={18} />
+                      <span>Website</span>
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           ))}

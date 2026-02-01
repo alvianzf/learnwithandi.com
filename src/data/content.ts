@@ -20,27 +20,32 @@ export const content = {
     items: [
       {
         name: "Andi Satriawan",
-        role: "Career Coach & Founder",
-        description: "Praktisi karier yang telah membantu ribuan jobseeker memahami cara kerja rekrutmen modern.",
-        image: "/assets/mentors/andi.png"
+        role: "Founder & Career Coach",
+        description: "Praktisi HR & Career Coach yang sudah bantu ribuan orang tembus kerja impian. Fokus di strategi karier sat-set, personal branding yang autentik, dan persiapan mental baja buat hadapi rekruter.",
+        image: "/assets/mentors/andi.png",
+        linkedin: "https://www.linkedin.com/in/andisatr/"
       },
       {
-        name: "Alvian",
-        role: "Tech Recruiter (Europe)",
-        description: "Lebih dari 10 tahun pengalaman teknis dari Indonesia sampai Eropa. Sekarang aktif hiring untuk market Eropa.",
-        image: "/assets/mentors/alvian.png"
+        name: "Alvian Zulfikar",
+        role: "Software Engineer & Tech Mentor",
+        description: "Tech geek yang hobi banget ngoding dan mentoring. Ahlinya ngebangun sistem full-stack yang scalable. Punya misi khusus: jembatani talenta Southeast Asia biar bisa bersaing dan dapet opportunity di Eropa.",
+        image: "/assets/mentors/alvian.png",
+        linkedin: "https://www.linkedin.com/in/alvianzf/",
+        website: "https://alvianzf.id/"
       },
       {
-        name: "Derryl",
-        role: "CEOO & Product Manager",
-        description: "Mantan Product Manager yang sekarang jadi CEOO. Fokus di strategi produk dan excellence operasional.",
-        image: "/assets/mentors/derryl.png" // Will fallback
+        name: "Derryl Daniswara",
+        role: "Expert Product Manager",
+        description: "Product leader yang jago banget nerjemahin visi jadi eksekusi. Fokus di product strategy & operational excellence. Siap bantu kamu mikir strategis ala Product Manager kelas dunia.",
+        image: "/assets/mentors/derryl.png", // Will fallback
+        linkedin: "https://www.linkedin.com/in/derryldt/"
       },
       {
-        name: "Fauzan",
+        name: "Fauzan Ozan",
         role: "Digital Marketing Specialist",
-        description: "Kerja di company ads yang terafiliasi dengan META. Spesialis digital marketing & ads.",
-        image: "/assets/mentors/fauzan.png" // Will fallback
+        description: "Digital Marketer yang paham luar dalem soal Ads & Growth. Punya pengalaman teknis deep di industri, siap sharing rahasia campaign yang ngena dan menghasilkan cuan.",
+        image: "/assets/mentors/fauzan.png",
+        linkedin: "https://www.linkedin.com/in/fauzanozan/"
       }
     ]
   },
