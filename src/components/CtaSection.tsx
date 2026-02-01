@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link';
 import { content } from '@/data/content';
 import styles from './CtaSection.module.css';

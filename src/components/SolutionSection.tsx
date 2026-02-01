@@ -1,3 +1,5 @@
+"use client";
+
 import { content } from '@/data/content';
 import styles from './SolutionSection.module.css';
 import { Target, Users, Zap, Briefcase, CheckCircle } from 'lucide-react';

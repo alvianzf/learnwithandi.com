@@ -1,3 +1,5 @@
+"use client";
+
 import { content } from '@/data/content';
 import styles from './CareerElementsSection.module.css';
 

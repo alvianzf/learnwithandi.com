@@ -1,3 +1,5 @@
+"use client";
+
 import { content } from '@/data/content';
 import styles from './ProblemSection.module.css';
 import { FileQuestion, Ghost, UserX, MessageSquareWarning, Wallet, Compass, Linkedin, MessageSquare } from 'lucide-react';

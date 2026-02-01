@@ -1,3 +1,5 @@
+"use client";
+
 import { content } from '@/data/content';
 import styles from './OfferSection.module.css';
 import { CheckCircle2, MessageCircle } from 'lucide-react';

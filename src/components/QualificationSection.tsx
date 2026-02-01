@@ -1,3 +1,5 @@
+"use client";
+
 import { content } from '@/data/content';
 import styles from './QualificationSection.module.css';
 import { CheckCircle2, XCircle } from 'lucide-react';
