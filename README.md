@@ -68,4 +68,4 @@ public/
 
 ## 📄 License
 
-&copy; 2024 Learn With Andi. All rights reserved.
+&copy; 2026 Learn With Andi. All rights reserved.
