@@ -140,3 +140,26 @@
   margin-top: 3px;
   color: var(--color-accent-yellow, #FFD700);
 }
+
+.ctaWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.ctaButton {
+  background-color: var(--color-accent-yellow, #FFD700);
+  color: #000;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: inline-block;
+}
+
+.ctaButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}

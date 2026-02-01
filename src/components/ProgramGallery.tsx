@@ -42,6 +42,12 @@ export default function ProgramGallery() {
           </div>
         ))}
       </div>
+
+      <div className={styles.ctaWrapper}>
+        <a href="#offer" className={styles.ctaButton}>
+          Join Sekarang
+        </a>
+      </div>
     </section>
   );
 }
