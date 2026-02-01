@@ -51,9 +51,21 @@ export default function MentorsSection() {
                   className={styles.image}
                 />
                 <div className={styles.overlay}>
-                  <button className={styles.profileBtn}>
-                    View Profile <ArrowUpRight size={16} />
-                  </button>
+                  {mentor.linkedin ? (
+                    <a
+                      href={mentor.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.profileBtn}
+                      style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '0.5rem' }}
+                    >
+                      View Profile <ArrowUpRight size={16} />
+                    </a>
+                  ) : (
+                    <button className={styles.profileBtn}>
+                      View Profile <ArrowUpRight size={16} />
+                    </button>
+                  )}
                 </div>
               </div>
               <div className={styles.content}>
