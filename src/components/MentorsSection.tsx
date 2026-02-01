@@ -3,7 +3,7 @@
 import { content } from '@/data/content';
 import styles from './MentorsSection.module.css';
 import { useState } from 'react';
-import { User, Linkedin, ArrowUpRight } from 'lucide-react';
+import { User, Linkedin, ArrowUpRight, Globe } from 'lucide-react';
 
 const MentorImage = ({ src, alt, className }: { src: string, alt: string, className: string }) => {
   const [error, setError] = useState(false);
@@ -83,8 +83,7 @@ export default function MentorsSection() {
                       className={styles.socialButton}
                       aria-label={`${mentor.name} LinkedIn`}
                     >
-                      <Linkedin size={18} />
-                      <span>LinkedIn</span>
+                      <Linkedin size={24} />
                     </a>
                   )}
                   {mentor.website && (
@@ -95,8 +94,7 @@ export default function MentorsSection() {
                       className={styles.socialButton}
                       aria-label={`${mentor.name} Website`}
                     >
-                      <ArrowUpRight size={18} />
-                      <span>Website</span>
+                      <Globe size={24} />
                     </a>
                   )}
                 </div>

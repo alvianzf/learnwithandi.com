@@ -387,6 +387,14 @@ export const content = {
         question: "Apakah dijamin dapat kerja?",
         answer: "Tidak ada jaminan 100%. Kelulusan dan keberhasilan tergantung usaha kamu menerapkannya. Kami memberikan strategi terbaik.",
       },
+      {
+        question: "Mau coba dulu sebelum komit?",
+        answer: "Paket Support (Rp100rb) adalah start terbaik. Low risk, high return. Kamu dapet network, info loker valid, dan weekly meeting. Bisa upgrade kapan aja.",
+      },
+      {
+        question: "Kenapa harus bayar buat cari kerja?",
+        answer: "Kamu tidak membayar untuk 'pekerjaan', tapi untuk Akselerasi. Sendirian bisa, tapi rawan 'trial-error'. Kami tawarkan opsi: 1) Support (Bulanan): Fitur setara Basic, cocok buat 'Test Drive' atau butuh jangka pendek. 2) Basic (Lifetime): Lebih hemat jangka panjang, bayar sekali akses selamanya. 3) Premium: Tambahan sesi 1-on-1 privat buat bedah teknis mendalam. Investasi ini buat hemat waktumu.",
+      },
     ],
   },
   finalCta: {

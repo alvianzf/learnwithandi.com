@@ -47,6 +47,9 @@
   overflow: hidden;
   position: relative;
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card:hover {
@@ -60,6 +63,7 @@
   aspect-ratio: 1;
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .image {
@@ -112,6 +116,9 @@
 
 .content {
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .name {
@@ -155,8 +162,9 @@
 .socialLinks {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-top: 1.5rem;
+  gap: 1rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
   flex-wrap: nowrap;
 }
 
@@ -164,24 +172,21 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  padding: 0.625rem 1rem;
-  background: rgba(255, 215, 0, 0.1);
-  border: 1px solid rgba(255, 215, 0, 0.3);
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
   border-radius: 8px;
-  color: var(--color-accent-yellow, #FFD700);
-  font-size: 0.875rem;
-  font-weight: 600;
+  color: #666;
+  font-size: 1.5rem;
   text-decoration: none;
   transition: all 0.2s ease;
-  white-space: nowrap;
   flex-shrink: 0;
 }
 
 .socialButton:hover {
-  background: rgba(255, 215, 0, 0.2);
-  border-color: var(--color-accent-yellow, #FFD700);
-  transform: translateY(-2px);
+  background: transparent;
+  color: var(--color-accent-yellow, #FFD700);
+  transform: scale(1.1);
 }
 
 .socialButton svg {
