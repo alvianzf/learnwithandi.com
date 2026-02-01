@@ -257,6 +257,10 @@ export const content = {
     ],
     // Legacy benefits array for OfferSection if needed, but we used plans now.
     benefits: [],
+    consultation: {
+      text: "Masih bingung? Konsultasi dulu via WhatsApp",
+      link: "https://wa.me/628123456789"
+    },
     plans: [
       {
         name: "Support",

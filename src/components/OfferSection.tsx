@@ -1,6 +1,6 @@
 import { content } from '@/data/content';
 import styles from './OfferSection.module.css';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, MessageCircle } from 'lucide-react';
 
 export default function OfferSection() {
   const { offer } = content;
@@ -49,6 +49,20 @@ export default function OfferSection() {
             </div>
           ))}
         </div>
+
+        {offer.consultation && (
+          <div className={styles.consultationWrapper}>
+            <a
+              href={offer.consultation.link}
+              className={styles.consultButton}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageCircle size={20} />
+              {offer.consultation.text}
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );
