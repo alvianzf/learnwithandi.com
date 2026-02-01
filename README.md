@@ -1,7 +1,17 @@
-# Learn With Andi
+<p align="center">
+  <img src="public/assets/logo/full-black.png" alt="Learn With Andi Logo" width="200" />
+</p>
+
 
 Official landing page for **Learn With Andi** (LWA), a career accelerator program. 
 This project is built with **Next.js 16**, **TypeScript**, and **Framer Motion**, focusing on high-performance, SEO-optimized, and visually engaging user experiences.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
 ## 🚀 Features
 
