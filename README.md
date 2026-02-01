@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Learn With Andi
 
-## Getting Started
+Official landing page for **Learn With Andi** (LWA), a career accelerator program. 
+This project is built with **Next.js 16**, **TypeScript**, and **Framer Motion**, focusing on high-performance, SEO-optimized, and visually engaging user experiences.
 
-First, run the development server:
+## 🚀 Features
+
+-   **Dynamic Animations**: All sections feature scroll-triggered animations using `framer-motion` for a premium feel (SEO-safe with `viewport={{ once: true }}`).
+-   **Generative Engine Optimization (GEO)**: optimized for AI search engines like Google Gemini and ChatGPT via `ai.txt`, `llm.txt`, and `llms.txt`.
+-   **Responsive Design**: Fully responsive layout optimized for all device sizes.
+-   **Performance**: Optimized images and efficient rendering with Next.js App Router and Server Components.
+-   **Custom Design System**: Bespoke styling using CSS Modules and strict color tokens (no Tailwind utility overload).
+
+## 🛠 Tech Stack
+
+-   **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+-   **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: CSS Modules
+-   **Animation**: [Framer Motion](https://www.framer.com/motion/)
+-   **Icons**: [Lucide React](https://lucide.dev/)
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/              # Next.js App Router pages and layouts
+├── components/       # Reusable UI components (Hero, FAQ, etc.)
+├── data/             # Static content and configuration (content.ts)
+└── styles/           # Global styles and CSS variables
+public/
+├── assets/           # Static images and media
+├── ai.txt            # AI context for GEO
+├── llm.txt           # Concise summary for LLMs
+└── llms.txt          # LLM crawler directives
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚡️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/alvianzf/learnwithandi.com.git
+    cd learnwithandi.com
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    bun install
+    ```
 
-## Learn More
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    bun dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4.  **Open in browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔄 Recent Updates
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   **Animation Overhaul**: Implemented `framer-motion` across all 12 landing page sections (`Hero`, `Problem`, `Solution`, `Testimonial`, `CareerWins`, `ProgramGallery`, `Mentors`, `Qualification`, `Offer`, `Faq`, `Cta`, `Footer`).
+-   **New Sections**: Added "Career Wins" section to showcase user success stories.
+-   **SEO/GEO**: Added and optimized `ai.txt`, `llm.txt`, and `llms.txt` for better visibility in AI-generated summaries.
+-   **Bug Fixes**: Resolved CSS preload warnings and server/client component hydration issues.
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+&copy; 2024 Learn With Andi. All rights reserved.
