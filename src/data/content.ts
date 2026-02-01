@@ -69,7 +69,7 @@ export const content = {
       link: "#offer",
     },
     secondaryCta: {
-      text: "Tanya Admin",
+      text: "Konsultasi Dulu",
       link: "https://wa.me/628123456789",
       icon: "MessageCircle"
     },
@@ -416,14 +416,21 @@ export const content = {
       link: "#offer",
     },
     secondaryCta: {
-      text: "Tanya Admin",
+      text: "Konsultasi Dulu",
       link: "https://wa.me/628123456789",
     },
   },
   footer: {
-    title: "BANTU NAVIGASI KARIERMU DENGAN STRATEGI & BRANDING",
-    subtitle: "Proudly Powered by",
-    name: "ANDI SATRIAWAN LUBIS",
-    copyright: "© 2025 LWA | LEARN WITH ANDI. All rights reserved.",
+    id: "footer",
+    title: "Bangun Karir Impianmu.",
+    subtitle: "Powered by",
+    name: "Andi Satriawan",
+    copyright: "© 2024 Learn With Andi. All rights reserved.",
+    nav: [
+      { text: "Home", link: "#hero" },
+      { text: "Programs", link: "#offer" },
+      { text: "Mentors", link: "#mentors" },
+      { text: "FAQ", link: "#faq" }
+    ]
   },
 };
