@@ -10,7 +10,7 @@ export default function OfferSection() {
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.programName}>
-            Investment <span style={{ color: 'var(--color-accent-yellow)' }}>Plans</span>
+            Pilihan Investasi <span style={{ color: 'var(--color-accent-yellow)' }}>Karier</span>
           </h2>
           <p className={styles.description}>{offer.description}</p>
         </div>

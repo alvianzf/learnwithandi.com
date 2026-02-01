@@ -25,7 +25,7 @@ export default function TestimonialSection() {
       </div>
 
       <div className={styles.container}>
-        <h2 className={styles.heading}>Apa Kata Mereka?</h2>
+        <h2 className={styles.heading}>Kata Mereka yang Udah Join</h2>
 
         <div className={styles.sliderWrapper}>
           <button onClick={prevSlide} className={styles.navButton} aria-label="Previous testimony">←</button>

@@ -15,8 +15,8 @@ export const content = {
     },
   },
   mentors: {
-    title: "Meet Your Mentors",
-    subtitle: "Learn from the best in the industry",
+    title: "Kenalan sama Mentor Kamu",
+    subtitle: "Belajar langsung dari mereka yang udah makan asam garam di dunia kerja.",
     items: [
       {
         name: "Andi Satriawan",
@@ -77,7 +77,7 @@ export const content = {
   },
   problem: {
     id: "problem",
-    title: "Apakah kamu merasakan ini?",
+    title: "Pernah ngerasain posisi kayak gini?",
     painPoints: [
       "Sudah apply puluhan sampai ratusan lowongan, tapi jarang dipanggil",
       "CV dibilang bagus, tapi tetap dighosting",
@@ -104,10 +104,10 @@ export const content = {
     ],
   },
   stats: {
-    text: "350+ LWA's Members Hired in 2025",
+    text: "350+ Member LWA Udah Dapet Kerja di 2025",
   },
   careerElements: {
-    title: "Career Development Elements",
+    title: "Elemen Penting Upgrade Karier",
     items: [
       {
         title: "Learning",
@@ -124,8 +124,8 @@ export const content = {
     ],
   },
   services: {
-    title: "Our Services",
-    subtitle: "Solusi pengembangan karir komprehensif yang disesuaikan dengan tujuan profesionalmu.",
+    title: "Layanan Kami",
+    subtitle: "Solusi praktis biar karier kamu makin stand out.",
     items: [
       {
         title: "Optimasi Resume",
@@ -155,8 +155,8 @@ export const content = {
   },
   qualification: {
     id: "qualification",
-    doTitle: "KAMU BENERAN NIAT",
-    dontTitle: "KAMU MERASA SUDAH JAGO",
+    doTitle: "KALAU KAMU BENERAN NIAT",
+    dontTitle: "TAPI JANGAN JOIN KALAU...",
     dos: [
       "Career Level-UP, tapi bingung mulai darimana",
       "Sukses Interview dan pede jawab setiap pertanyaannya",
@@ -176,7 +176,7 @@ export const content = {
     id: "offer",
     programName: "Investment Plans",
     price: "Rp100.000 per bulan", // Legacy
-    description: "Choose the coaching package that best fits your career goals and needs.",
+    description: "Pilih paket coaching yang paling pas buat goals dan dompet kamu.",
     programSteps: [ // Replaces programDetails for the 1-5 gallery
       {
         number: "01",
@@ -391,8 +391,8 @@ export const content = {
   },
   finalCta: {
     id: "final-cta",
-    title: "Join Learn With Andi Sekarang",
-    subtext: "pilih program yang paling masuk akal buat kamu",
+    title: "Siap Gaspol Bareng LWA?",
+    subtext: "Yuk, pilih program yang paling masuk akal buat karier kamu.",
     values: [
       "Belajar dengan arah",
       "Didampingi, bukan sendirian",
@@ -409,7 +409,7 @@ export const content = {
     },
   },
   footer: {
-    title: "EMPOWERING CAREERS WITH BRANDING & STRATEGY",
+    title: "BANTU NAVIGASI KARIERMU DENGAN STRATEGI & BRANDING",
     subtitle: "Proudly Powered by",
     name: "ANDI SATRIAWAN LUBIS",
     copyright: "© 2025 LWA | LEARN WITH ANDI. All rights reserved.",

@@ -23,7 +23,7 @@ export default function ProblemSection() {
 
   return (
     <section id={problem.id} className={styles.section}>
-      <h2 className={styles.heading}>Apakah kamu merasakan ini?</h2>
+      <h2 className={styles.heading}>Pernah ngerasain posisi kayak gini?</h2>
       <div className={styles.grid}>
         {problem.painPoints.map((point, index) => {
           const IconComponent = icons[index % icons.length];

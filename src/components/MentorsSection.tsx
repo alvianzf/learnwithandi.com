@@ -36,7 +36,7 @@ export default function MentorsSection() {
       <div className={styles.container}>
         <div className={styles.header}>
           <h2 className={styles.heading}>
-            Meet Your <span style={{ color: 'var(--color-accent-yellow)' }}>Mentors</span>
+            Kenalan sama <span style={{ color: 'var(--color-accent-yellow)' }}>Mentor Kamu</span>
           </h2>
           <p className={styles.subtitle}>{mentors.subtitle}</p>
         </div>

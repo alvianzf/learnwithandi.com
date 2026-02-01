@@ -13,7 +13,7 @@ export default function ProgramGallery() {
     <section className={styles.section} id="program">
       <div className={styles.header}>
         <h2 className={styles.heading}>
-          Learn With Andi's <span style={{ color: 'var(--color-accent-yellow)' }}>Program</span>
+          Intip Program Belajar <span style={{ color: 'var(--color-accent-yellow)' }}>LWA</span>
         </h2>
       </div>
 

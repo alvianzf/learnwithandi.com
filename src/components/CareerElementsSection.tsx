@@ -7,7 +7,7 @@ export default function CareerElementsSection() {
   return (
     <section className={styles.section}>
       <h2 className={styles.heading}>
-        Career Development <span style={{ color: 'var(--color-accent-yellow)' }}>Elements</span>
+        Elemen Penting Upgrade <span style={{ color: 'var(--color-accent-yellow)' }}>Karier</span>
       </h2>
       <div className={styles.grid}>
         {careerElements.items.map((item, index) => (

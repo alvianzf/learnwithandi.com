@@ -8,10 +8,10 @@ export default function SolutionSection() {
   return (
     <section id={solution.id} className={styles.section}>
       <div className={styles.header}>
-        <span className={styles.badge}>Why LWA?</span>
+        <span className={styles.badge}>Kenapa harus LWA?</span>
         <h2 className={styles.heading}>
           Learn With Andi<br />
-          <span style={{ color: 'var(--color-accent-yellow)' }}>Hadir untuk Kamu</span>
+          <span style={{ color: 'var(--color-accent-yellow)' }}>Hadir Buat Bantu Kamu</span>
         </h2>
       </div>
 
@@ -35,7 +35,7 @@ export default function SolutionSection() {
         {/* Practical Elements */}
         <div className={styles.practicalWrapper}>
           <div className={styles.practicalContent}>
-            <h3 className={styles.subHeading}>Apa yang kamu dapatkan?</h3>
+            <h3 className={styles.subHeading}>Terus, dapet apa aja di LWA?</h3>
             <div className={styles.checkList}>
               {solution.practicalElements.map((el, index) => (
                 <div key={index} className={styles.checkItem}>
