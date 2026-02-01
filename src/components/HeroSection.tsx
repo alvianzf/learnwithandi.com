@@ -36,7 +36,7 @@ export default function HeroSection() {
         <div className={styles.imageCol}>
           {/* Use next/image in production, standard img for now as directed */}
           <div className={styles.imageWrapper}>
-            <img src={hero.image} alt="Andi Satriawan" className={styles.heroImage} />
+            <img src={hero.image} alt="Andi Satriawan Lubis - Founder Learn With Andi" className={styles.heroImage} />
           </div>
         </div>
       </div>
