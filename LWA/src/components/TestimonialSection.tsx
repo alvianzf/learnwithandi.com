@@ -16,25 +16,31 @@ export default function TestimonialSection() {
     setCurrentIndex((prev) => (prev - 1 + testimonials.items.length) % testimonials.items.length);
   };
 
+  const currentItem = testimonials.items[currentIndex];
+
   return (
     <section id={testimonials.id} className={styles.section}>
       <h2 className={styles.heading}>Apa Kata Mereka?</h2>
 
-      <div className={styles.carouselContainer}>
+      <div className={styles.sliderWrapper}>
         <button onClick={prevSlide} className={styles.navButton} aria-label="Previous testimony">←</button>
 
-        <div className={styles.card}>
-          <div className={styles.imageWrapper}>
+        <div className={styles.slideContent}>
+          {/* Full image/screenshot container */}
+          <div className={styles.imageContainer}>
             <img
-              src={testimonials.items[currentIndex].image}
-              alt={testimonials.items[currentIndex].author}
+              src={currentItem.image}
+              alt={`${currentItem.author} testimony`}
               className={styles.image}
             />
           </div>
-          <blockquote className={styles.quote}>
-            "{testimonials.items[currentIndex].quote}"
-          </blockquote>
-          <p className={styles.author}>{testimonials.items[currentIndex].author}</p>
+
+          {/* Caption below if needed, though screenshot usually contains text */}
+          <div className={styles.caption}>
+            <p className={styles.author}>{currentItem.author}</p>
+            {/* Optional quote rendering if image doesn't say it all, keeping it minimal as per "full picture" request */}
+            <p className={styles.quote}>"{currentItem.quote}"</p>
+          </div>
         </div>
 
         <button onClick={nextSlide} className={styles.navButton} aria-label="Next testimony">→</button>

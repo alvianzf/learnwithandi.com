@@ -1,79 +1,51 @@
 .section {
-  background-color: #111;
-  border-top: 1px solid #222;
-  border-bottom: 1px solid #222;
+  background-color: rgba(17, 17, 17, 0.8);
+  /* Semi-transparent */
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 6rem 1.5rem;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .programName {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #fff;
   margin-bottom: 0.5rem;
 }
 
 .price {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--color-accent-yellow);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .description {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   color: #aaa;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .benefits {
   list-style: none;
+  display: inline-block;
+  text-align: left;
 }
 
 .benefitItem {
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
   display: flex;
   align-items: center;
+  gap: 1rem;
+  color: #ddd;
 }
 
 .check {
-  color: var(--color-accent-yellow);
-  margin-right: 0.75rem;
-  font-weight: bold;
-}
-
-.visuals {
-  display: flex;
-  gap: 1rem;
-}
-
-.imageWrapper {
-  flex: 1;
-  aspect-ratio: 9/16;
-  background-color: #222;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s;
-}
-
-.imageWrapper:hover .image {
-  transform: scale(1.05);
-}
-
-@media (max-width: 768px) {
-  .container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
+  flex-shrink: 0;
 }

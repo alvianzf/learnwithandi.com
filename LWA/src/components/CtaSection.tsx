@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { content } from '@/data/content';
 import styles from './CtaSection.module.css';
+import { MessageCircle } from 'lucide-react';
 
 export default function CtaSection() {
   const { finalCta } = content;
@@ -17,9 +18,15 @@ export default function CtaSection() {
           ))}
         </ul>
 
-        <Link href={finalCta.link} className={styles.button}>
-          {finalCta.buttonText}
-        </Link>
+        <div className={styles.buttonGroup}>
+          <Link href={finalCta.primaryCta.link} className={styles.primaryButton}>
+            {finalCta.primaryCta.text}
+          </Link>
+          <Link href={finalCta.secondaryCta.link} className={styles.secondaryButton} target="_blank">
+            <MessageCircle size={20} />
+            {finalCta.secondaryCta.text}
+          </Link>
+        </div>
       </div>
     </section>
   );

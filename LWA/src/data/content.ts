@@ -25,8 +25,16 @@ export const content = {
   hero: {
     headline: "STOP Cari Kerja Sendiri.\nMulai Bangun Karier dengan Arah yang Jelas",
     subHeadline: "Learn With Andi (LWA) adalah ekosistem belajar berkarier secara profesional yang membantu kamu siap kerja sesuai value, naik level, atau shifting career secara realistis, tanpa janji instan.",
-    cta: "Join LWA Sekarang",
-    ctaLink: "#final-cta",
+    primaryCta: {
+      text: "Daftar Sekarang",
+      link: "#offer",
+    },
+    secondaryCta: {
+      text: "Tanya Admin",
+      link: "https://wa.me/628123456789", // Placeholder
+      icon: "MessageCircle" // Lucide icon name
+    },
+    image: "/assets/andi/potrait.png",
   },
   problem: {
     id: "problem",
@@ -66,11 +74,27 @@ export const content = {
       "English Club untuk kerja dan interview",
       "Pendampingan komunitas",
     ],
-    images: [
-      "/assets/programs/1.webp",
-      "/assets/programs/2.webp",
-      "/assets/programs/3.webp",
-      "/assets/programs/4.webp",
+    programDetails: [
+      {
+        image: "/assets/programs/1.webp",
+        title: "Bedah CV & Resume",
+        description: "Review mendalam agar CV-mu lolos screening ATS dan rekruter."
+      },
+      {
+        image: "/assets/programs/2.webp",
+        title: "Optimasi LinkedIn",
+        description: "Ubah profil LinkedIn jadi magnet tawaran kerja tanpa harus melamar."
+      },
+      {
+        image: "/assets/programs/3.webp",
+        title: "Simulasi Interview",
+        description: "Latihan wawancara dengan HR/User, lengkap dengan feedback real-time."
+      },
+      {
+        image: "/assets/programs/4.webp",
+        title: "Strategi Karier",
+        description: "Peta jalan karier yang jelas untuk fresh grad atau career switcher."
+      },
     ],
   },
   bio: {
@@ -155,8 +179,14 @@ export const content = {
       "Biaya ringan, value jangka panjang",
       "Fokus dunia kerja nyata",
     ],
-    buttonText: "Join Learn With Andi Sekarang",
-    link: "#", // Placeholder
+    primaryCta: {
+      text: "Daftar Sekarang",
+      link: "#offer",
+    },
+    secondaryCta: {
+      text: "Tanya Admin",
+      link: "https://wa.me/628123456789",
+    },
   },
   footer: {
     marketing: "Learn With Andi since 2024",

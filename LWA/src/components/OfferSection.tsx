@@ -1,5 +1,6 @@
 import { content } from '@/data/content';
 import styles from './OfferSection.module.css';
+import { CheckCircle2 } from 'lucide-react';
 
 export default function OfferSection() {
   const { offer } = content;
@@ -15,19 +16,13 @@ export default function OfferSection() {
           <ul className={styles.benefits}>
             {offer.benefits.map((benefit, index) => (
               <li key={index} className={styles.benefitItem}>
-                <span className={styles.check}>✓</span> {benefit}
+                <CheckCircle2 color="#FFD700" size={24} className={styles.check} />
+                <span>{benefit}</span>
               </li>
             ))}
           </ul>
         </div>
-
-        <div className={styles.visuals}>
-          {offer.images.slice(0, 2).map((img, i) => (
-            <div key={i} className={styles.imageWrapper}>
-              <img src={img} alt="Program preview" className={styles.image} />
-            </div>
-          ))}
-        </div>
+        {/* Images removed from here, moving to separate Gallery Section */}
       </div>
     </section>
   );
