@@ -2,7 +2,7 @@
 
 import { content } from '@/data/content';
 import styles from './ProgramGallery.module.css';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, MessageCircle } from 'lucide-react';
 
 export default function ProgramGallery() {
   const { offer } = content;
@@ -47,6 +47,17 @@ export default function ProgramGallery() {
         <a href="#offer" className={styles.ctaButton}>
           Join Sekarang
         </a>
+        {offer.consultation && (
+          <a
+            href={offer.consultation.link}
+            className={styles.consultButton}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MessageCircle size={20} />
+            {offer.consultation.text}
+          </a>
+        )}
       </div>
     </section>
   );

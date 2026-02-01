@@ -426,11 +426,5 @@ export const content = {
     subtitle: "Powered by",
     name: "Andi Satriawan",
     copyright: "© 2024 Learn With Andi. All rights reserved.",
-    nav: [
-      { text: "Home", link: "#hero" },
-      { text: "Programs", link: "#offer" },
-      { text: "Mentors", link: "#mentors" },
-      { text: "FAQ", link: "#faq" }
-    ]
   },
 };

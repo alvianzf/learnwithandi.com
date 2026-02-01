@@ -19,14 +19,7 @@ export default function Footer() {
           <p className={styles.copyright}>{footer.copyright}</p>
         </div>
 
-        {/* Navigation Column */}
-        <div className={styles.navColumn}>
-          {footer.nav?.map((item, index) => (
-            <a key={index} href={item.link} className={styles.navLink}>
-              {item.text}
-            </a>
-          ))}
-        </div>
+        {/* Navigation Column Removed */}
 
         {/* Right Column: Socials & Powered By */}
         <div className={styles.rightColumn}>

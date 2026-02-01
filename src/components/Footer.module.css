@@ -8,28 +8,10 @@
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  align-items: start;
-  /* Align columns to the top for better balance with nav */
-}
-
-.navColumn {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: center;
-}
-
-.navLink {
-  color: #aaa;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.2s;
-}
-
-.navLink:hover {
-  color: var(--color-accent-yellow, #FFD700);
+  align-items: end;
+  /* Align columns to the bottom */
 }
 
 .leftColumn {
