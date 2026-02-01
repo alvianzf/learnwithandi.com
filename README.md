@@ -23,50 +23,50 @@ This project is built with **Next.js 16**, **TypeScript**, and **Framer Motion**
 
 ## 🛠 Tech Stack
 
--   **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
--   **Language**: [TypeScript](https://www.typescriptlang.org/)
--   **Styling**: CSS Modules
--   **Animation**: [Framer Motion](https://www.framer.com/motion/)
--   **Icons**: [Lucide React](https://lucide.dev/)
+-   ⚛️ **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+-   🔷 **Language**: [TypeScript](https://www.typescriptlang.org/)
+-   🎨 **Styling**: CSS Modules
+-   🎬 **Animation**: [Framer Motion](https://www.framer.com/motion/)
+-   🧩 **Icons**: [Lucide React](https://lucide.dev/)
 
 ## 📂 Project Structure
 
 ```bash
 src/
-├── app/              # Next.js App Router pages and layouts
-├── components/       # Reusable UI components (Hero, FAQ, etc.)
-├── data/             # Static content and configuration (content.ts)
-└── styles/           # Global styles and CSS variables
+├── 📄 app/              # Next.js App Router pages and layouts
+├── 🧩 components/       # Reusable UI components (Hero, FAQ, etc.)
+├── 📄 data/             # Static content and configuration (content.ts)
+└── 🎨 styles/           # Global styles and CSS variables
 public/
-├── assets/           # Static images and media
-├── ai.txt            # AI context for GEO
-├── llm.txt           # Concise summary for LLMs
-└── llms.txt          # LLM crawler directives
+├── 🖼️ assets/           # Static images and media
+├── 🤖 ai.txt            # AI context for GEO
+├── 🤖 llm.txt           # Concise summary for LLMs
+└── 🤖 llms.txt          # LLM crawler directives
 ```
 
 ## ⚡️ Getting Started
 
-1.  **Clone the repository:**
+1.  **📥 Clone the repository:**
     ```bash
     git clone https://github.com/alvianzf/learnwithandi.com.git
     cd learnwithandi.com
     ```
 
-2.  **Install dependencies:**
+2.  **📦 Install dependencies:**
     ```bash
     npm install
     # or
     bun install
     ```
 
-3.  **Run the development server:**
+3.  **🚀 Run the development server:**
     ```bash
     npm run dev
     # or
     bun dev
     ```
 
-4.  **Open in browser:**
+4.  **🌍 Open in browser:**
     Navigate to [http://localhost:3000](http://localhost:3000).
 
 ## 🔄 Recent Updates
