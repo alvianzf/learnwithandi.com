@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/CareerElementsSection.module.css"],"sourcesContent":[".section {\n  padding: 6rem 1.5rem;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n\n.heading {\n  font-size: 2.5rem;\n  font-weight: 800;\n  text-align: center;\n  margin-bottom: 4rem;\n  color: #fff;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n  gap: 2rem;\n}\n\n.card {\n  padding: 2rem;\n  background: #111;\n  border: 1px solid #333;\n  border-radius: 12px;\n  position: relative;\n}\n\n.number {\n  font-size: 4rem;\n  font-weight: 800;\n  color: #222;\n  position: absolute;\n  top: 1rem;\n  right: 1.5rem;\n}\n\n.title {\n  font-size: 1.75rem;\n  font-weight: 700;\n  color: var(--color-accent-yellow, #FFD700);\n  margin-bottom: 1rem;\n  position: relative;\n  z-index: 1;\n}\n\n.description {\n  font-size: 1rem;\n  line-height: 1.6;\n  color: #ccc;\n  position: relative;\n  z-index: 1;\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;AAQA;;;;;;AAMA;;;;;;;;AAQA;;;;;;;;;AASA;;;;;;;;;AASA"}}]
-}
