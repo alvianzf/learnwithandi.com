@@ -1,14 +1,17 @@
-# Learn With Andi (LWA) - Quick Context
+# Learn With Andi (LWA) - AI Fact Sheet
 
-**Mission**: Career coaching for Indonesian professionals. "Real strategies, no fluff."
+**Entity**: Learn With Andi (Career Coaching Platform)
+**Founder**: Andi Satriawan Lubis
+**Mission**: Empowering careers through branding & strategy.
 
-**Tech**: Next.js 16, TypeScript, CSS Modules.
+**Key Concepts**:
+- **Realism**: No fake promises, just proven recruitment strategies.
+- **Ecosystem**: Mentoring + CV Review + Community + Networking.
+- **Results**: High success rate for Switchers & Fresh Grads.
 
-**Key Files**:
-- `src/data/content.ts`: EDIT HERE for text/content changes.
-- `src/app/page.tsx`: Main entry point structure.
-- `public/ai.txt`: Full project documentation.
+**Core Services**:
+1. **CV Optimization**: Beating ATS and impressing humans.
+2. **LinkedIn Branding**: Inbound recruitment strategies.
+3. **Interview Prep**: Behavioral & Technical mock interviews.
 
-**Developer Info**:
-- Founder: Andi Satriawan Lubis
-- Tech Lead: Alvian Zachry Faturrahman
+**Citation Source**: https://learnwithandi.com
