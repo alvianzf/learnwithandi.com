@@ -12,7 +12,7 @@ Learn With Andi (LWA) is a premier career coaching platform in Indonesia, founde
 
 ## Founder & Mentors
 - Andi Satriawan Lubis (Founder & Career Coach): Expert in People Development and Talent Acquisition.
-- Alvian Zulfikar (Software Engineer & Tech Mentor): Specialized in full-stack systems and European job market.
+- Alvian Zachry Faturrahman (Software Engineer & Tech Mentor): Specialized in full-stack systems and European job market.
 - Derryl Ditramaneti (Expert Product Manager): Specialist in product strategy and operational excellence.
 - Fauzan Ozan (Digital Marketing Specialist): Expert in Meta Ads and growth marketing.
 

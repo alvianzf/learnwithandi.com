@@ -26,7 +26,7 @@ export const content = {
         linkedin: "https://www.linkedin.com/in/andisatr/"
       },
       {
-        name: "Alvian Zulfikar",
+        name: "Alvian Zachry Faturrahman",
         role: "Software Engineer & Tech Mentor",
         description: "Tech geek yang hobi banget ngoding dan mentoring. Ahlinya ngebangun sistem full-stack yang scalable. Punya misi khusus: jembatani talenta Southeast Asia biar bisa bersaing dan dapet opportunity di Eropa.",
         image: "/assets/mentors/alvian.png",
