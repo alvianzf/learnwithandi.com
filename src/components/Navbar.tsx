@@ -21,10 +21,11 @@ export default function Navbar() {
 
   const navLinks = [
     { name: 'Problem', href: '#problem' },
-    { name: 'Program', href: '#offer' },
-    { name: 'Mentor', href: '#bio' },
+    { name: 'Why LWA?', href: '#solution' },
     { name: 'Testimoni', href: '#testimonials' },
-    { name: 'FAQ', href: '#faq' },
+    { name: 'Program', href: '#program' },
+    { name: 'Mentor', href: '#mentors' },
+    { name: 'Pricing', href: '#offer' }, // Added Pricing
   ];
 
   return (
@@ -41,9 +42,7 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Link href="#offer" className={styles.ctaButton}>
-            Join LWA
-          </Link>
+
         </div>
 
         {/* Mobile Toggle */}
@@ -68,13 +67,7 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link
-              href="#offer"
-              className={styles.mobileCta}
-              onClick={() => setIsOpen(false)}
-            >
-              Join LWA
-            </Link>
+
           </div>
         )}
       </div>

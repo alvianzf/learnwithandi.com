@@ -35,7 +35,9 @@ export default function MentorsSection() {
     <section className={styles.section} id="mentors">
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2 className={styles.heading}>{mentors.title}</h2>
+          <h2 className={styles.heading}>
+            Meet Your <span style={{ color: 'var(--color-accent-yellow)' }}>Mentors</span>
+          </h2>
           <p className={styles.subtitle}>{mentors.subtitle}</p>
         </div>
 

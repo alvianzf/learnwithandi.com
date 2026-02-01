@@ -6,7 +6,9 @@ export default function CareerElementsSection() {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.heading}>{careerElements.title}</h2>
+      <h2 className={styles.heading}>
+        Career Development <span style={{ color: 'var(--color-accent-yellow)' }}>Elements</span>
+      </h2>
       <div className={styles.grid}>
         {careerElements.items.map((item, index) => (
           <div key={index} className={styles.card}>

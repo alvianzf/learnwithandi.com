@@ -656,8 +656,20 @@ function CareerElementsSection() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CareerElementsSection$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].heading,
-                children: careerElements.title
-            }, void 0, false, {
+                children: [
+                    "Career Development ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        style: {
+                            color: 'var(--color-accent-yellow)'
+                        },
+                        children: "Elements"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/CareerElementsSection.tsx",
+                        lineNumber: 10,
+                        columnNumber: 28
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/components/CareerElementsSection.tsx",
                 lineNumber: 9,
                 columnNumber: 7
@@ -675,7 +687,7 @@ function CareerElementsSection() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/CareerElementsSection.tsx",
-                                lineNumber: 13,
+                                lineNumber: 15,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -683,7 +695,7 @@ function CareerElementsSection() {
                                 children: item.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/CareerElementsSection.tsx",
-                                lineNumber: 14,
+                                lineNumber: 16,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -691,18 +703,18 @@ function CareerElementsSection() {
                                 children: item.description
                             }, void 0, false, {
                                 fileName: "[project]/src/components/CareerElementsSection.tsx",
-                                lineNumber: 15,
+                                lineNumber: 17,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/src/components/CareerElementsSection.tsx",
-                        lineNumber: 12,
+                        lineNumber: 14,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/CareerElementsSection.tsx",
-                lineNumber: 10,
+                lineNumber: 12,
                 columnNumber: 7
             }, this)
         ]
@@ -980,8 +992,20 @@ function OfferSection() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OfferSection$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].programName,
-                            children: offer.programName
-                        }, void 0, false, {
+                            children: [
+                                "Investment ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        color: 'var(--color-accent-yellow)'
+                                    },
+                                    children: "Plans"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/OfferSection.tsx",
+                                    lineNumber: 13,
+                                    columnNumber: 24
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/OfferSection.tsx",
                             lineNumber: 12,
                             columnNumber: 11
@@ -991,7 +1015,7 @@ function OfferSection() {
                             children: offer.description
                         }, void 0, false, {
                             fileName: "[project]/src/components/OfferSection.tsx",
-                            lineNumber: 13,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1010,7 +1034,7 @@ function OfferSection() {
                                     children: "Most Popular"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                    lineNumber: 22,
+                                    lineNumber: 24,
                                     columnNumber: 32
                                 }, this),
                                 plan.highlight && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1018,7 +1042,7 @@ function OfferSection() {
                                     children: plan.highlightText || 'Best Value'
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                    lineNumber: 23,
+                                    lineNumber: 25,
                                     columnNumber: 34
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1029,7 +1053,7 @@ function OfferSection() {
                                             children: plan.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OfferSection.tsx",
-                                            lineNumber: 25,
+                                            lineNumber: 27,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1037,13 +1061,13 @@ function OfferSection() {
                                             children: plan.billing
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OfferSection.tsx",
-                                            lineNumber: 26,
+                                            lineNumber: 28,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                    lineNumber: 24,
+                                    lineNumber: 26,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1051,7 +1075,7 @@ function OfferSection() {
                                     children: plan.price
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                    lineNumber: 28,
+                                    lineNumber: 30,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1065,25 +1089,25 @@ function OfferSection() {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$OfferSection$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].check
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                                    lineNumber: 33,
+                                                    lineNumber: 35,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: feature
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                                    lineNumber: 34,
+                                                    lineNumber: 36,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, idx, true, {
                                             fileName: "[project]/src/components/OfferSection.tsx",
-                                            lineNumber: 32,
+                                            lineNumber: 34,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 32,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1094,18 +1118,18 @@ function OfferSection() {
                                     children: plan.cta.text
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferSection.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 41,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "[project]/src/components/OfferSection.tsx",
-                            lineNumber: 18,
+                            lineNumber: 20,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/OfferSection.tsx",
-                    lineNumber: 16,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this)
             ]
@@ -1398,10 +1422,19 @@ function SolutionSection() {
                             "Learn With Andi",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/components/SolutionSection.tsx",
-                                lineNumber: 12,
-                                columnNumber: 55
+                                lineNumber: 13,
+                                columnNumber: 26
                             }, this),
-                            "Hadir untuk Kamu"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                style: {
+                                    color: 'var(--color-accent-yellow)'
+                                },
+                                children: "Hadir untuk Kamu"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SolutionSection.tsx",
+                                lineNumber: 14,
+                                columnNumber: 11
+                            }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/SolutionSection.tsx",
@@ -1437,12 +1470,12 @@ function SolutionSection() {
                                             color: "#FFD700"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SolutionSection.tsx",
-                                            lineNumber: 24,
+                                            lineNumber: 27,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SolutionSection.tsx",
-                                        lineNumber: 23,
+                                        lineNumber: 26,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1450,19 +1483,19 @@ function SolutionSection() {
                                         children: msg
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SolutionSection.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 29,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/components/SolutionSection.tsx",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/src/components/SolutionSection.tsx",
-                        lineNumber: 17,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1475,7 +1508,7 @@ function SolutionSection() {
                                     children: "Apa yang kamu dapatkan?"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SolutionSection.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 38,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1488,42 +1521,42 @@ function SolutionSection() {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$SolutionSection$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].checkIcon
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SolutionSection.tsx",
-                                                    lineNumber: 39,
+                                                    lineNumber: 42,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: el
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SolutionSection.tsx",
-                                                    lineNumber: 40,
+                                                    lineNumber: 43,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/components/SolutionSection.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 41,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SolutionSection.tsx",
-                                    lineNumber: 36,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SolutionSection.tsx",
-                            lineNumber: 34,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/SolutionSection.tsx",
-                        lineNumber: 33,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/SolutionSection.tsx",
-                lineNumber: 15,
+                lineNumber: 18,
                 columnNumber: 7
             }, this)
         ]

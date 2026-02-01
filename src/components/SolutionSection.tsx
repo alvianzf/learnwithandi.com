@@ -9,7 +9,10 @@ export default function SolutionSection() {
     <section id={solution.id} className={styles.section}>
       <div className={styles.header}>
         <span className={styles.badge}>Why LWA?</span>
-        <h2 className={styles.heading}>Learn With Andi<br />Hadir untuk Kamu</h2>
+        <h2 className={styles.heading}>
+          Learn With Andi<br />
+          <span style={{ color: 'var(--color-accent-yellow)' }}>Hadir untuk Kamu</span>
+        </h2>
       </div>
 
       <div className={styles.grid}>

@@ -12,7 +12,9 @@ export default function ProgramGallery() {
   return (
     <section className={styles.section} id="program">
       <div className={styles.header}>
-        <h2 className={styles.heading}>Learn With Andi's Program</h2>
+        <h2 className={styles.heading}>
+          Learn With Andi's <span style={{ color: 'var(--color-accent-yellow)' }}>Program</span>
+        </h2>
       </div>
 
       <div className={styles.grid}>
