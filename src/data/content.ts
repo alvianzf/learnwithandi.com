@@ -422,7 +422,7 @@ export const content = {
   },
   footer: {
     id: "footer",
-    title: "Bangun Karir Impianmu.",
+    title: "EMPOWERING CAREERS WITH BRANDING & STRATEGY",
     subtitle: "Powered by",
     name: "Andi Satriawan",
     copyright: "© 2024 Learn With Andi. All rights reserved.",
