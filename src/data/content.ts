@@ -424,6 +424,12 @@ export const content = {
       link: "https://wa.me/628123456789",
     },
   },
+  careerWins: {
+    id: "career-wins",
+    title: "Career Wins",
+    subtitle: "From being stuck to getting hired.",
+    body: "Our members turned effort into offers. These are real stories, real results, and your sign that it’s possible too.",
+  },
   footer: {
     id: "footer",
     title: "EMPOWERING CAREERS WITH BRANDING & STRATEGY",

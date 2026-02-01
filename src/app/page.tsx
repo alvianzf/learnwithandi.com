@@ -13,6 +13,7 @@ import GlobalBackground from '@/components/GlobalBackground';
 import MentorsSection from '@/components/MentorsSection';
 import SolutionSection from '@/components/SolutionSection';
 import CtaSection from '@/components/CtaSection';
+import CareerWinsSection from '@/components/CareerWinsSection';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
         <OfferSection />
         <FaqSection />
         <CtaSection />
+        <CareerWinsSection />
         <Footer />
       </div>
     </main>
