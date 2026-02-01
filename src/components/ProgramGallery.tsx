@@ -2,7 +2,7 @@
 
 import { content } from '@/data/content';
 import styles from './ProgramGallery.module.css';
-import { CheckCircle2, MessageCircle } from 'lucide-react';
+import { CheckCircle2, MessageCircle, ArrowRight } from 'lucide-react';
 
 export default function ProgramGallery() {
   const { offer } = content;
@@ -45,7 +45,7 @@ export default function ProgramGallery() {
 
       <div className={styles.ctaWrapper}>
         <a href="#offer" className={styles.ctaButton}>
-          Join Sekarang
+          Join Sekarang <ArrowRight size={20} />
         </a>
         {offer.consultation && (
           <a

@@ -142,10 +142,12 @@
 
 .ctaWrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: 1.5rem;
   margin-top: 4rem;
+  flex-wrap: wrap;
 }
 
 .consultButton {
@@ -179,7 +181,9 @@
   border-radius: 50px;
   text-decoration: none;
   transition: transform 0.2s, box-shadow 0.2s;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .ctaButton:hover {
