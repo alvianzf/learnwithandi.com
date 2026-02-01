@@ -14,7 +14,7 @@ export default function FaqSection() {
 
   return (
     <section id={faq.id} className={styles.section}>
-      <h2 className={styles.heading}>Yang Sering Ditanyain (FAQ)</h2>
+      <h2 className={styles.heading}>Yang Sering Ditanyain <span style={{ color: 'var(--color-accent-yellow)' }}>(FAQ)</span></h2>
       <div className={styles.list}>
         {faq.items.map((item, index) => (
           <div key={index} className={styles.item}>
