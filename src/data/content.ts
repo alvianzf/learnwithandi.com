@@ -380,12 +380,12 @@ export const content = {
         answer: "<b>Ya, seluruh materi LearnWithAndi bisa diakses melalui ponsel, laptop, maupun tablet.</b> Platform LWA dirancang agar kamu bisa belajar fleksibel kapan saja dan di mana saja. Cocok untuk kamu yang punya kesibukan atau mobilitas tinggi.",
       },
       {
-        question: "Saya pemula dan gaptek, Apa saya tetap bisa join?",
-        answer: "<b>Tentu bisa!</b> LearnWithAndi dibangun untuk kamu yang <b>fresh graduate, shifting career, maupun yang sudah break career</b> bahkan untuk kamu yang belum familiar dengan dunia digital. Materi disusun secara step-by-step, pembahasan mudah dimengerti, panduan visual yang mendukung, contoh-contoh praktis dan langsung bisa dipraktekan.",
+        question: "Saya pemula dan gaptek, apa saya tetap bisa join?",
+        answer: "<b>Tentu bisa!</b> LearnWithAndi dibangun untuk kamu yang <b>Fresh Graduate, Shifting Career, maupun yang sudah Break Career</b> bahkan untuk kamu yang belum familiar dengan dunia digital. Materi disusun secara step-by-step, pembahasan mudah dimengerti, panduan visual yang mendukung, contoh-contoh praktis dan langsung bisa dipraktekan.",
       },
       {
         question: "Kalau saya mengalami kesulitan, bisa bertanya ke siapa?",
-        answer: "<b>You'll never walk alone.</b> Tersedia akses ke <b>Grup support eksklusif</b> (via WhatsApp atau Discord), <b>Sesi live Q&A mingguan</b> bersama mentor, Respons langsung dari tim pendamping atau Andi sendiri. Kapan pun kamu mengalami kesulitan, akan selalu ada wadah bertanya dan berdiskusi.",
+        answer: "<b>You'll never walk alone.</b> Tersedia akses ke <b>Grup Support Eksklusif</b> (via WhatsApp atau Discord), <b>Sesi Live Q&A Mingguan</b> bersama mentor, Respons langsung dari tim pendamping atau Andi sendiri. Kapan pun kamu mengalami kesulitan, akan selalu ada wadah bertanya dan berdiskusi.",
       },
       {
         question: "Apa keunggulan LearnWithAndi dibandingkan kelas online lainnya?",
@@ -396,7 +396,7 @@ export const content = {
         answer: "<b>Tidak ada jaminan instan</b> di LearnWithAndi, tapi bagi setiap anggota yang serius aktif bertanya, konsisten mengerjakan tugas, dan mengikuti arahan mentor terbukti banyak yang berhasil mendapat pekerjaan sesuai bidangnya dalam <b>30–90 hari</b>, bahkan ada yang hanya butuh 14 hari.",
       },
       {
-        question: "Kapan jadwal Weekly Session Learnwithandi?",
+        question: "Kapan jadwal Weekly Session LearnWithAndi?",
         answer: "Weekly Session dilaksanakan setiap <b>Selasa malam pukul 21.00 – selesai</b> dan <b>Jumat malam pukul 21.00 – selesai.</b>",
       },
       {

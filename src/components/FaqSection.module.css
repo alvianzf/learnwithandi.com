@@ -53,3 +53,9 @@
   color: #ccc;
   line-height: 1.6;
 }
+
+.answer b,
+.answer strong {
+  color: var(--color-accent-yellow);
+  font-weight: 700;
+}
