@@ -18,6 +18,8 @@ export const viewport = {
   initialScale: 1,
 };
 
+import ScrollToTop from '@/components/ScrollToTop';
+
 export default function RootLayout({
   children,
 }: {
@@ -42,7 +44,10 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <ScrollToTop />
+      </body>
     </html>
   );
 }

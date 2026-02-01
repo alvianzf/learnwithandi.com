@@ -31,7 +31,14 @@ export default function Navbar() {
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
-        <Link href="#" className={styles.logoLink}>
+        <Link
+          href="#"
+          className={styles.logoLink}
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }}
+        >
           <img src={global.logo.white} alt={global.brandName} className={styles.logoImage} />
         </Link>
 
