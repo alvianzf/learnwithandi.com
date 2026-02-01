@@ -376,28 +376,32 @@ export const content = {
     id: "faq",
     items: [
       {
-        question: "Apakah cocok untuk pemula?",
-        answer: "Ya, materi disusun dari dasar hingga advanced, cocok untuk berbagai level pengalaman.",
+        question: "LearnWithAndi bisa diakses lewat ponsel?",
+        answer: "<b>Ya, seluruh materi LearnWithAndi bisa diakses melalui ponsel, laptop, maupun tablet.</b> Platform LWA dirancang agar kamu bisa belajar fleksibel kapan saja dan di mana saja. Cocok untuk kamu yang punya kesibukan atau mobilitas tinggi.",
       },
       {
-        question: "Bisa diikuti sambil kerja?",
-        answer: "Bisa. Jadwal fleksibel dan materi bisa diakses kapan saja.",
+        question: "Saya pemula dan gaptek, Apa saya tetap bisa join?",
+        answer: "<b>Tentu bisa!</b> LearnWithAndi dibangun untuk kamu yang <b>fresh graduate, shifting career, maupun yang sudah break career</b> bahkan untuk kamu yang belum familiar dengan dunia digital. Materi disusun secara step-by-step, pembahasan mudah dimengerti, panduan visual yang mendukung, contoh-contoh praktis dan langsung bisa dipraktekan.",
       },
       {
-        question: "Format belajar seperti apa?",
-        answer: "Kombinasi materi video/teks, live session, tugas praktik, dan diskusi komunitas.",
+        question: "Kalau saya mengalami kesulitan, bisa bertanya ke siapa?",
+        answer: "<b>You'll never walk alone.</b> Tersedia akses ke <b>Grup support eksklusif</b> (via WhatsApp atau Discord), <b>Sesi live Q&A mingguan</b> bersama mentor, Respons langsung dari tim pendamping atau Andi sendiri. Kapan pun kamu mengalami kesulitan, akan selalu ada wadah bertanya dan berdiskusi.",
       },
       {
-        question: "Apakah dijamin dapat kerja?",
-        answer: "Tidak ada jaminan 100%. Kelulusan dan keberhasilan tergantung usaha kamu menerapkannya. Kami memberikan strategi terbaik.",
+        question: "Apa keunggulan LearnWithAndi dibandingkan kelas online lainnya?",
+        answer: "LearnWithAndi bukan sekadar tempat belajar, tapi <b>ekosistem lengkap</b> untuk membekali kamu agar benar-benar siap kerja dan percaya diri di dunia profesional. Kami menggabungkan <b>modul praktis dan studi kasus nyata</b>, komunitas aktif untuk networking dan saling support, sesi live mentoring mingguan, serta feedback langsung dari mentor berpengalaman.",
       },
       {
-        question: "Mau coba dulu sebelum komit?",
-        answer: "Paket Support (Rp100rb) adalah start terbaik. Low risk, high return. Kamu dapet network, info loker valid, dan weekly meeting. Bisa upgrade kapan aja.",
+        question: "Apakah saya dijamin akan langsung dapat kerja atau sukses setelah ikut kelas ini?",
+        answer: "<b>Tidak ada jaminan instan</b> di LearnWithAndi, tapi bagi setiap anggota yang serius aktif bertanya, konsisten mengerjakan tugas, dan mengikuti arahan mentor terbukti banyak yang berhasil mendapat pekerjaan sesuai bidangnya dalam <b>30–90 hari</b>, bahkan ada yang hanya butuh 14 hari.",
       },
       {
-        question: "Kenapa harus bayar buat cari kerja?",
-        answer: "Kamu tidak membayar untuk 'pekerjaan', tapi untuk Akselerasi. Sendirian bisa, tapi rawan 'trial-error'. Kami tawarkan opsi: 1) Support (Bulanan): Fitur setara Basic, cocok buat 'Test Drive' atau butuh jangka pendek. 2) Basic (Lifetime): Lebih hemat jangka panjang, bayar sekali akses selamanya. 3) Premium: Tambahan sesi 1-on-1 privat buat bedah teknis mendalam. Investasi ini buat hemat waktumu.",
+        question: "Kapan jadwal Weekly Session Learnwithandi?",
+        answer: "Weekly Session dilaksanakan setiap <b>Selasa malam pukul 21.00 – selesai</b> dan <b>Jumat malam pukul 21.00 – selesai.</b>",
+      },
+      {
+        question: "Apa yang dibahas di Weekly Session?",
+        answer: "<b>Selasa malam:</b> Review CV dan LinkedIn, termasuk tips optimasi agar lebih dilirik recruiter. <br/><b>Jumat malam:</b> Mock Interview / Latihan Interview, untuk mempersiapkan diri menghadapi interview kerja dengan lebih percaya diri.",
       },
     ],
   },

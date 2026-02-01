@@ -29,7 +29,10 @@ export default function FaqSection() {
             <div
               className={`${styles.answerContainer} ${openIndex === index ? styles.open : ''}`}
             >
-              <p className={styles.answer}>{item.answer}</p>
+              <div
+                className={styles.answer}
+                dangerouslySetInnerHTML={{ __html: item.answer }}
+              />
             </div>
           </div>
         ))}
