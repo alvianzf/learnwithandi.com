@@ -240,7 +240,7 @@ export const content = {
           "Diskusi bareng mentor & member biar dapet solusi atas masalah yang dihadapi.",
           "To-do action plan biar minggu berikutnya lebih terarah.",
         ],
-        image: "/assets/programs/1.webp",
+        image: "/assets/programs/5.webp",
       },
       {
         number: "06",
