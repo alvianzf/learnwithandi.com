@@ -154,13 +154,16 @@
 
 .socialLinks {
   display: flex;
+  align-items: center;
   gap: 0.75rem;
   margin-top: 1.5rem;
+  flex-wrap: nowrap;
 }
 
 .socialButton {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   padding: 0.625rem 1rem;
   background: rgba(255, 215, 0, 0.1);
@@ -171,6 +174,8 @@
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .socialButton:hover {
