@@ -1,40 +1,44 @@
-# Learn With Andi (LWA) - Site Summary for AI Agents
+# Learn With Andi (LWA) - Project Context for AI Agents
 
-## Purpose
-Learn With Andi (LWA) is a premier career coaching platform in Indonesia, founded by Andi Satriawan Lubis. It assists professionals, career switchers, and fresh graduates in navigating the modern job market through personal branding, strategic job applications, and skill development.
+## Project Overview
+Learn With Andi (LWA) is a career coaching platform helping Indonesian professionals, fresh graduates, and career switchers navigate the job market. The site offers mentoring, CV optimization, LinkedIn branding, and interview preparation strategies.
 
-## Core Services
-- Career Coaching & Mentoring
-- CV / Resume Optimization (ATS-friendly)
-- LinkedIn Profile Optimization
-- Interview Preparation (Mock Interviews)
-- Career Transition Strategy
+## Tech Stack
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **UI Styling**: CSS Modules (Vanilla CSS variables)
+- **Icons**: Lucide React
+- **Deployment**: Vercel
 
-## Founder & Mentors
-- Andi Satriawan Lubis (Founder & Career Coach): Expert in People Development and Talent Acquisition.
-- Alvian Zachry Faturrahman (Software Engineer & Tech Mentor): Specialized in full-stack systems and European job market.
-- Derryl Ditramaneti (Expert Product Manager): Specialist in product strategy and operational excellence.
-- Muhammad Fauzan (Digital Marketing Specialist): Expert in Meta Ads and growth marketing.
+## Core Values & Tone
+- **Tone**: Professional yet approachable, "Realistis" (Realistic), encouraging but ground-level (no "get rich quick").
+- **Audience**: Job seekers in Indonesia (Fresh Grads, Career Switchers, Professionals).
 
-## Target Audience
-Indonesian professionals seeking career advancement, job seekers struggling with ghosting or rejection, and individuals looking to pivot into new industries (Career Switchers).
+## Project Structure
+.
+├── public/                 # Static assets (images, icons, AI context files)
+├── src/
+│   ├── app/                # Next.js App Router pages
+│   │   ├── layout.tsx      # Root layout with metadata & scripts
+│   │   ├── page.tsx        # Main Landing Page
+│   │   ├── globals.css     # Global styles & variables
+│   │   └── not-found.tsx   # Custom 404 page
+│   ├── components/         # React components (UI sections)
+│   │   ├── HeroSection.tsx
+│   │   ├── OfferSection.tsx
+│   │   ├── ProgramGallery.tsx
+│   │   ├── FaqSection.tsx (HTML-enabled answers)
+│   │   ├── Footer.tsx (Contains developer easter egg)
+│   │   └── ... (other sections)
+│   └── data/
+│       └── content.ts      # Centralized content source (Text, Links, FAQs)
+├── next.config.ts          # Next.js configuration
+└── package.json            # Dependencies & Scripts
 
-## Core Values
-- **Realism over Hype**: No instant promises; career growth is a marathon, not a sprint.
-- **Strategic Implementation**: Focus on how to "play the game" of modern recruitment.
-- **Community Empowerment**: A support system that prevents solo-leveling fatigue.
+## Key Data Source
+- `src/data/content.ts`: This file contains ALL text content, questions, links, and configuration for the landing page. Edit this file to change website copy.
 
-## Social Proof & Stats
-- **Success Rate**: 350+ Members hired in 2025 across various industries.
-- **Reach**: Dominant presence in Indonesian career-tech social media.
-
-## FAQ Quick Summary for Agents
-- **Suitability**: From Fresh Graduates to Senior Professionals.
-- **Format**: Video, Live Sessions, Practice, and Community Group.
-- **Job Guarantee**: We provide the best strategy and support, but success depends on user implementation.
-
-## Contact & Links
-- Website: https://learnwithandi.com
-- Instagram: https://www.instagram.com/learnwithandi/
-- LinkedIn: https://www.linkedin.com/in/andisatr/
-- Email: support@learnwithandi.com
+## Recent Updates
+- **FAQ**: Updated with HTML formatting support and comprehensive answers.
+- **Footer**: Tagline updated to "EMPOWERING CAREERS WITH BRANDING & STRATEGY".
+- **Easter Egg**: Warning in console and hidden link in footer "Powered by".

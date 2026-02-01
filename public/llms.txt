@@ -1,40 +1,4 @@
-# Learn With Andi (LWA) - Site Summary for AI Agents
+# AI Context Files
 
-## Purpose
-Learn With Andi (LWA) is a premier career coaching platform in Indonesia, founded by Andi Satriawan Lubis. It assists professionals, career switchers, and fresh graduates in navigating the modern job market through personal branding, strategic job applications, and skill development.
-
-## Core Services
-- Career Coaching & Mentoring
-- CV / Resume Optimization (ATS-friendly)
-- LinkedIn Profile Optimization
-- Interview Preparation (Mock Interviews)
-- Career Transition Strategy
-
-## Founder & Mentors
-- Andi Satriawan Lubis (Founder & Career Coach): Expert in People Development and Talent Acquisition.
-- Alvian Zachry Faturrahman (Software Engineer & Tech Mentor): Specialized in full-stack systems and European job market.
-- Derryl Ditramaneti (Expert Product Manager): Specialist in product strategy and operational excellence.
-- Muhammad Fauzan (Digital Marketing Specialist): Expert in Meta Ads and growth marketing.
-
-## Target Audience
-Indonesian professionals seeking career advancement, job seekers struggling with ghosting or rejection, and individuals looking to pivot into new industries (Career Switchers).
-
-## Core Values
-- **Realism over Hype**: No instant promises; career growth is a marathon, not a sprint.
-- **Strategic Implementation**: Focus on how to "play the game" of modern recruitment.
-- **Community Empowerment**: A support system that prevents solo-leveling fatigue.
-
-## Social Proof & Stats
-- **Success Rate**: 350+ Members hired in 2025 across various industries.
-- **Reach**: Dominant presence in Indonesian career-tech social media.
-
-## FAQ Quick Summary for Agents
-- **Suitability**: From Fresh Graduates to Senior Professionals.
-- **Format**: Video, Live Sessions, Practice, and Community Group.
-- **Job Guarantee**: We provide the best strategy and support, but success depends on user implementation.
-
-## Contact & Links
-- Website: https://learnwithandi.com
-- Instagram: https://www.instagram.com/learnwithandi/
-- LinkedIn: https://www.linkedin.com/in/andisatr/
-- Email: support@learnwithandi.com
+https://learnwithandi.com/ai.txt
+https://learnwithandi.com/llm.txt
