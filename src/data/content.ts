@@ -34,7 +34,7 @@ export const content = {
         website: "https://alvianzf.id/"
       },
       {
-        name: "Derryl Daniswara",
+        name: "Derryl Ditramaneti",
         role: "Expert Product Manager",
         description: "Product leader yang jago banget nerjemahin visi jadi eksekusi. Fokus di product strategy & operational excellence. Siap bantu kamu mikir strategis ala Product Manager kelas dunia.",
         image: "/assets/mentors/derryl.png", // Will fallback
