@@ -10,7 +10,7 @@ export default function Footer() {
   const { footer, global } = content;
 
   useEffect(() => {
-    console.log("%c Crafted by Alvian \n https://alvianzf.id ", "background: #222; color: #bada55; font-size:12px; padding:4px; border-radius: 4px;");
+    console.log("%c Crafted by Alvian Zachry Faturrahman \n https://www.linkedin.com/in/alvianzf/ ", "background: #222; color: #bada55; font-size:12px; padding:4px; border-radius: 4px;");
   }, []);
 
   return (
