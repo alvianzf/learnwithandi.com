@@ -99,25 +99,25 @@
 
 .HeroSection-module__sBkrQG__headline {
   color: #fff;
-  margin-bottom: 1.5rem;
-  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.1;
 }
 
 .HeroSection-module__sBkrQG__subHeadlineMain {
   color: #ccc;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .HeroSection-module__sBkrQG__description {
   color: #aaa;
-  max-width: 90%;
-  margin-bottom: 2.5rem;
-  font-size: 1.125rem;
+  max-width: 100%;
+  margin-bottom: 3.5rem;
+  font-size: 1.25rem;
   line-height: 1.6;
 }
 
@@ -125,6 +125,13 @@
   gap: 1rem;
   margin-top: 1.5rem;
   display: flex;
+}
+
+.HeroSection-module__sBkrQG__heroImage {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
 }
 
 .HeroSection-module__sBkrQG__primaryCta {

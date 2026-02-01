@@ -114,28 +114,31 @@
 }
 
 .headline {
-  font-size: 3.5rem;
-  /* Slightly smaller for better fit */
+  font-size: 5rem;
+  /* Larger desktop headline */
   font-weight: 800;
   line-height: 1.1;
   color: #fff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .subHeadlineMain {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  /* Larger subheadline */
   font-weight: 500;
   color: #ccc;
-  margin-bottom: 2rem;
-  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  line-height: 1.4;
 }
 
 .description {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
+  /* Larger description */
   color: #aaa;
   line-height: 1.6;
-  margin-bottom: 2.5rem;
-  max-width: 90%;
+  margin-bottom: 3.5rem;
+  max-width: 100%;
+  /* Use full width */
 }
 
 
@@ -143,6 +146,14 @@
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 800px;
+  /* Make image much larger on desktop */
+  height: auto;
+  display: block;
 }
 
 .primaryCta {
