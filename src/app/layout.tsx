@@ -6,8 +6,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Learn With Andi - Bangun Karier Profesional & Siap Kerja',
-  description: 'Learn With Andi (LWA) adalah ekosistem belajar karier profesional. Dapatkan mentoring CV, LinkedIn, Interview, dan strategi cari kerja yang ngena dan realistis.',
+  title: 'Learn With Andi - Mentoring Karier yang Ngena & Siap Kerja',
+  description: 'Ekosistem belajar karier profesional paling realistis di Indonesia. Dapetin mentoring CV, LinkedIn, & Interview yang beneran ngerubah mindset dan hasil.',
   keywords: ['career coaching indonesia', 'belajar cari kerja', 'mentoring cv', 'optimasi linkedin', 'siap kerja', 'career switch', 'andi satriawan lubis', 'lwa'],
   authors: [{ name: 'Andi Satriawan Lubis' }],
   metadataBase: new URL('https://learnwithandi.com'),
@@ -82,22 +82,35 @@ export default function RootLayout({
               "url": "https://learnwithandi.com",
               "logo": "https://learnwithandi.com/assets/logo/white.png",
               "image": "https://learnwithandi.com/assets/andi/potrait.png",
-              "description": "Learn With Andi (LWA) adalah platform career coaching terkemuka di Indonesia yang fokus pada optimasi CV, LinkedIn, dan strategi rekrutmen profesional.",
-              "founder": {
-                "@type": "Person",
-                "name": "Andi Satriawan Lubis",
-                "jobTitle": "Career Coach & Founder",
-                "url": "https://www.linkedin.com/in/andisatr/",
-                "sameAs": [
-                  "https://www.instagram.com/learnwithandi/",
-                  "https://www.youtube.com/@LearnwithAndis"
-                ]
-              },
+              "description": "Platform career coaching terkemuka yang fokus pada optimasi karier profesional secara strategis dan realistis.",
               "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "ID"
               },
-              "serviceType": ["Career Coaching", "CV Optimization", "LinkedIn Consulting"]
+              "knowsAbout": ["Career Development", "Personal Branding", "Job Search Strategy", "Recruitment"],
+              "founder": {
+                "@type": "Person",
+                "name": "Andi Satriawan Lubis",
+                "jobTitle": "Founder & Career Coach",
+                "url": "https://www.linkedin.com/in/andisatr/"
+              },
+              "employee": [
+                {
+                  "@type": "Person",
+                  "name": "Alvian Zachry Faturrahman",
+                  "jobTitle": "Software Engineer & Tech Mentor"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Derryl Ditramaneti",
+                  "jobTitle": "Expert Product Manager"
+                },
+                {
+                  "@type": "Person",
+                  "name": "Muhammad Fauzan",
+                  "jobTitle": "Digital Marketing Specialist"
+                }
+              ]
             },
             {
               "@context": "https://schema.org",
@@ -108,23 +121,23 @@ export default function RootLayout({
                   "name": "Apakah Learn With Andi cocok untuk pemula?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Ya, materi disusun dari dasar hingga advanced, cocok untuk berbagai level pengalaman, termasuk fresh graduate dan pemula."
+                    "text": "Materi di LWA disusun dari fundamental sampai tingkat lanjut, jadi sangat pas buat fresh graduate maupun pemula yang mau lari di trek karier yang benar."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Apakah program mentoring LWA bisa diikuti sambil bekerja?",
+                  "name": "Pelatihannya bisa sambil kerja?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Bisa. Jadwal fleksibel dan materi bisa diakses kapan saja, dirancang khusus untuk profesional sibuk."
+                    "text": "Sangat bisa. Kita desain programnya fleksibel dengan akses materi kapan pun, pas banget buat profesional yang lagi sibuk upgrade diri."
                   }
                 },
                 {
                   "@type": "Question",
-                  "name": "Apa format belajar di Learn With Andi?",
+                  "name": "Format belajarnya gimana?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Kombinasi materi video, live session, tugas praktik nyata, dan diskusi eksklusif di komunitas LWA."
+                    "text": "Campuran antara materi video, live mentoring mingguan, tugas praktik yang relevan dengan dunia kerja, dan support komunitas 24/7."
                   }
                 }
               ]
