@@ -2,6 +2,8 @@ import { content } from '@/data/content';
 import styles from './ProblemSection.module.css';
 import { FileQuestion, Ghost, UserX, MessageSquareWarning, Wallet, Compass, Linkedin, MessageSquare } from 'lucide-react';
 
+import { motion } from 'framer-motion';
+
 export default function ProblemSection() {
   const { problem } = content;
 
@@ -21,23 +23,60 @@ export default function ProblemSection() {
     Compass
   ];
 
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1
+      }
+    }
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 20 },
+    show: { opacity: 1, y: 0 }
+  };
+
   return (
     <section id={problem.id} className={styles.section}>
-      <h2 className={styles.heading}>Pernah ngerasain posisi kayak gini?</h2>
-      <div className={styles.grid}>
+      <motion.h2
+        className={styles.heading}
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
+        Pernah ngerasain posisi kayak gini?
+      </motion.h2>
+      <motion.div
+        className={styles.grid}
+        variants={container}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, margin: "-50px" }}
+      >
         {problem.painPoints.map((point, index) => {
           const IconComponent = icons[index % icons.length];
           return (
-            <div key={index} className={styles.card}>
+            <motion.div key={index} className={styles.card} variants={item}>
               <div className={styles.iconWrapper}>
                 <IconComponent size={32} color="#FFD700" />
               </div>
               <p className={styles.text}>{point}</p>
-            </div>
+            </motion.div>
           );
         })}
-      </div>
-      <p className={styles.closingQuote}>{problem.closingQuote}</p>
+      </motion.div>
+      <motion.p
+        className={styles.closingQuote}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.6, duration: 0.6 }}
+      >
+        {problem.closingQuote}
+      </motion.p>
     </section>
   );
 }

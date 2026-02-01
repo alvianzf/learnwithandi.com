@@ -3,6 +3,8 @@ import { content } from '@/data/content';
 import styles from './CtaSection.module.css';
 import { MessageCircle, ArrowRight, Compass, Users, Wallet, Briefcase } from 'lucide-react';
 
+import { motion } from 'framer-motion';
+
 export default function CtaSection() {
   const { finalCta } = content;
 
@@ -10,10 +12,32 @@ export default function CtaSection() {
 
   return (
     <section id={finalCta.id} className={styles.section}>
-      <h2 className={styles.title}>{finalCta.title}</h2>
-      <p className={styles.subtext}>{finalCta.subtext}</p>
+      <motion.h2
+        className={styles.title}
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
+        {finalCta.title}
+      </motion.h2>
+      <motion.p
+        className={styles.subtext}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.2, duration: 0.6 }}
+      >
+        {finalCta.subtext}
+      </motion.p>
 
-      <div className={styles.card}>
+      <motion.div
+        className={styles.card}
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ delay: 0.4, duration: 0.6 }}
+      >
         <ul className={styles.valueList}>
           {finalCta.values.map((val, idx) => {
             const Icon = icons[idx] || Compass;
@@ -35,7 +59,7 @@ export default function CtaSection() {
             {finalCta.secondaryCta.text}
           </Link>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

@@ -4,22 +4,51 @@ import { content } from '@/data/content';
 import styles from './ProgramGallery.module.css';
 import { CheckCircle2, MessageCircle, ArrowRight } from 'lucide-react';
 
+import { motion } from 'framer-motion';
+
 export default function ProgramGallery() {
   const { offer } = content;
   // Fallback if programSteps is not defined yet
   const steps = offer.programSteps || [];
 
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1
+      }
+    }
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 30 },
+    show: { opacity: 1, y: 0 }
+  };
+
   return (
     <section className={styles.section} id="program">
       <div className={styles.header}>
-        <h2 className={styles.heading}>
+        <motion.h2
+          className={styles.heading}
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
           Intip Program Belajar <span style={{ color: 'var(--color-accent-yellow)' }}>LWA</span>
-        </h2>
+        </motion.h2>
       </div>
 
-      <div className={styles.grid}>
+      <motion.div
+        className={styles.grid}
+        variants={container}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, margin: "-50px" }}
+      >
         {steps.map((step, index) => (
-          <div key={index} className={styles.card}>
+          <motion.div key={index} className={styles.card} variants={item}>
             <div className={styles.imageWrapper}>
               <img src={step.image} alt={step.title} className={styles.cardImage} />
               <div className={styles.numberBadge}>{step.number}</div>
@@ -39,11 +68,17 @@ export default function ProgramGallery() {
                 ))}
               </ul>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
 
-      <div className={styles.ctaWrapper}>
+      <motion.div
+        className={styles.ctaWrapper}
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.4, duration: 0.6 }}
+      >
         <a href="#offer" className={styles.ctaButton}>
           Join Sekarang <ArrowRight size={20} />
         </a>
@@ -58,7 +93,7 @@ export default function ProgramGallery() {
             {offer.consultation.text}
           </a>
         )}
-      </div>
+      </motion.div>
     </section>
   );
 }

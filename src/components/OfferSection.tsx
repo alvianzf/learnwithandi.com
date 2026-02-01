@@ -2,24 +2,62 @@ import { content } from '@/data/content';
 import styles from './OfferSection.module.css';
 import { CheckCircle2, MessageCircle } from 'lucide-react';
 
+import { motion } from 'framer-motion';
+
 export default function OfferSection() {
   const { offer } = content;
+
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15
+      }
+    }
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 30 },
+    show: { opacity: 1, y: 0 }
+  };
 
   return (
     <section id={offer.id} className={styles.section}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2 className={styles.programName}>
+          <motion.h2
+            className={styles.programName}
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
             Pilihan Investasi <span style={{ color: 'var(--color-accent-yellow)' }}>Karier</span>
-          </h2>
-          <p className={styles.description}>{offer.description}</p>
+          </motion.h2>
+          <motion.p
+            className={styles.description}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
+            {offer.description}
+          </motion.p>
         </div>
 
-        <div className={styles.plansGrid}>
+        <motion.div
+          className={styles.plansGrid}
+          variants={container}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-50px" }}
+        >
           {offer.plans?.map((plan, index) => (
-            <div
+            <motion.div
               key={index}
               className={`${styles.planCard} ${plan.popular ? styles.popularCard : ''} ${plan.highlight ? styles.highlightCard : ''}`}
+              variants={item}
             >
               {plan.popular && <div className={styles.popularBadge}>Most Popular</div>}
               {plan.highlight && <div className={styles.highlightBadge}>{plan.highlightText || 'Best Value'}</div>}
@@ -46,12 +84,18 @@ export default function OfferSection() {
               >
                 {plan.cta.text}
               </a>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         {offer.consultation && (
-          <div className={styles.consultationWrapper}>
+          <motion.div
+            className={styles.consultationWrapper}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4, duration: 0.6 }}
+          >
             <a
               href={offer.consultation.link}
               className={styles.consultButton}
@@ -61,7 +105,7 @@ export default function OfferSection() {
               <MessageCircle size={20} />
               {offer.consultation.text}
             </a>
-          </div>
+          </motion.div>
         )}
       </div>
     </section>

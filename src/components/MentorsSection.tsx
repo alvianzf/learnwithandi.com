@@ -26,24 +26,61 @@ const MentorImage = ({ src, alt, className }: { src: string, alt: string, classN
   );
 };
 
+import { motion } from 'framer-motion';
+
 export default function MentorsSection() {
   const { mentors } = content;
 
   if (!mentors) return null;
 
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15
+      }
+    }
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 30 },
+    show: { opacity: 1, y: 0 }
+  };
+
   return (
     <section className={styles.section} id="mentors">
       <div className={styles.container}>
         <div className={styles.header}>
-          <h2 className={styles.heading}>
+          <motion.h2
+            className={styles.heading}
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
             Kenalan sama <span style={{ color: 'var(--color-accent-yellow)' }}>Mentor Kamu</span>
-          </h2>
-          <p className={styles.subtitle}>{mentors.subtitle}</p>
+          </motion.h2>
+          <motion.p
+            className={styles.subtitle}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2, duration: 0.6 }}
+          >
+            {mentors.subtitle}
+          </motion.p>
         </div>
 
-        <div className={styles.grid}>
+        <motion.div
+          className={styles.grid}
+          variants={container}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-50px" }}
+        >
           {mentors.items.map((mentor, index) => (
-            <div key={index} className={styles.card}>
+            <motion.div key={index} className={styles.card} variants={item}>
               <div className={styles.imageWrapper}>
                 <MentorImage
                   src={mentor.image}
@@ -99,9 +136,9 @@ export default function MentorsSection() {
                   )}
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

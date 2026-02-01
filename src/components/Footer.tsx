@@ -6,6 +6,8 @@ import { Instagram, Linkedin, Youtube, MessageCircle, AtSign } from 'lucide-reac
 
 import { useEffect } from 'react'; // Add import
 
+import { motion } from 'framer-motion';
+
 export default function Footer() {
   const { footer, global } = content;
 
@@ -14,7 +16,13 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className={styles.footer}>
+    <motion.footer
+      className={styles.footer}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
       <div className={styles.container}>
         {/* Left Column: Brand & Tagline */}
         <div className={styles.leftColumn}>
@@ -58,6 +66,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 }
