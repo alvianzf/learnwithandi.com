@@ -312,7 +312,7 @@ const content = {
         benefits: [],
         plans: [
             {
-                name: "100K",
+                name: "Support",
                 price: "Rp100.000",
                 billing: "Monthly",
                 features: [
@@ -332,7 +332,7 @@ const content = {
                 highlightText: "Most Economical"
             },
             {
-                name: "449K",
+                name: "Basic",
                 price: "Rp449.000",
                 billing: "Life Time",
                 features: [
@@ -350,7 +350,7 @@ const content = {
                 }
             },
             {
-                name: "699K",
+                name: "Premium",
                 price: "Rp699.000",
                 billing: "Life Time",
                 features: [
