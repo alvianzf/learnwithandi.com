@@ -23,8 +23,10 @@
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin-top: 80px;
+  align-items: start;
+  /* Align to top so badge and hair can align */
+  margin-top: 100px;
+  /* Push down a bit more to account for top alignment */
 }
 
 .contentCol {
@@ -41,31 +43,34 @@
 
 .imageCol {
   position: absolute;
-  /* Absolute within the relative container */
   right: 0;
-  bottom: 0;
-  width: 70%;
-  /* Wide enough to go under the text */
-  max-width: 1000px;
-  /* Cap size inside container */
+  top: 0;
   height: 100%;
-  /* Fill container height */
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  z-index: 1;
-  /* Behind text */
+  bottom: 0;
+  width: 100%;
   pointer-events: none;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  /* Center vertically */
+  justify-content: flex-end;
+  overflow: visible;
 }
 
+
 .heroImage {
-  width: 100%;
-  height: auto;
-  max-height: 95vh;
+  height: 85%;
+  /* Use 85% to allow centering space */
+  max-height: 95%;
+  width: auto;
+  max-width: none;
+  transform: translateX(15%);
+  /* Shift right to hide transparency */
   object-fit: contain;
-  object-position: bottom right;
-  mask-image: linear-gradient(to left, black 50%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to left, black 50%, transparent 100%);
+  object-position: center right;
+  /* Anchor to center right */
+  mask-image: linear-gradient(to left, black 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to left, black 40%, transparent 100%);
 }
 
 @media (max-width: 768px) {
@@ -187,10 +192,9 @@
 }
 
 .heroImage {
-  width: 100%;
-  max-width: 800px;
-  /* Make image much larger on desktop */
-  height: auto;
+  height: 80vh;
+  width: auto;
+  max-width: none;
   display: block;
 }
 

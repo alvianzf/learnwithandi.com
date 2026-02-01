@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Left Column: Brand & Tagline */}
         <div className={styles.leftColumn}>
           <div className={styles.logoWrapper}>
-            <img src="/assets/logo/full-white.png" alt={global.brandName} className={styles.logoImage} />
+            <img src={global.logo.white} alt={global.brandName} className={styles.logoImage} />
           </div>
           <p className={styles.tagline}>{footer.title}</p>
           <p className={styles.copyright}>{footer.copyright}</p>

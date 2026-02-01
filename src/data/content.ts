@@ -10,8 +10,8 @@ export const content = {
       whatsapp: "http://wa.me/6282164815973",
     },
     logo: {
-      black: "/assets/logo/black.png",
-      white: "/assets/logo/white.png",
+      black: "/assets/logo/full-black.png",
+      white: "/assets/logo/full-white.png",
     },
   },
   mentors: {
