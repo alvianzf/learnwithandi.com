@@ -1,0 +1,39 @@
+:root {
+  --color-bg: #000000;
+  --color-text: #ffffff;
+  --color-accent-yellow: #FFD700;
+  --color-accent-red: #FF4444;
+  --color-grey: #333333;
+  --color-grey-light: #888888;
+  --font-main: "Inter", sans-serif;
+  
+  --spacing-section: 4rem;
+  --spacing-element: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section {
+  padding: var(--spacing-section) 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,57 @@
+.section {
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-accent-yellow);
+}
+
+.subtext {
+  font-size: 1.25rem;
+  color: #aaa;
+  margin-bottom: 3rem;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #111;
+  padding: 3rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-grey);
+}
+
+.valueList {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  display: inline-block;
+}
+
+.valueItem {
+  margin-bottom: 0.75rem;
+  font-size: 1.125rem;
+  color: #ddd;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  background-color: var(--color-accent-yellow);
+  color: #000;
+  font-weight: 800;
+  padding: 1.25rem;
+  border-radius: 6px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.02);
+  background-color: #fff;
+}

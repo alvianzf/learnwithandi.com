@@ -1,0 +1,54 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+  /* Slightly lighter than black to distinct from hero */
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: var(--color-accent-red);
+  /* Urgency color */
+}
+
+.painList {
+  list-style: none;
+  width: 100%;
+  max-width: 800px;
+}
+
+.painItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(255, 68, 68, 0.1);
+  /* Subtle red tint */
+  border-left: 4px solid var(--color-accent-red);
+  border-radius: 0 4px 4px 0;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  line-height: 1;
+}
+
+.text {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.closingQuote {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
