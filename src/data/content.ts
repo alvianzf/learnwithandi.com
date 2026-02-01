@@ -425,6 +425,6 @@ export const content = {
     title: "EMPOWERING CAREERS WITH BRANDING & STRATEGY",
     subtitle: "Powered by",
     name: "Andi Satriawan Lubis",
-    copyright: "© 2024 Learn With Andi. All rights reserved.",
+    copyright: "© 2026 Learn With Andi. All rights reserved.",
   },
 };
