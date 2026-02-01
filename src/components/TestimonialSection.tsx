@@ -1,22 +1,15 @@
 "use client";
 
-import { useState } from 'react';
 import { content } from '@/data/content';
 import styles from './TestimonialSection.module.css';
 
+// Define the two rows of images
+// Missing 2.webp
+const row1Images = [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+const row2Images = [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+
 export default function TestimonialSection() {
   const { testimonials } = content;
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.items.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + testimonials.items.length) % testimonials.items.length);
-  };
-
-  const currentItem = testimonials.items[currentIndex];
 
   return (
     <section id={testimonials.id} className={styles.section}>
@@ -25,41 +18,34 @@ export default function TestimonialSection() {
       </div>
 
       <div className={styles.container}>
-        <h2 className={styles.heading}>Kata Mereka yang Udah Join</h2>
 
-        <div className={styles.sliderWrapper}>
-          <button onClick={prevSlide} className={styles.navButton} aria-label="Previous testimony">←</button>
 
-          <div className={styles.slideContent}>
-            {/* Full image/screenshot container */}
-            <div className={styles.imageContainer}>
+        <div className={styles.marqueeContainer}>
+          {/* Row 1 - Scrolling Left */}
+          <div className={`${styles.marqueeRow} ${styles.marqueeToLeft}`}>
+            {[...row1Images, ...row1Images].map((num, idx) => (
               <img
-                src={currentItem.image}
-                alt={`${currentItem.author} testimony`}
-                className={styles.image}
+                key={`r1-${idx}`}
+                src={`/assets/members/${num}.webp`}
+                alt={`Member testimony ${num}`}
+                className={styles.imageItem}
+                loading="lazy"
               />
-            </div>
-
-            {/* Caption below if needed, though screenshot usually contains text */}
-            <div className={styles.caption}>
-              <p className={styles.author}>{currentItem.author}</p>
-              {/* Optional quote rendering if image doesn't say it all, keeping it minimal as per "full picture" request */}
-              <p className={styles.quote}>"{currentItem.quote}"</p>
-            </div>
+            ))}
           </div>
 
-          <button onClick={nextSlide} className={styles.navButton} aria-label="Next testimony">→</button>
-        </div>
-
-        <div className={styles.dots}>
-          {testimonials.items.map((_, idx) => (
-            <button
-              key={idx}
-              className={`${styles.dot} ${idx === currentIndex ? styles.activeDot : ''}`}
-              onClick={() => setCurrentIndex(idx)}
-              aria-label={`Go to slide ${idx + 1}`}
-            />
-          ))}
+          {/* Row 2 - Scrolling Right */}
+          <div className={`${styles.marqueeRow} ${styles.marqueeToRight}`}>
+            {[...row2Images, ...row2Images].map((num, idx) => (
+              <img
+                key={`r2-${idx}`}
+                src={`/assets/members/${num}.webp`}
+                alt={`Member testimony ${num}`}
+                className={styles.imageItem}
+                loading="lazy"
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

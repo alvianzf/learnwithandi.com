@@ -1,66 +1,22 @@
 .section {
-  padding: 4rem 1.5rem;
+  padding: 4rem 0;
   background: transparent;
+  overflow: hidden;
 }
 
 .container {
-  max-width: 800px;
-  /* Reduced max-width for "smaller" look */
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .statsBanner {
   text-align: center;
   margin-bottom: 1.5rem;
-  /* Reduced from 3rem */
   padding-bottom: 1.5rem;
-  /* Reduced from 3rem */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.heading {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 800;
-  color: #fff;
-  margin-bottom: 2rem;
-  text-transform: capitalize;
-}
-
-.sliderWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.navButton {
-  background: none;
-  border: 1px solid #444;
-  color: #fff;
-  font-size: 1.5rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.navButton:hover {
-  background: #333;
-  border-color: #fff;
-}
-
-.slideContent {
-  flex-grow: 1;
-  background: #1a1a1a;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid #333;
-  position: relative;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .statsText {
@@ -71,63 +27,103 @@
   letter-spacing: 1px;
 }
 
-.imageContainer {
-  width: 100%;
-  max-height: 250px;
-  /* Reduced from 400px */
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #000;
-}
-
-.image {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.caption {
-  padding: 1rem;
+.heading {
   text-align: center;
-}
-
-.author {
-  font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 800;
   color: #fff;
-  font-size: 1rem;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.quote {
-  font-size: 0.9rem;
-  color: #ccc;
-  font-style: italic;
-  margin-top: 0.25rem;
-}
-
-.dots {
+.marqueeContainer {
   display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1.5rem;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #444;
-  border: none;
-  cursor: pointer;
+.marqueeRow {
+  display: flex;
+  width: max-content;
+  gap: 1.5rem;
 }
 
-.activeDot {
-  background: var(--color-accent-yellow, #FFD700);
+.marqueeToLeft {
+  animation: scrollLeft 40s linear infinite;
 }
 
-@media (max-width: 1000px) {
+.marqueeToRight {
+  animation: scrollRight 40s linear infinite;
+}
+
+.imageItem {
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+  background: #1a1a1a;
+  border: 1px solid #333;
+}
+
+.imageItem:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  border-color: var(--color-accent-yellow, #FFD700);
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.marqueeRow:hover,
+.marqueeRow:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+
+  .heading {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
   .statsText {
     font-size: 1.5rem;
+  }
+
+  .imageItem {
+    height: 60px;
+  }
+
+  .marqueeContainer {
+    gap: 1rem;
+  }
+
+  .marqueeRow {
+    gap: 1rem;
   }
 }
