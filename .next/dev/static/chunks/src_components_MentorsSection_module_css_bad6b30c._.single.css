@@ -1,0 +1,155 @@
+/* [project]/src/components/MentorsSection.module.css [app-client] (css) */
+.MentorsSection-module__x0OeeG__section {
+  padding: 8rem 1.5rem;
+}
+
+.MentorsSection-module__x0OeeG__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.MentorsSection-module__x0OeeG__header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.MentorsSection-module__x0OeeG__heading {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.MentorsSection-module__x0OeeG__subtitle {
+  color: #aaa;
+  font-size: 1.25rem;
+}
+
+.MentorsSection-module__x0OeeG__grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media (max-width: 768px) {
+  .MentorsSection-module__x0OeeG__grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+}
+
+.MentorsSection-module__x0OeeG__card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 20px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.MentorsSection-module__x0OeeG__card:hover {
+  border-color: var(--color-accent-yellow, gold);
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px #00000080;
+}
+
+.MentorsSection-module__x0OeeG__imageWrapper {
+  aspect-ratio: 1;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.MentorsSection-module__x0OeeG__image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s;
+}
+
+.MentorsSection-module__x0OeeG__card:hover .MentorsSection-module__x0OeeG__image {
+  transform: scale(1.05);
+}
+
+.MentorsSection-module__x0OeeG__overlay {
+  opacity: 0;
+  background: #0006;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: opacity .3s;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.MentorsSection-module__x0OeeG__card:hover .MentorsSection-module__x0OeeG__overlay {
+  opacity: 1;
+}
+
+.MentorsSection-module__x0OeeG__profileBtn {
+  background: var(--color-accent-yellow, gold);
+  color: #000;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1.5rem;
+  font-weight: 600;
+  transition: transform .3s;
+  display: flex;
+  transform: translateY(20px);
+}
+
+.MentorsSection-module__x0OeeG__card:hover .MentorsSection-module__x0OeeG__profileBtn {
+  transform: translateY(0);
+}
+
+.MentorsSection-module__x0OeeG__content {
+  padding: 2rem;
+}
+
+.MentorsSection-module__x0OeeG__name {
+  color: #fff;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.MentorsSection-module__x0OeeG__role {
+  color: var(--color-accent-yellow, gold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.MentorsSection-module__x0OeeG__divider {
+  background: #333;
+  width: 50px;
+  height: 2px;
+  margin-bottom: 1.25rem;
+}
+
+.MentorsSection-module__x0OeeG__description {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.MentorsSection-module__x0OeeG__placeholderImage {
+  background: #222;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_MentorsSection_module_css_bad6b30c._.single.css.map*/

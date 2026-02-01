@@ -1,17 +1,24 @@
 import { content } from '@/data/content';
 import styles from './ProblemSection.module.css';
-import { CloudRain, UserX, Linkedin, MessageSquare, BookX } from 'lucide-react';
+import { FileQuestion, Ghost, UserX, MessageSquareWarning, Wallet, Compass, Linkedin, MessageSquare } from 'lucide-react';
 
 export default function ProblemSection() {
   const { problem } = content;
 
-  // Icon mapping based on index or content logic
+  // Icon mapping:
+  // 0: Jarang dipanggil -> FileQuestion
+  // 1: Ghosting -> Ghost
+  // 2: LinkedIn sepi -> Linkedin (NEW)
+  // 3: Interview blank -> MessageSquare (NEW)
+  // 4: Takut rugi -> Wallet
+  // 5: Bingung -> Compass
   const icons = [
-    CloudRain, // "Jarang dipanggil"
-    UserX, // "Di-ghosting"
-    Linkedin, // "LinkedIn sepi"
-    MessageSquare, // "Interview blank"
-    BookX // "Takut belajar"
+    FileQuestion,
+    Ghost,
+    Linkedin,
+    MessageSquare,
+    Wallet,
+    Compass
   ];
 
   return (

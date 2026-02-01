@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/ServicesSection.module.css"],"sourcesContent":[".section {\n  padding: 6rem 1.5rem;\n  background-color: rgba(30, 30, 30, 0.4);\n}\n\n.container {\n  max-width: 1200px;\n  margin: 0 auto;\n}\n\n.header {\n  text-align: center;\n  margin-bottom: 4rem;\n}\n\n.heading {\n  font-size: 2.5rem;\n  font-weight: 800;\n  color: #fff;\n  margin-bottom: 1rem;\n}\n\n.subtitle {\n  font-size: 1.25rem;\n  color: #ccc;\n  max-width: 600px;\n  margin: 0 auto;\n}\n\n.grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));\n  gap: 2rem;\n}\n\n.card {\n  background: #191919;\n  border: 1px solid #333;\n  padding: 2rem;\n  border-radius: 12px;\n  transition: transform 0.2s, border-color 0.2s;\n}\n\n.card:hover {\n  transform: translateY(-5px);\n  border-color: var(--color-accent-yellow, #FFD700);\n}\n\n.iconWrapper {\n  margin-bottom: 1.5rem;\n}\n\n.cardTitle {\n  font-size: 1.5rem;\n  font-weight: 700;\n  color: #fff;\n  margin-bottom: 1rem;\n}\n\n.cardDescription {\n  font-size: 1rem;\n  line-height: 1.6;\n  color: #aaa;\n}"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;AAKA;;;;;AAKA;;;;;;;AAOA;;;;;;;AAOA;;;;;;AAMA;;;;;;;;AAQA;;;;;AAKA;;;;AAIA;;;;;;;AAOA"}}]
+}

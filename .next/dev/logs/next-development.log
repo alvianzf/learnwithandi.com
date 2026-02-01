@@ -1,0 +1,570 @@
+[00:00:07.603] Server  LOG     ✓ Ready in 6.6s
+[00:00:11.251] Server  LOG     ○ Compiling / ...
+[00:01:01.096] Browser ERROR   React instrumentation encountered an error: %o {}
+[00:07:29.092] Server  LOG     ✓ Compiled in 198ms
+[00:07:29.509] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:07:35.435] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:35.452] Server  LOG     ✓ Compiled in 53ms
+[00:07:35.756] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:07:36.264] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:07:37.030] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:07:37.745] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:37.763] Server  LOG     ✓ Compiled in 63ms
+[00:07:38.007] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:07:38.017] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_50ef649e._.css
+[00:07:38.601] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:08:09.726] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:09.733] Server  LOG     ✓ Compiled in 90ms
+[00:08:09.838] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_50ef649e._.css
+[00:08:10.230] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+[00:08:11.234] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'map')
+[00:08:11.802] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:11.828] Server  LOG     ✓ Compiled in 93ms
+[00:08:14.165] Server  LOG     ✓ Compiled in 452ms
+[00:09:05.472] Server  LOG     ✓ Compiled in 40ms
+[00:09:10.606] Server  ERROR   ⨯ ReferenceError: StatsSection is not defined
+[00:09:10.838] Browser ERROR   uncaughtError: ReferenceError: StatsSection is not defined
+[00:12:01.926] Server  LOG     ✓ Compiled in 159ms
+[00:12:38.196] Server  ERROR   ⨯ ReferenceError: MentorsSection is not defined
+[00:12:38.377] Browser ERROR   uncaughtError: ReferenceError: MentorsSection is not defined
+[00:12:40.463] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:49.243] Server  LOG     ✓ Compiled in 105ms
+[00:12:49.356] Browser ERROR   ./src/components/CareerElementsSection.tsx:1:1
+Export content doesn't exist in target module
+> 1 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from './CareerElementsSection.module.css';
+  3 |
+  4 | export default function CareerElementsSection() {
+
+The export content was not found in module [project]/src/data/content.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/CareerElementsSection.tsx
+    ./src/app/page.tsx
+[00:12:49.356] Browser ERROR   ./src/components/FaqSection.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './FaqSection.module.css';
+  6 |
+  7 | export default function FaqSection() {
+
+The export content was not found in module [project]/src/data/content.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/FaqSection.tsx
+    ./src/app/page.tsx
+[00:12:49.357] Browser ERROR   ./src/components/FaqSection.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './FaqSection.module.css';
+  6 |
+  7 | export default function FaqSection() {
+
+The export content was not found in module [project]/src/data/content.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/FaqSection.tsx
+    ./src/app/page.tsx
+[00:12:49.357] Browser ERROR   ./src/components/Footer.tsx:1:1
+Export content doesn't exist in target module
+> 1 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from './Footer.module.css';
+  3 | import { Instagram, Linkedin, Youtube, MessageCircle, AtSign } from 'lucide-react';
+  4 |
+
+The export content was not found in module [project]/src/data/content.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Footer.tsx
+    ./src/app/page.tsx
+[00:12:49.357] Browser ERROR   ./src/components/HeroSection.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import Link from 'next/link';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './HeroSection.module.css';
+  6 | import { MessageCircle } from 'lucide-react';
+  7 |
+
+The export content was not found in module [project]/src/data/content.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/HeroSection.tsx
+    ./src/app/page.tsx
+[00:12:49.357] Browser ERROR   ./src/components/HeroSection.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import Link from 'next/link';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './HeroSection.module.css';
+  6 | import { MessageCircle } from 'lucide-react';
+  7 |
+
+The export content was not found in module [project]/src/data/content.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/HeroSection.tsx
+    ./src/app/page.tsx
+[00:12:49.357] Browser ERROR   ./src/components/MentorsSection.tsx:3:1
+Export content doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import styles from './MentorsSection.module.css';
+  5 | import { useState } from 'react';
+  6 | import { User } from 'lucide-react';
+
+The export content was not found in module [project]/src/data/content.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/MentorsSection.tsx
+    ./src/app/page.tsx
+[00:12:49.360] Browser ERROR   ./src/components/MentorsSection.tsx:3:1
+Export content doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import styles from './MentorsSection.module.css';
+  5 | import { useState } from 'react';
+  6 | import { User } from 'lucide-react';
+
+The export content was not found in module [project]/src/data/content.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/MentorsSection.tsx
+    ./src/app/page.tsx
+[00:12:49.360] Browser ERROR   ./src/components/Navbar.tsx:5:1
+Export content doesn't exist in target module
+  3 | import { useState, useEffect } from 'react';
+  4 | import Link from 'next/link';
+> 5 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import styles from './Navbar.module.css';
+  7 | import { Menu, X } from 'lucide-react';
+  8 |
+
+The export content was not found in module [project]/src/data/content.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/page.tsx
+[00:12:49.360] Browser ERROR   ./src/components/Navbar.tsx:5:1
+Export content doesn't exist in target module
+  3 | import { useState, useEffect } from 'react';
+  4 | import Link from 'next/link';
+> 5 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import styles from './Navbar.module.css';
+  7 | import { Menu, X } from 'lucide-react';
+  8 |
+
+The export content was not found in module [project]/src/data/content.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/page.tsx
+[00:12:49.360] Browser ERROR   ./src/components/OfferSection.tsx:1:1
+Export content doesn't exist in target module
+> 1 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from './OfferSection.module.css';
+  3 | import { CheckCircle2 } from 'lucide-react';
+  4 |
+
+The export content was not found in module [project]/src/data/content.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/OfferSection.tsx
+    ./src/app/page.tsx
+[00:12:49.360] Browser ERROR   ./src/components/ProblemSection.tsx:1:1
+Export content doesn't exist in target module
+> 1 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from './ProblemSection.module.css';
+  3 | import { CloudRain, UserX, Linkedin, MessageSquare, BookX } from 'lucide-react';
+  4 |
+
+The export content was not found in module [project]/src/data/content.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/ProblemSection.tsx
+    ./src/app/page.tsx
+[00:12:49.360] Browser ERROR   ./src/components/ProgramGallery.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './ProgramGallery.module.css';
+  6 | import { X, CheckCircle2 } from 'lucide-react';
+  7 |
+
+The export content was not found in module [project]/src/data/content.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/ProgramGallery.tsx
+    ./src/app/page.tsx
+[00:12:49.361] Browser ERROR   ./src/components/ProgramGallery.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './ProgramGallery.module.css';
+  6 | import { X, CheckCircle2 } from 'lucide-react';
+  7 |
+
+The export content was not found in module [project]/src/data/content.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/ProgramGallery.tsx
+    ./src/app/page.tsx
+[00:12:49.361] Browser ERROR   ./src/components/PromoPopup.tsx:5:1
+Export content doesn't exist in target module
+  3 | import { useState, useEffect } from 'react';
+  4 | import Link from 'next/link';
+> 5 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import styles from './PromoPopup.module.css';
+  7 |
+  8 | export default function PromoPopup() {
+
+The export content was not found in module [project]/src/data/content.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/PromoPopup.tsx
+    ./src/app/page.tsx
+[00:12:49.361] Browser ERROR   ./src/components/PromoPopup.tsx:5:1
+Export content doesn't exist in target module
+  3 | import { useState, useEffect } from 'react';
+  4 | import Link from 'next/link';
+> 5 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import styles from './PromoPopup.module.css';
+  7 |
+  8 | export default function PromoPopup() {
+
+The export content was not found in module [project]/src/data/content.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/PromoPopup.tsx
+    ./src/app/page.tsx
+[00:12:49.361] Browser ERROR   ./src/components/QualificationSection.tsx:1:1
+Export content doesn't exist in target module
+> 1 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from './QualificationSection.module.css';
+  3 | import { CheckCircle2, XCircle } from 'lucide-react';
+  4 |
+
+The export content was not found in module [project]/src/data/content.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/QualificationSection.tsx
+    ./src/app/page.tsx
+[00:12:49.361] Browser ERROR   ./src/components/ServicesSection.tsx:1:1
+Export content doesn't exist in target module
+> 1 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import styles from './ServicesSection.module.css';
+  3 | import {
+  4 |   FileText, // Resume
+
+The export content was not found in module [project]/src/data/content.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/ServicesSection.tsx
+    ./src/app/page.tsx
+[00:12:49.361] Browser ERROR   ./src/components/StatsSection.tsx:1:1
+Export content doesn't exist in target module
+> 1 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function StatsSection() {
+  4 |   const { stats } = content;
+
+The export content was not found in module [project]/src/data/content.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/StatsSection.tsx
+    ./src/app/page.tsx
+[00:12:49.361] Browser ERROR   ./src/components/TestimonialSection.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './TestimonialSection.module.css';
+  6 |
+  7 | export default function TestimonialSection() {
+
+The export content was not found in module [project]/src/data/content.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/TestimonialSection.tsx
+    ./src/app/page.tsx
+[00:12:49.362] Browser ERROR   ./src/components/TestimonialSection.tsx:4:1
+Export content doesn't exist in target module
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import { content } from '@/data/content';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import styles from './TestimonialSection.module.css';
+  6 |
+  7 | export default function TestimonialSection() {
+
+The export content was not found in module [project]/src/data/content.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/TestimonialSection.tsx
+    ./src/app/page.tsx
+[00:13:03.793] Server  LOG     ✓ Compiled in 59ms
+[00:17:16.570] Browser ERROR   ./src/components/ProblemSection.tsx:60:2
+Parsing ecmascript source code failed
+  58 |     </div>
+  59 |   );
+> 60 | })}
+     |  ^
+  61 |       </div >
+  62 |   <p className={styles.closingQuote}>{problem.closingQuote}</p>
+  63 |     </section >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ProblemSection.tsx
+    ./src/app/page.tsx
+[00:17:18.592] Server  LOG     ✓ Compiled in 23ms
+[00:17:18.708] Browser ERROR   ./src/components/ProblemSection.tsx:60:2
+Parsing ecmascript source code failed
+  58 |     </div>
+  59 |   );
+> 60 | })}
+     |  ^
+  61 |       </div >
+  62 |   <p className={styles.closingQuote}>{problem.closingQuote}</p>
+  63 |     </section >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ProblemSection.tsx
+    ./src/app/page.tsx
+[00:17:20.640] Server  LOG     ✓ Compiled in 44ms
+[00:17:20.744] Browser ERROR   ./src/components/ProblemSection.tsx:60:2
+Parsing ecmascript source code failed
+  58 |     </div>
+  59 |   );
+> 60 | })}
+     |  ^
+  61 |       </div >
+  62 |   <p className={styles.closingQuote}>{problem.closingQuote}</p>
+  63 |     </section >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ProblemSection.tsx
+    ./src/app/page.tsx
+[00:17:23.756] Browser ERROR   ./src/components/ProblemSection.tsx:60:2
+Parsing ecmascript source code failed
+  58 |     </div>
+  59 |   );
+> 60 | })}
+     |  ^
+  61 |       </div >
+  62 |   <p className={styles.closingQuote}>{problem.closingQuote}</p>
+  63 |     </section >
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ProblemSection.tsx
+    ./src/app/page.tsx
+[00:17:23.757] Browser ERROR   ./src/components/QualificationSection.tsx:45:1
+Parsing ecmascript source code failed
+  43 |       </section>
+  44 |       );
+> 45 | }
+     | ^
+  46 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./src/components/QualificationSection.tsx
+    ./src/app/page.tsx
+[00:17:31.087] Browser ERROR   ./src/components/ProblemSection.tsx:11:3
+Parsing ecmascript source code failed
+   9 |     // 4: Wallet (Takut buang uang)
+  10 |     // 5: Compass (Bingung mulai - inferred 6th point)
+> 11 |   ];
+     |   ^
+  12 |
+  13 |   // Actually, I need to look at exact points in content.ts.
+  14 |   // 1. "Sudah apply... jarang dipanggil"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/ProblemSection.tsx
+    ./src/app/page.tsx
+[00:17:31.088] Browser ERROR   ./src/components/QualificationSection.tsx:45:1
+Parsing ecmascript source code failed
+  43 |       </section>
+  44 |       );
+> 45 | }
+     | ^
+  46 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./src/components/QualificationSection.tsx
+    ./src/app/page.tsx
+[00:18:02.418] Browser ERROR   ./src/components/QualificationSection.tsx:45:1
+Parsing ecmascript source code failed
+  43 |       </section>
+  44 |       );
+> 45 | }
+     | ^
+  46 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./src/components/QualificationSection.tsx
+    ./src/app/page.tsx
+[00:18:03.895] Server  LOG     ✓ Compiled in 20ms
+[00:22:53.127] Server  LOG     ✓ Compiled in 101ms
+[00:23:17.504] Server  LOG     ✓ Compiled in 417ms
+[00:23:18.857] Server  LOG     ✓ Compiled in 38ms
+[00:23:20.977] Server  LOG     ✓ Compiled in 136ms
+[00:23:23.425] Server  LOG     ✓ Compiled in 101ms
+[00:24:13.630] Server  LOG     ✓ Compiled in 48ms
+[00:24:17.721] Server  LOG     ✓ Compiled in 13ms
+[00:24:26.029] Server  LOG     ✓ Compiled in 68ms
+[00:25:00.779] Server  LOG     ✓ Compiled in 23ms
+[00:25:03.111] Server  LOG     ✓ Compiled in 26ms
+[00:25:30.523] Server  LOG     ✓ Compiled in 31ms
+[00:26:09.554] Server  LOG     ✓ Compiled in 197ms
+[00:26:13.649] Server  LOG     ✓ Compiled in 77ms
+[00:27:50.335] Server  LOG     ✓ Compiled in 82ms
+[00:27:54.700] Server  LOG     ✓ Compiled in 33ms
+[00:28:51.607] Server  LOG     ✓ Compiled in 39ms
+[00:28:53.874] Server  LOG     ✓ Compiled in 90ms
+[00:29:16.961] Server  LOG     ✓ Compiled in 42ms
+[00:32:46.779] Server  LOG     ✓ Compiled in 74ms
+[00:32:48.708] Server  LOG     ✓ Compiled in 11ms
+[00:32:55.519] Server  LOG     ✓ Compiled in 39ms
+[00:33:30.389] Server  LOG     ✓ Compiled in 26ms
+[00:33:38.338] Server  LOG     ✓ Compiled in 24ms
+[00:36:47.453] Server  LOG     ✓ Compiled in 140ms
+[00:36:49.528] Server  LOG     ✓ Compiled in 39ms
+[00:37:53.945] Server  LOG     ✓ Compiled in 47ms
+[00:37:56.092] Server  LOG     ✓ Compiled in 82ms
+[00:37:58.008] Server  LOG     ✓ Compiled in 27ms
+[00:37:58.137] Browser ERROR   uncaughtError: ReferenceError: ArrowRight is not defined
+[00:37:59.423] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:37:59.445] Server  LOG     ✓ Compiled in 145ms
+[00:38:01.162] Server  LOG     ✓ Compiled in 94ms
+[00:38:01.795] Server  ERROR   ⨯ ReferenceError: ArrowRight is not defined
+[00:38:02.025] Browser ERROR   uncaughtError: ReferenceError: ArrowRight is not defined
+[00:38:03.090] Server  LOG     ✓ Compiled in 203ms
+[00:38:05.158] Server  LOG     ✓ Compiled in 62ms
+[00:38:15.908] Server  LOG     ✓ Compiled in 30ms
+[00:39:24.857] Server  LOG     ✓ Compiled in 89ms
+[00:40:38.406] Server  LOG     ✓ Compiled in 228ms
+[00:41:23.870] Server  LOG     ✓ Compiled in 45ms
+[00:42:31.897] Server  LOG     ✓ Compiled in 74ms
+[00:44:07.794] Server  LOG     ✓ Compiled in 670ms
+[00:44:10.421] Server  LOG     ✓ Compiled in 824ms
+[00:44:23.754] Server  LOG     ✓ Compiled in 55ms
+[00:46:21.133] Server  LOG     ✓ Compiled in 95ms
+[00:47:39.746] Server  LOG     ✓ Compiled in 92ms
+[00:49:42.198] Server  LOG     ✓ Compiled in 277ms
+[00:49:52.575] Server  LOG     ✓ Compiled in 60ms
+[00:49:54.701] Server  LOG     ✓ Compiled in 25ms

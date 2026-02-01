@@ -1,0 +1,64 @@
+.section {
+  padding: 6rem 1.5rem;
+  background-color: rgba(30, 30, 30, 0.4);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: #191919;
+  border: 1px solid #333;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-accent-yellow, #FFD700);
+}
+
+.iconWrapper {
+  margin-bottom: 1.5rem;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #aaa;
+}

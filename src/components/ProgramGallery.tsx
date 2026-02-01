@@ -1,65 +1,45 @@
 "use client";
 
-import { useState } from 'react';
 import { content } from '@/data/content';
 import styles from './ProgramGallery.module.css';
-import { X } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 
 export default function ProgramGallery() {
   const { offer } = content;
-  const [selectedItem, setSelectedItem] = useState<null | typeof offer.programDetails[0]>(null);
+  // Fallback if programSteps is not defined yet
+  const steps = offer.programSteps || [];
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="program">
+      <div className={styles.header}>
+        <h2 className={styles.heading}>Learn With Andi's Program</h2>
+      </div>
+
       <div className={styles.grid}>
-        {offer.programDetails.map((item, index) => (
-          <div
-            key={index}
-            className={styles.card}
-            onClick={() => setSelectedItem(item)}
-            role="button"
-            tabIndex={0}
-            aria-label={`View details for ${item.title}`}
-          >
+        {steps.map((step, index) => (
+          <div key={index} className={styles.card}>
             <div className={styles.imageWrapper}>
-              <img
-                src={item.image}
-                alt={item.title}
-                className={styles.image}
-              />
+              <img src={step.image} alt={step.title} className={styles.cardImage} />
+              <div className={styles.numberBadge}>{step.number}</div>
             </div>
-            <div className={styles.content}>
-              <h3 className={styles.title}>{item.title}</h3>
-              <p className={styles.description}>{item.description}</p>
+
+            <div className={styles.cardContent}>
+              <h3 className={styles.title}>{step.title}</h3>
+              <p className={styles.subtitle}>{step.subtitle}</p>
+              <p className={styles.description}>{step.description}</p>
+
+              <ul className={styles.pointsList}>
+                {step.points?.map((point, idx) => (
+                  <li key={idx} className={styles.pointItem}>
+                    <CheckCircle2 size={16} className={styles.pointIcon} />
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}
       </div>
-
-      {/* Modal Overlay */}
-      {selectedItem && (
-        <div className={styles.modalOverlay} onClick={() => setSelectedItem(null)}>
-          <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
-            <button
-              className={styles.closeButton}
-              onClick={() => setSelectedItem(null)}
-              aria-label="Close modal"
-            >
-              <X size={24} color="#fff" />
-            </button>
-            <div className={styles.modalImageWrapper}>
-              <img src={selectedItem.image} alt={selectedItem.title} className={styles.modalImage} />
-            </div>
-            <div className={styles.modalDetails}>
-              <h3 className={styles.modalTitle}>{selectedItem.title}</h3>
-              <p className={styles.modalDescription}>{selectedItem.description}</p>
-              <a href="#offer" className={styles.modalCta} onClick={() => setSelectedItem(null)}>
-                Daftar Program Ini
-              </a>
-            </div>
-          </div>
-        </div>
-      )}
     </section>
   );
 }

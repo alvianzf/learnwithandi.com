@@ -1,0 +1,26 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__main {
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.page-module___8aEwW__backgroundWrapper {
+  z-index: 0;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.page-module___8aEwW__content {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+}
+
+/*# sourceMappingURL=src_app_page_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,194 @@
+/* [project]/src/components/OfferSection.module.css [app-client] (css) */
+.OfferSection-module__022Moa__section {
+  background-color: #111111f2;
+  border-top: 1px solid #333;
+  padding: 6rem 1.5rem;
+}
+
+.OfferSection-module__022Moa__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.OfferSection-module__022Moa__header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.OfferSection-module__022Moa__programName {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.OfferSection-module__022Moa__description {
+  color: #aaa;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+.OfferSection-module__022Moa__plansGrid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: flex-start;
+  gap: 2rem;
+  display: grid;
+}
+
+.OfferSection-module__022Moa__planCard {
+  background: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 16px;
+  flex-direction: column;
+  padding: 2rem;
+  transition: transform .2s, border-color .2s;
+  display: flex;
+  position: relative;
+}
+
+.OfferSection-module__022Moa__planCard:hover {
+  border-color: #555;
+  transform: translateY(-5px);
+}
+
+.OfferSection-module__022Moa__popularCard {
+  border-color: var(--color-accent-yellow, gold);
+  background: #252525;
+  box-shadow: 0 0 20px #ffd7001a;
+}
+
+.OfferSection-module__022Moa__highlightCard {
+  background: #1f2a1f;
+  border-color: #4ade80;
+}
+
+.OfferSection-module__022Moa__popularBadge {
+  background: var(--color-accent-yellow, gold);
+  color: #000;
+  border-radius: 20px;
+  padding: .25rem .75rem;
+  font-size: .875rem;
+  font-weight: 700;
+  position: absolute;
+  top: -12px;
+  right: 20px;
+}
+
+.OfferSection-module__022Moa__highlightBadge {
+  color: #000;
+  background: #4ade80;
+  border-radius: 20px;
+  padding: .25rem .75rem;
+  font-size: .875rem;
+  font-weight: 700;
+  position: absolute;
+  top: -12px;
+  left: 20px;
+}
+
+.OfferSection-module__022Moa__cardHeader {
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.OfferSection-module__022Moa__planName {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.OfferSection-module__022Moa__planBilling {
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .875rem;
+}
+
+.OfferSection-module__022Moa__price {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.OfferSection-module__022Moa__benefits {
+  flex-grow: 1;
+  margin-bottom: 2.5rem;
+  list-style: none;
+}
+
+.OfferSection-module__022Moa__benefitItem {
+  color: #ddd;
+  align-items: flex-start;
+  gap: .75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  display: flex;
+}
+
+.OfferSection-module__022Moa__check {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.OfferSection-module__022Moa__ctaButton {
+  color: #000;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background .2s;
+  display: block;
+}
+
+.OfferSection-module__022Moa__ctaButton:hover {
+  background: #e0e0e0;
+}
+
+.OfferSection-module__022Moa__popularCard .OfferSection-module__022Moa__ctaButton {
+  background: var(--color-accent-yellow, gold);
+}
+
+.OfferSection-module__022Moa__popularCard .OfferSection-module__022Moa__ctaButton:hover {
+  background: #e6c200;
+}
+
+.OfferSection-module__022Moa__highlightCard .OfferSection-module__022Moa__ctaButton {
+  background: #4ade80;
+}
+
+.OfferSection-module__022Moa__highlightCard .OfferSection-module__022Moa__ctaButton:hover {
+  background: #45ce76;
+}
+
+@keyframes OfferSection-module__022Moa__float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.OfferSection-module__022Moa__highlightCard:not(:hover) {
+  animation: 4s ease-in-out infinite OfferSection-module__022Moa__float;
+}
+
+@media (max-width: 768px) {
+  .OfferSection-module__022Moa__programName {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_OfferSection_module_css_bad6b30c._.single.css.map*/

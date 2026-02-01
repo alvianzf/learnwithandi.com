@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/GlobalBackground.module.css"],"sourcesContent":[".backgroundContainer {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100vw;\n  height: 100vh;\n  z-index: -1;\n  overflow: hidden;\n  background-color: #111;\n  /* Fallback dark */\n}\n\n.patternLayer {\n  position: absolute;\n  top: -20%;\n  /* Extra height for scrolling */\n  left: 0;\n  width: 100%;\n  height: 140%;\n  /* Taller than viewport */\n  background-image: url('/assets/background/doodles.png');\n  background-size: 400px;\n  /* Adjust scale */\n  background-repeat: repeat;\n  opacity: 0.15;\n  /* Subtle */\n  will-change: transform;\n}\n\n.overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(circle at center, transparent 0%, #000 90%);\n  pointer-events: none;\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAYA;;;;;;;;;;;;;AAiBA"}}]
+}

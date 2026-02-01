@@ -15,14 +15,18 @@ export default function SolutionSection() {
       <div className={styles.grid}>
         {/* Core Messages */}
         <div className={styles.coreWrapper}>
-          {solution.coreMessages.map((msg, index) => (
-            <div key={index} className={styles.card}>
-              <div className={styles.iconBox}>
-                <Zap size={24} color="#FFD700" />
+          {solution.coreMessages.map((msg, index) => {
+            const icons = [Users, Target, Zap, Briefcase]; // Custom mapping
+            const Icon = icons[index % icons.length];
+            return (
+              <div key={index} className={styles.card}>
+                <div className={styles.iconBox}>
+                  <Icon size={24} color="#FFD700" />
+                </div>
+                <p className={styles.cardText}>{msg}</p>
               </div>
-              <p className={styles.cardText}>{msg}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Practical Elements */}

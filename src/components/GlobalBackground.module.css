@@ -1,0 +1,38 @@
+.backgroundContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  background-color: #111;
+  /* Fallback dark */
+}
+
+.patternLayer {
+  position: absolute;
+  top: -20%;
+  /* Extra height for scrolling */
+  left: 0;
+  width: 100%;
+  height: 140%;
+  /* Taller than viewport */
+  background-image: url('/assets/background/doodles.png');
+  background-size: 400px;
+  /* Adjust scale */
+  background-repeat: repeat;
+  opacity: 0.15;
+  /* Subtle */
+  will-change: transform;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, transparent 0%, #000 90%);
+  pointer-events: none;
+}

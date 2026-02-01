@@ -1,0 +1,86 @@
+/* [project]/src/components/PromoPopup.module.css [app-client] (css) */
+.PromoPopup-module__DhddUq__overlay {
+  z-index: 1000;
+  background-color: #000000b3;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.PromoPopup-module__DhddUq__popup {
+  border: 1px solid var(--color-accent-yellow);
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #00000080;
+}
+
+.PromoPopup-module__DhddUq__closeButton {
+  color: #fff;
+  cursor: pointer;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  line-height: 1;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.PromoPopup-module__DhddUq__imageContainer {
+  background-color: #333;
+  width: 100%;
+  height: 200px;
+}
+
+.PromoPopup-module__DhddUq__image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.PromoPopup-module__DhddUq__content {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.PromoPopup-module__DhddUq__title {
+  color: var(--color-accent-yellow);
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+}
+
+.PromoPopup-module__DhddUq__text {
+  color: #ddd;
+  margin-bottom: 1.5rem;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+.PromoPopup-module__DhddUq__cta {
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding: .75rem 1.5rem;
+  font-size: .9rem;
+  font-weight: 600;
+  transition: background-color .2s;
+  display: inline-block;
+}
+
+.PromoPopup-module__DhddUq__cta:hover {
+  background-color: var(--color-accent-yellow);
+}
+
+/*# sourceMappingURL=src_components_PromoPopup_module_css_bad6b30c._.single.css.map*/

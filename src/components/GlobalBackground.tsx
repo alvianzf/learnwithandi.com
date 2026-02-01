@@ -1,15 +1,24 @@
 "use client";
 
-import { SquigglyBackground } from '@alvianzf/squiggly-lines-go-brrr';
+import { useEffect, useState } from 'react';
+import styles from './GlobalBackground.module.css';
 
 export default function GlobalBackground() {
+  const [offsetY, setOffsetY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setOffsetY(window.scrollY);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <SquigglyBackground
-      count={50}
-      minStrokeWidth={1}
-      maxStrokeWidth={4}
-      colors={['rgba(255, 215, 0, 0.4)', 'rgba(128, 128, 128, 0.4)']}
-      variant="worms"
-    />
+    <div className={styles.backgroundContainer}>
+      <div
+        className={styles.patternLayer}
+        style={{ transform: `translateY(${-offsetY * 0.2}px)` }}
+      />
+      <div className={styles.overlay} />
+    </div>
   );
 }

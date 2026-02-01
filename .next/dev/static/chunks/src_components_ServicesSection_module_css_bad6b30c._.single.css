@@ -1,0 +1,67 @@
+/* [project]/src/components/ServicesSection.module.css [app-client] (css) */
+.ServicesSection-module__JL3_nq__section {
+  background-color: #1e1e1e66;
+  padding: 6rem 1.5rem;
+}
+
+.ServicesSection-module__JL3_nq__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ServicesSection-module__JL3_nq__header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.ServicesSection-module__JL3_nq__heading {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.ServicesSection-module__JL3_nq__subtitle {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+.ServicesSection-module__JL3_nq__grid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  display: grid;
+}
+
+.ServicesSection-module__JL3_nq__card {
+  background: #191919;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: transform .2s, border-color .2s;
+}
+
+.ServicesSection-module__JL3_nq__card:hover {
+  border-color: var(--color-accent-yellow, gold);
+  transform: translateY(-5px);
+}
+
+.ServicesSection-module__JL3_nq__iconWrapper {
+  margin-bottom: 1.5rem;
+}
+
+.ServicesSection-module__JL3_nq__cardTitle {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.ServicesSection-module__JL3_nq__cardDescription {
+  color: #aaa;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=src_components_ServicesSection_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,1453 @@
+module.exports = [
+"[project]/src/data/content.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "content",
+    ()=>content
+]);
+const content = {
+    global: {
+        brandName: "Learn With Andi",
+        email: "support@learnwithandi.com",
+        socials: {
+            instagram: "https://www.instagram.com/learnwithandi/",
+            linkedin: "https://www.linkedin.com/in/andisatr/",
+            youtube: "https://www.youtube.com/@LearnwithAndis",
+            threads: "https://www.threads.com/@learnwithandi",
+            whatsapp: "http://wa.me/6282164815973"
+        },
+        logo: {
+            black: "/assets/logo/black.png",
+            white: "/assets/logo/white.png"
+        }
+    },
+    mentors: {
+        title: "Meet Your Mentors",
+        subtitle: "Learn from the best in the industry",
+        items: [
+            {
+                name: "Andi Satriawan",
+                role: "Career Coach & Founder",
+                description: "Praktisi karier yang telah membantu ribuan jobseeker memahami cara kerja rekrutmen modern.",
+                image: "/assets/mentors/andi.png"
+            },
+            {
+                name: "Alvian",
+                role: "Tech Recruiter (Europe)",
+                description: "Over a decade of technical experience in Indonesia, all the way to Europe. Now recruiting for European markets.",
+                image: "/assets/mentors/alvian.png"
+            },
+            {
+                name: "Derryl",
+                role: "CEOO & Product Manager",
+                description: "Product Manager turned CEOO. Expert in product strategy and operational excellence.",
+                image: "/assets/mentors/derryl.png" // Will fallback
+            },
+            {
+                name: "Fauzan",
+                role: "Digital Marketing Specialist",
+                description: "Working for an ads company affiliated with META. He's a digital marketing specialist.",
+                image: "/assets/mentors/fauzan.png" // Will fallback
+            }
+        ]
+    },
+    promoPopup: {
+        show: false,
+        image: "/assets/programs/1.webp",
+        title: "Program Terbaru!",
+        text: "Dapatkan akses ke materi eksklusif dan mentoring intensif.",
+        cta: {
+            text: "Lihat Detail",
+            link: "#offer"
+        }
+    },
+    hero: {
+        headline: "Career Coaching Indonesia",
+        subHeadline: "Dapat Kerja Sesuai Skill, Tanpa Apply Ratusan Kali!",
+        description: "Komunitas Online Untuk Fresh Graduate Siap Kerja, Professional yang mau Switching Career, Stand-out di Bursa Transfer Kerja",
+        primaryCta: {
+            text: "Daftar Sekarang",
+            link: "#offer"
+        },
+        secondaryCta: {
+            text: "Tanya Admin",
+            link: "https://wa.me/628123456789",
+            icon: "MessageCircle"
+        },
+        image: "/assets/andi/potrait.png"
+    },
+    problem: {
+        id: "problem",
+        title: "Apakah kamu merasakan ini?",
+        painPoints: [
+            "Sudah apply puluhan sampai ratusan lowongan, tapi jarang dipanggil",
+            "CV dibilang bagus, tapi tetap dighosting",
+            "LinkedIn ada, tapi sepi",
+            "Interview sering, tapi blank",
+            "Takut belajar karena takut buang uang",
+            "Bingung harus mulai darimana untuk upgrade karir"
+        ],
+        closingQuote: "“Tahu salah, tapi nggak tahu salahnya di mana.”"
+    },
+    solution: {
+        id: "solution",
+        coreMessages: [
+            "Di LWA, bukan cuma belajar, tapi ditemani sampai paham",
+            "Karier bukan soal hoki",
+            "Tidak instan",
+            "Butuh strategi yang update, arah jelas, dan konsistensi"
+        ],
+        practicalElements: [
+            "Materi siap pakai",
+            "Mentor dan komunitas aktif",
+            "Review, diskusi, dan feedback",
+            "Fokus ke dunia kerja nyata, bukan teori"
+        ]
+    },
+    stats: {
+        text: "350+ LWA's Members Hired in 2025"
+    },
+    careerElements: {
+        title: "Career Development Elements",
+        items: [
+            {
+                title: "Learning",
+                description: "Pelajari skill dan insight yang valuable lewat sesi coaching private sesuai dengan tujuan karir dan kebutuhan di bursa kerja."
+            },
+            {
+                title: "Winning",
+                description: "Tetap Stand-out di bursa kerja proffesional dengan mengoptimalkan cv dan profile linkedin yang sesuai dengan expertise kamu"
+            },
+            {
+                title: "Achieving",
+                description: "Capai tujuan karirmu lebih cepat dengan arahan strategis, tepat guna, dan support secara berkala."
+            }
+        ]
+    },
+    services: {
+        title: "Our Services",
+        subtitle: "Comprehensive career development solutions tailored to your professional goals.",
+        items: [
+            {
+                title: "Resume Optimization",
+                description: "Transform your resume into a powerful marketing tool that highlights your achievements and gets past ATS systems."
+            },
+            {
+                title: "LinkedIn Enhancement",
+                description: "Elevate your LinkedIn profile to attract recruiters and position yourself as an industry leader."
+            },
+            {
+                title: "Interview Preparation",
+                description: "Master the art of interviewing with personalized coaching sessions and mock interviews."
+            },
+            {
+                title: "Salary Negotiation",
+                description: "Learn proven strategies to confidently negotiate compensation packages that reflect your true value."
+            },
+            {
+                title: "Remote Working",
+                description: "Develop a strategic plan with clear milestones to achieve your remote working goals."
+            },
+            {
+                title: "Winning",
+                description: "Craft a compelling personal brand that sets you apart in your industry and attracts opportunities."
+            }
+        ]
+    },
+    qualification: {
+        id: "qualification",
+        doTitle: "KAMU BENERAN NIAT",
+        dontTitle: "KAMU MERASA SUDAH JAGO",
+        dos: [
+            "Career Level-UP, tapi bingung mulai darimana",
+            "Sukses Interview dan pede jawab setiap pertanyaannya",
+            "Bangun CV dan Profile LinkedIn yang bikin para Recruiter DM Kamu",
+            "Siap masuk Work Abroad sekalipun masih Rookie",
+            "Cari Strategi yang relevan buat naikin Level Career kamu"
+        ],
+        donts: [
+            "Suka rebahan tapi bingung uangnya mau buat apa",
+            "Kerjaan yang penting dapat uang (Konsistensi buat apa?)",
+            "Merasa CV dan Profile LinkedIn sudah paten (Yang Penting Apply Ratusan Kali)",
+            "Solo Levelling adalah Jalan Ninjaku",
+            "Selama Papa Mama masih kasih duit ngapain Kerja ?"
+        ]
+    },
+    offer: {
+        id: "offer",
+        programName: "Investment Plans",
+        price: "Rp100.000 per bulan",
+        description: "Choose the coaching package that best fits your career goals and needs.",
+        programSteps: [
+            {
+                number: "01",
+                title: "REVAMP CV",
+                subtitle: "Applicant Tracking Systems",
+                description: "Update CV-mu biar lolos screening, yang kamu pelajari di tahap ini:",
+                points: [
+                    "Konstruksi ulang format CV biar sesuai standar internasional.",
+                    "Optimalisasi penggunaan keyword sesuai industri-posisi yang kamu incar",
+                    "Highlight pencapaian, akumulasi pengalaman profesional, serta relevansinya"
+                ],
+                image: "/assets/programs/1.webp"
+            },
+            {
+                number: "02",
+                title: "LINKEDIN PROFILE OPTIMIZATION",
+                subtitle: "Rekonstruksi Linkedin Profile",
+                description: "LinkedIn bukan cuma tempat cari kerja, tapi juga etalase profesional, yang kamu pelajari di tahap ini:",
+                points: [
+                    "Bangun profil LI agar lebih pro: dari headline, summary, sampai pengalaman kerja.",
+                    "Naikin visibilitas pakai keyword yang tepat di LI.",
+                    "Cara bangun personal branding secara konsisten",
+                    "Bangun value diri biar relevan sama perusahaan yang kamu incar..",
+                    "Manfaatin fitur-fitur LI: open to work, endorsements, dan networking secara brutal."
+                ],
+                image: "/assets/programs/2.webp"
+            },
+            {
+                number: "03",
+                title: "INTERVIEW STRATEGIES",
+                subtitle: "Siapin Arsenalmu",
+                description: "Di sini kamu dibekali strategi biar tampil PE-DE dan meyakinkan saat interview, yang kamu pelajari di tahap ini:",
+                points: [
+                    "Latihan jawab pertanyaan umum dan spesifik sesuai posisi yang kamu incar.",
+                    "Kenali gaya interview (behavioral, case, situational) + the most effective way to answer",
+                    "STAR (Situation, Task, Action, Result) buat jelasin pengalamanmu secara terstruktur",
+                    "Roasting langsung buat boosting gestur, bahasa tubuh, dan cara penyampaian."
+                ],
+                image: "/assets/programs/3.webp"
+            },
+            {
+                number: "04",
+                title: "INTERACTIVE GROUP",
+                subtitle: "“Spoilers” Support System",
+                description: "Grup ini active lethaly. Support yang seringkali tanpa filter, tapi jujur. Orang-orang yang lagi fight di trek buat dapat kerja / project meski beda expertise, yang kamu pelajari di tahap ini:",
+                points: [
+                    "Saling support",
+                    "Cara hindari drama & konflik di lingkungan profesional.",
+                    "Latihan ngadepin worst-case scenario (penolakan, gagal di fase probation, career break panjang)"
+                ],
+                image: "/assets/programs/4.webp"
+            },
+            {
+                number: "05",
+                title: "Weekly Support",
+                subtitle: "Reality Check Mingguan",
+                description: "Biar kamu gak “lari” sendirian / nyasar, tiap minggu LWA kasih checkpoint, yang kamu pelajari di tahap ini:",
+                points: [
+                    "Update info lowker sesama member",
+                    "Feedback progres mingguan: apa yang perlu diperbaiki, biar siap tempur",
+                    "Diskusi bareng mentor & member biar dapet solusi atas masalah yang dihadapi.",
+                    "To-do action plan biar minggu berikutnya lebih terarah."
+                ],
+                image: "/assets/programs/1.webp"
+            }
+        ],
+        // Legacy benefits array for OfferSection if needed, but we used plans now.
+        benefits: [],
+        plans: [
+            {
+                name: "100K",
+                price: "Rp100.000",
+                billing: "Monthly",
+                features: [
+                    "Weekly Meeting 2x Seminggu",
+                    "Dukungan Harian di Grup",
+                    "Bertemu dengan para Expert",
+                    "Info Lowongan Kerja di Luar Negeri",
+                    "Tips & Trik Pengembangan Karir",
+                    "Akses ke Semua Grup Support",
+                    "Probation Support (Special Support)"
+                ],
+                cta: {
+                    text: "ORDER NOW",
+                    link: "https://learnwithandi.myr.id/membership/monthly-subscription-90-days-get-jobs-online-courses-linkedin-and-cv-optimisation-68399"
+                },
+                highlight: true,
+                highlightText: "Most Economical"
+            },
+            {
+                name: "449K",
+                price: "Rp449.000",
+                billing: "Life Time",
+                features: [
+                    "Weekly Meeting 2x Seminggu",
+                    "Dukungan Harian di Grup",
+                    "Bertemu dengan para Expert",
+                    "Info Lowongan Kerja di Luar Negeri",
+                    "Tips & Trik Pengembangan Karir",
+                    "Akses ke Semua Grup Support",
+                    "Probation Support (Special Support)"
+                ],
+                cta: {
+                    text: "ORDER NOW",
+                    link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation"
+                }
+            },
+            {
+                name: "699K",
+                price: "Rp699.000",
+                billing: "Life Time",
+                features: [
+                    "Weekly Meeting 2x Seminggu",
+                    "Dukungan Harian di Grup",
+                    "Bertemu dengan para Expert",
+                    "Info Lowongan Kerja di Luar Negeri",
+                    "Tips & Trik Pengembangan Karir",
+                    "Akses ke Semua Grup Support",
+                    "Probation Support (Special Support)",
+                    "Free Roasting 1on1 90 menit"
+                ],
+                popular: true,
+                cta: {
+                    text: "ORDER NOW",
+                    link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation-oyz5"
+                }
+            }
+        ]
+    },
+    bio: {
+        id: "bio",
+        name: "Andi Satriawan Lubis",
+        description: "Praktisi karier yang telah membantu ribuan jobseeker, career switcher, dan profesional memahami cara kerja rekrutmen modern.",
+        philosophy: [
+            "Tidak ada janji instan",
+            "Tidak ada motivasi kosong",
+            "Fokus ke cara main yang benar",
+            "Belajar harus meringankan, bukan menambah beban"
+        ],
+        image: "/assets/andi/potrait.png"
+    },
+    testimonials: {
+        id: "testimonials",
+        items: [
+            {
+                quote: "Awalnya cuma mau belajar bikin CV. Ternyata sepaket sama ubah mindset.",
+                author: "Alumni",
+                image: "/assets/testimonies/1.png"
+            },
+            {
+                quote: "Akhirnya ngerti kenapa selama ini ditolak, dan apa yang harus dibenahi.",
+                author: "Career Switcher",
+                image: "/assets/testimonies/2.png"
+            },
+            {
+                quote: "Nggak sendirian. Itu yang bikin gue bertahan.",
+                author: "Member LWA",
+                image: "/assets/testimonies/3.png"
+            },
+            {
+                quote: "Transformasi karier yang nyata.",
+                author: "Professional",
+                image: "/assets/testimonies/4.png"
+            },
+            {
+                quote: "Sangat membantu proses rekrutmen saya.",
+                author: "Job Seeker",
+                image: "/assets/testimonies/5.png"
+            }
+        ]
+    },
+    scarcity: {
+        id: "scarcity",
+        messages: [
+            "Program dibuka terbatas per batch",
+            "Model subscription dan harga promo tidak selalu tersedia",
+            "Harga dapat naik tanpa pemberitahuan"
+        ]
+    },
+    faq: {
+        id: "faq",
+        items: [
+            {
+                question: "Apakah cocok untuk pemula?",
+                answer: "Ya, materi disusun dari dasar hingga advanced, cocok untuk berbagai level pengalaman."
+            },
+            {
+                question: "Bisa diikuti sambil kerja?",
+                answer: "Bisa. Jadwal fleksibel dan materi bisa diakses kapan saja."
+            },
+            {
+                question: "Format belajar seperti apa?",
+                answer: "Kombinasi materi video/teks, live session, tugas praktik, dan diskusi komunitas."
+            },
+            {
+                question: "Apakah dijamin dapat kerja?",
+                answer: "Tidak ada jaminan 100%. Kelulusan dan keberhasilan tergantung usaha kamu menerapkannya. Kami memberikan strategi terbaik."
+            }
+        ]
+    },
+    finalCta: {
+        id: "final-cta",
+        title: "Join Learn With Andi Sekarang",
+        subtext: "pilih program yang paling masuk akal buat kamu",
+        values: [
+            "Belajar dengan arah",
+            "Didampingi, bukan sendirian",
+            "Biaya ringan, value jangka panjang",
+            "Fokus dunia kerja nyata"
+        ],
+        primaryCta: {
+            text: "Daftar Sekarang",
+            link: "#offer"
+        },
+        secondaryCta: {
+            text: "Tanya Admin",
+            link: "https://wa.me/628123456789"
+        }
+    },
+    footer: {
+        title: "EMPOWERING CAREERS WITH BRANDING & STRATEGY",
+        subtitle: "Proudly Powered by",
+        name: "ANDI SATRIAWAN LUBIS",
+        copyright: "© 2025 LWA | LEARN WITH ANDI. All rights reserved."
+    }
+};
+}),
+"[project]/src/components/HeroSection.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "container": "HeroSection-module__sBkrQG__container",
+  "ctaContainer": "HeroSection-module__sBkrQG__ctaContainer",
+  "description": "HeroSection-module__sBkrQG__description",
+  "headline": "HeroSection-module__sBkrQG__headline",
+  "hero": "HeroSection-module__sBkrQG__hero",
+  "heroImage": "HeroSection-module__sBkrQG__heroImage",
+  "imageWrapper": "HeroSection-module__sBkrQG__imageWrapper",
+  "primaryCta": "HeroSection-module__sBkrQG__primaryCta",
+  "secondaryCta": "HeroSection-module__sBkrQG__secondaryCta",
+  "subHeadlineMain": "HeroSection-module__sBkrQG__subHeadlineMain",
+});
+}),
+"[project]/src/components/HeroSection.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>HeroSection
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/content.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/HeroSection.module.css [app-ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-circle.js [app-ssr] (ecmascript) <export default as MessageCircle>");
+"use client";
+;
+;
+;
+;
+;
+function HeroSection() {
+    const { hero, global } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["content"];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].hero,
+        id: "hero",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].container,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].contentCol,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].headline,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        color: 'var(--color-accent-yellow)'
+                                    },
+                                    children: "Career Coaching"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HeroSection.tsx",
+                                    lineNumber: 17,
+                                    columnNumber: 13
+                                }, this),
+                                ' ',
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    style: {
+                                        color: 'red'
+                                    },
+                                    children: "Indonesia"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HeroSection.tsx",
+                                    lineNumber: 18,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/HeroSection.tsx",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].subHeadlineMain,
+                            children: hero.subHeadline
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/HeroSection.tsx",
+                            lineNumber: 20,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].description,
+                            children: hero.description
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/HeroSection.tsx",
+                            lineNumber: 21,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].ctaContainer,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: hero.primaryCta.link,
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].primaryCta,
+                                    children: hero.primaryCta.text
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/HeroSection.tsx",
+                                    lineNumber: 24,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: hero.secondaryCta.link,
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].secondaryCta,
+                                    target: "_blank",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
+                                            size: 20,
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].icon
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/HeroSection.tsx",
+                                            lineNumber: 28,
+                                            columnNumber: 15
+                                        }, this),
+                                        hero.secondaryCta.text
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/HeroSection.tsx",
+                                    lineNumber: 27,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/HeroSection.tsx",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/HeroSection.tsx",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].imageCol,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].imageWrapper,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            src: hero.image,
+                            alt: "Andi Satriawan",
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$HeroSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].heroImage
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/HeroSection.tsx",
+                            lineNumber: 37,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/HeroSection.tsx",
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/HeroSection.tsx",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/HeroSection.tsx",
+            lineNumber: 13,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/HeroSection.tsx",
+        lineNumber: 12,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/components/TestimonialSection.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "activeDot": "TestimonialSection-module__06JpDW__activeDot",
+  "author": "TestimonialSection-module__06JpDW__author",
+  "caption": "TestimonialSection-module__06JpDW__caption",
+  "dot": "TestimonialSection-module__06JpDW__dot",
+  "dots": "TestimonialSection-module__06JpDW__dots",
+  "heading": "TestimonialSection-module__06JpDW__heading",
+  "image": "TestimonialSection-module__06JpDW__image",
+  "imageContainer": "TestimonialSection-module__06JpDW__imageContainer",
+  "navButton": "TestimonialSection-module__06JpDW__navButton",
+  "quote": "TestimonialSection-module__06JpDW__quote",
+  "section": "TestimonialSection-module__06JpDW__section",
+  "slideContent": "TestimonialSection-module__06JpDW__slideContent",
+  "sliderWrapper": "TestimonialSection-module__06JpDW__sliderWrapper",
+});
+}),
+"[project]/src/components/TestimonialSection.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>TestimonialSection
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/content.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/TestimonialSection.module.css [app-ssr] (css module)");
+"use client";
+;
+;
+;
+;
+function TestimonialSection() {
+    const { testimonials } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["content"];
+    const [currentIndex, setCurrentIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
+    const nextSlide = ()=>{
+        setCurrentIndex((prev)=>(prev + 1) % testimonials.items.length);
+    };
+    const prevSlide = ()=>{
+        setCurrentIndex((prev)=>(prev - 1 + testimonials.items.length) % testimonials.items.length);
+    };
+    const currentItem = testimonials.items[currentIndex];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: testimonials.id,
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].section,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].heading,
+                children: "Apa Kata Mereka?"
+            }, void 0, false, {
+                fileName: "[project]/src/components/TestimonialSection.tsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sliderWrapper,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: prevSlide,
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].navButton,
+                        "aria-label": "Previous testimony",
+                        children: "←"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/TestimonialSection.tsx",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].slideContent,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].imageContainer,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: currentItem.image,
+                                    alt: `${currentItem.author} testimony`,
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].image
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/TestimonialSection.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/TestimonialSection.tsx",
+                                lineNumber: 30,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].caption,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].author,
+                                        children: currentItem.author
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/TestimonialSection.tsx",
+                                        lineNumber: 40,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].quote,
+                                        children: [
+                                            '"',
+                                            currentItem.quote,
+                                            '"'
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/TestimonialSection.tsx",
+                                        lineNumber: 42,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/TestimonialSection.tsx",
+                                lineNumber: 39,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/TestimonialSection.tsx",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: nextSlide,
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].navButton,
+                        "aria-label": "Next testimony",
+                        children: "→"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/TestimonialSection.tsx",
+                        lineNumber: 46,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/TestimonialSection.tsx",
+                lineNumber: 25,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].dots,
+                children: testimonials.items.map((_, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].dot} ${idx === currentIndex ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TestimonialSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].activeDot : ''}`,
+                        onClick: ()=>setCurrentIndex(idx),
+                        "aria-label": `Go to slide ${idx + 1}`
+                    }, idx, false, {
+                        fileName: "[project]/src/components/TestimonialSection.tsx",
+                        lineNumber: 51,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/src/components/TestimonialSection.tsx",
+                lineNumber: 49,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/TestimonialSection.tsx",
+        lineNumber: 22,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/components/ProgramGallery.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "card": "ProgramGallery-module__gqiEgG__card",
+  "cardContent": "ProgramGallery-module__gqiEgG__cardContent",
+  "closeButton": "ProgramGallery-module__gqiEgG__closeButton",
+  "grid": "ProgramGallery-module__gqiEgG__grid",
+  "modalContent": "ProgramGallery-module__gqiEgG__modalContent",
+  "modalDescription": "ProgramGallery-module__gqiEgG__modalDescription",
+  "modalOverlay": "ProgramGallery-module__gqiEgG__modalOverlay",
+  "modalPoints": "ProgramGallery-module__gqiEgG__modalPoints",
+  "modalSubtitle": "ProgramGallery-module__gqiEgG__modalSubtitle",
+  "modalTitle": "ProgramGallery-module__gqiEgG__modalTitle",
+  "pointIcon": "ProgramGallery-module__gqiEgG__pointIcon",
+  "pointItem": "ProgramGallery-module__gqiEgG__pointItem",
+  "section": "ProgramGallery-module__gqiEgG__section",
+  "stepNumber": "ProgramGallery-module__gqiEgG__stepNumber",
+  "subtitle": "ProgramGallery-module__gqiEgG__subtitle",
+  "title": "ProgramGallery-module__gqiEgG__title",
+});
+}),
+"[project]/src/components/ProgramGallery.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>ProgramGallery
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/content.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/ProgramGallery.module.css [app-ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-ssr] (ecmascript) <export default as X>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-check.js [app-ssr] (ecmascript) <export default as CheckCircle2>");
+"use client";
+;
+;
+;
+;
+;
+function ProgramGallery() {
+    const { offer } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["content"];
+    const [selectedItem, setSelectedItem] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Fallback if programSteps is not defined yet (during refactor transition)
+    const steps = offer.programSteps || [];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].section,
+        id: "program",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    textAlign: 'center',
+                    marginBottom: '4rem'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                    style: {
+                        fontSize: '2.5rem',
+                        fontWeight: 800,
+                        color: '#fff'
+                    },
+                    children: "Learn With Andi's Program"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/ProgramGallery.tsx",
+                    lineNumber: 18,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/ProgramGallery.tsx",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].grid,
+                children: steps.map((step, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].card,
+                        onClick: ()=>setSelectedItem(step),
+                        role: "button",
+                        tabIndex: 0,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].stepNumber,
+                                children: step.number
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/ProgramGallery.tsx",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].cardContent,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].title,
+                                        children: step.title
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProgramGallery.tsx",
+                                        lineNumber: 32,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].subtitle,
+                                        children: step.subtitle
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ProgramGallery.tsx",
+                                        lineNumber: 33,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/ProgramGallery.tsx",
+                                lineNumber: 31,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, index, true, {
+                        fileName: "[project]/src/components/ProgramGallery.tsx",
+                        lineNumber: 23,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/src/components/ProgramGallery.tsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, this),
+            selectedItem && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].modalOverlay,
+                onClick: ()=>setSelectedItem(null),
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].modalContent,
+                    onClick: (e)=>e.stopPropagation(),
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].closeButton,
+                            onClick: ()=>setSelectedItem(null),
+                            "aria-label": "Close modal",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                                size: 24,
+                                color: "#fff"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/ProgramGallery.tsx",
+                                lineNumber: 48,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                            lineNumber: 43,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            style: {
+                                fontSize: '4rem',
+                                fontWeight: 800,
+                                color: 'rgba(255,215,0,0.1)',
+                                display: 'block',
+                                marginBottom: '-2rem'
+                            },
+                            children: selectedItem.number
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                            lineNumber: 51,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].modalTitle,
+                            children: selectedItem.title
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                            lineNumber: 54,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].modalSubtitle,
+                            children: selectedItem.subtitle
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                            lineNumber: 55,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].modalDescription,
+                            children: selectedItem.description
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                            lineNumber: 56,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].modalPoints,
+                            children: selectedItem.points?.map((point, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].pointItem,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
+                                            color: "#FFD700",
+                                            size: 20,
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ProgramGallery$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].pointIcon
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                                            lineNumber: 61,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: point
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                                            lineNumber: 62,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, idx, true, {
+                                    fileName: "[project]/src/components/ProgramGallery.tsx",
+                                    lineNumber: 60,
+                                    columnNumber: 17
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/ProgramGallery.tsx",
+                            lineNumber: 58,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/ProgramGallery.tsx",
+                    lineNumber: 42,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/components/ProgramGallery.tsx",
+                lineNumber: 41,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/ProgramGallery.tsx",
+        lineNumber: 16,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/components/FaqSection.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "answer": "FaqSection-module__UtxuQW__answer",
+  "answerContainer": "FaqSection-module__UtxuQW__answerContainer",
+  "heading": "FaqSection-module__UtxuQW__heading",
+  "icon": "FaqSection-module__UtxuQW__icon",
+  "item": "FaqSection-module__UtxuQW__item",
+  "list": "FaqSection-module__UtxuQW__list",
+  "open": "FaqSection-module__UtxuQW__open",
+  "question": "FaqSection-module__UtxuQW__question",
+  "section": "FaqSection-module__UtxuQW__section",
+});
+}),
+"[project]/src/components/FaqSection.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>FaqSection
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/content.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/FaqSection.module.css [app-ssr] (css module)");
+"use client";
+;
+;
+;
+;
+function FaqSection() {
+    const { faq } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["content"];
+    const [openIndex, setOpenIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const toggle = (index)=>{
+        setOpenIndex(openIndex === index ? null : index);
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: faq.id,
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].section,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].heading,
+                children: "Sering Ditanyakan"
+            }, void 0, false, {
+                fileName: "[project]/src/components/FaqSection.tsx",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].list,
+                children: faq.items.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].item,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].question,
+                                onClick: ()=>toggle(index),
+                                "aria-expanded": openIndex === index,
+                                children: [
+                                    item.question,
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].icon,
+                                        children: openIndex === index ? '−' : '+'
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/FaqSection.tsx",
+                                        lineNumber: 27,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/FaqSection.tsx",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].answerContainer} ${openIndex === index ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].open : ''}`,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FaqSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].answer,
+                                    children: item.answer
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/FaqSection.tsx",
+                                    lineNumber: 32,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/FaqSection.tsx",
+                                lineNumber: 29,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, index, true, {
+                        fileName: "[project]/src/components/FaqSection.tsx",
+                        lineNumber: 20,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/src/components/FaqSection.tsx",
+                lineNumber: 18,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/FaqSection.tsx",
+        lineNumber: 16,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/components/PromoPopup.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "closeButton": "PromoPopup-module__DhddUq__closeButton",
+  "content": "PromoPopup-module__DhddUq__content",
+  "cta": "PromoPopup-module__DhddUq__cta",
+  "image": "PromoPopup-module__DhddUq__image",
+  "imageContainer": "PromoPopup-module__DhddUq__imageContainer",
+  "overlay": "PromoPopup-module__DhddUq__overlay",
+  "popup": "PromoPopup-module__DhddUq__popup",
+  "text": "PromoPopup-module__DhddUq__text",
+  "title": "PromoPopup-module__DhddUq__title",
+});
+}),
+"[project]/src/components/PromoPopup.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>PromoPopup
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/content.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/PromoPopup.module.css [app-ssr] (css module)");
+"use client";
+;
+;
+;
+;
+;
+function PromoPopup() {
+    const { promoPopup } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["content"];
+    const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // Show popup after a delay, but check if enabled
+        if (promoPopup.show) {
+            const timer = setTimeout(()=>{
+                setIsOpen(true);
+            }, 2000); // 2 second delay
+            return ()=>clearTimeout(timer);
+        }
+    }, [
+        promoPopup.show
+    ]);
+    if (!isOpen || !promoPopup.show) return null;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].overlay,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].popup,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].closeButton,
+                    onClick: ()=>setIsOpen(false),
+                    "aria-label": "Close promo",
+                    children: "×"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/PromoPopup.tsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].imageContainer,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: promoPopup.image,
+                        alt: promoPopup.title,
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].image
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/PromoPopup.tsx",
+                        lineNumber: 36,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/PromoPopup.tsx",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].content,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].title,
+                            children: promoPopup.title
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/PromoPopup.tsx",
+                            lineNumber: 39,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].text,
+                            children: promoPopup.text
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/PromoPopup.tsx",
+                            lineNumber: 40,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            href: promoPopup.cta.link,
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PromoPopup$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].cta,
+                            onClick: ()=>setIsOpen(false),
+                            children: promoPopup.cta.text
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/PromoPopup.tsx",
+                            lineNumber: 41,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/PromoPopup.tsx",
+                    lineNumber: 38,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/PromoPopup.tsx",
+            lineNumber: 26,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/PromoPopup.tsx",
+        lineNumber: 25,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/components/Navbar.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "container": "Navbar-module__cJzEcG__container",
+  "ctaButton": "Navbar-module__cJzEcG__ctaButton",
+  "desktopMenu": "Navbar-module__cJzEcG__desktopMenu",
+  "link": "Navbar-module__cJzEcG__link",
+  "logoImage": "Navbar-module__cJzEcG__logoImage",
+  "mobileCta": "Navbar-module__cJzEcG__mobileCta",
+  "mobileLink": "Navbar-module__cJzEcG__mobileLink",
+  "mobileMenu": "Navbar-module__cJzEcG__mobileMenu",
+  "mobileToggle": "Navbar-module__cJzEcG__mobileToggle",
+  "nav": "Navbar-module__cJzEcG__nav",
+  "scrolled": "Navbar-module__cJzEcG__scrolled",
+});
+}),
+"[project]/src/components/Navbar.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Navbar
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/content.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/Navbar.module.css [app-ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.js [app-ssr] (ecmascript) <export default as Menu>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-ssr] (ecmascript) <export default as X>");
+"use client";
+;
+;
+;
+;
+;
+;
+function Navbar() {
+    const { global } = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$content$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["content"];
+    const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const handleScroll = ()=>{
+            setScrolled(window.scrollY > 20);
+        };
+        window.addEventListener('scroll', handleScroll);
+        return ()=>window.removeEventListener('scroll', handleScroll);
+    }, []);
+    const navLinks = [
+        {
+            name: 'Problem',
+            href: '#problem'
+        },
+        {
+            name: 'Program',
+            href: '#offer'
+        },
+        {
+            name: 'Mentor',
+            href: '#bio'
+        },
+        {
+            name: 'Testimoni',
+            href: '#testimonials'
+        },
+        {
+            name: 'FAQ',
+            href: '#faq'
+        }
+    ];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].nav} ${scrolled ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].scrolled : ''}`,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].container,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    href: "#",
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].logoLink,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: global.logo.white,
+                        alt: global.brandName,
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].logoImage
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Navbar.tsx",
+                        lineNumber: 34,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Navbar.tsx",
+                    lineNumber: 33,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].desktopMenu,
+                    children: [
+                        navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: link.href,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].link,
+                                children: link.name
+                            }, link.name, false, {
+                                fileName: "[project]/src/components/Navbar.tsx",
+                                lineNumber: 40,
+                                columnNumber: 13
+                            }, this)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            href: "#offer",
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].ctaButton,
+                            children: "Join LWA"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Navbar.tsx",
+                            lineNumber: 44,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Navbar.tsx",
+                    lineNumber: 38,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].mobileToggle,
+                    onClick: ()=>setIsOpen(!isOpen),
+                    "aria-label": "Toggle menu",
+                    children: isOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                        color: "white"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Navbar.tsx",
+                        lineNumber: 55,
+                        columnNumber: 21
+                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
+                        color: "white"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Navbar.tsx",
+                        lineNumber: 55,
+                        columnNumber: 43
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Navbar.tsx",
+                    lineNumber: 50,
+                    columnNumber: 9
+                }, this),
+                isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].mobileMenu,
+                    children: [
+                        navLinks.map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: link.href,
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].mobileLink,
+                                onClick: ()=>setIsOpen(false),
+                                children: link.name
+                            }, link.name, false, {
+                                fileName: "[project]/src/components/Navbar.tsx",
+                                lineNumber: 62,
+                                columnNumber: 15
+                            }, this)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            href: "#offer",
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Navbar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].mobileCta,
+                            onClick: ()=>setIsOpen(false),
+                            children: "Join LWA"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Navbar.tsx",
+                            lineNumber: 71,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Navbar.tsx",
+                    lineNumber: 60,
+                    columnNumber: 11
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Navbar.tsx",
+            lineNumber: 32,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/Navbar.tsx",
+        lineNumber: 31,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/src/components/GlobalBackground.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "backgroundContainer": "GlobalBackground-module__LVQDYa__backgroundContainer",
+  "overlay": "GlobalBackground-module__LVQDYa__overlay",
+  "patternLayer": "GlobalBackground-module__LVQDYa__patternLayer",
+});
+}),
+"[project]/src/components/GlobalBackground.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>GlobalBackground
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GlobalBackground$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/components/GlobalBackground.module.css [app-ssr] (css module)");
+"use client";
+;
+;
+;
+function GlobalBackground() {
+    const [offsetY, setOffsetY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const handleScroll = ()=>setOffsetY(window.scrollY);
+        window.addEventListener('scroll', handleScroll);
+        return ()=>window.removeEventListener('scroll', handleScroll);
+    }, []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GlobalBackground$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].backgroundContainer,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GlobalBackground$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].patternLayer,
+                style: {
+                    transform: `translateY(${-offsetY * 0.2}px)`
+                }
+            }, void 0, false, {
+                fileName: "[project]/src/components/GlobalBackground.tsx",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$GlobalBackground$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].overlay
+            }, void 0, false, {
+                fileName: "[project]/src/components/GlobalBackground.tsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/GlobalBackground.tsx",
+        lineNumber: 16,
+        columnNumber: 5
+    }, this);
+}
+}),
+];
+
+//# sourceMappingURL=src_b57a65e5._.js.map

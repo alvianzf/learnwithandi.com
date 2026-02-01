@@ -1,0 +1,76 @@
+/* [project]/src/components/ProblemSection.module.css [app-client] (css) */
+.ProblemSection-module__A0rn6q__section {
+  background-color: #0000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 1.5rem;
+  display: flex;
+}
+
+.ProblemSection-module__A0rn6q__heading {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.ProblemSection-module__A0rn6q__grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  display: grid;
+}
+
+.ProblemSection-module__A0rn6q__card {
+  text-align: center;
+  background-color: #ffffff08;
+  border: 1px solid #ffffff0d;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  transition: transform .3s, background-color .3s;
+  display: flex;
+}
+
+.ProblemSection-module__A0rn6q__card:hover {
+  background-color: #ffffff0d;
+  transform: translateY(-5px);
+}
+
+.ProblemSection-module__A0rn6q__iconWrapper {
+  background-color: #ffd7000d;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  display: inline-flex;
+}
+
+.ProblemSection-module__A0rn6q__text {
+  color: #ddd;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.ProblemSection-module__A0rn6q__closingQuote {
+  text-align: center;
+  color: var(--color-accent-yellow);
+  max-width: 800px;
+  margin-top: 5rem;
+  font-size: 1.75rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .ProblemSection-module__A0rn6q__heading {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=src_components_ProblemSection_module_css_bad6b30c._.single.css.map*/

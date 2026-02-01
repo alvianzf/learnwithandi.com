@@ -1,5 +1,8 @@
+"use client";
+
 import { content } from '@/data/content';
 import styles from './Footer.module.css';
+import { Instagram, Linkedin, Youtube, MessageCircle, AtSign } from 'lucide-react';
 
 export default function Footer() {
   const { footer, global } = content;
@@ -7,12 +10,42 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <div className={styles.brand}>
-          <p className={styles.marketing}>{footer.marketing}</p>
+        {/* Left Column: Brand & Tagline */}
+        <div className={styles.leftColumn}>
+          <div className={styles.logoWrapper}>
+            <img src="/assets/logo/full-white.png" alt={global.brandName} className={styles.logoImage} />
+          </div>
+          <p className={styles.tagline}>{footer.title}</p>
           <p className={styles.copyright}>{footer.copyright}</p>
         </div>
-        <div className={styles.contact}>
-          <p>Email: <a href={`mailto:${global.email}`}>{global.email}</a></p>
+
+        {/* Right Column: Socials & Powered By */}
+        <div className={styles.rightColumn}>
+          <div className={styles.socials}>
+            {Object.entries(global.socials).map(([key, url]) => {
+              if (!url) return null;
+              const Icons: Record<string, any> = {
+                instagram: Instagram,
+                linkedin: Linkedin,
+                youtube: Youtube,
+                threads: AtSign,
+                whatsapp: MessageCircle
+              };
+              const Icon = Icons[key];
+              if (!Icon) return null;
+
+              return (
+                <a key={key} href={url} target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+                  <Icon size={24} />
+                </a>
+              );
+            })}
+          </div>
+
+          <div className={styles.poweredSection}>
+            <p className={styles.poweredLabel}>{footer.subtitle}</p>
+            <p className={styles.poweredName}>{footer.name}</p>
+          </div>
         </div>
       </div>
     </footer>
