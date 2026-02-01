@@ -74,23 +74,62 @@ export default function RootLayout({
           `}
         </Script>
         <Script id="structured-data" type="application/ld+json" strategy="afterInteractive">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Learn With Andi",
-            "url": "https://learnwithandi.com",
-            "logo": "https://learnwithandi.com/assets/logo/white.png",
-            "sameAs": [
-              "https://www.instagram.com/learnwithandi/",
-              "https://www.linkedin.com/in/andisatr/",
-              "https://www.youtube.com/@LearnwithAndis"
-            ],
-            "founder": {
-              "@type": "Person",
-              "name": "Andi Satriawan Lubis"
+          {JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "name": "Learn With Andi",
+              "url": "https://learnwithandi.com",
+              "logo": "https://learnwithandi.com/assets/logo/white.png",
+              "image": "https://learnwithandi.com/assets/andi/potrait.png",
+              "description": "Learn With Andi (LWA) adalah platform career coaching terkemuka di Indonesia yang fokus pada optimasi CV, LinkedIn, dan strategi rekrutmen profesional.",
+              "founder": {
+                "@type": "Person",
+                "name": "Andi Satriawan Lubis",
+                "jobTitle": "Career Coach & Founder",
+                "url": "https://www.linkedin.com/in/andisatr/",
+                "sameAs": [
+                  "https://www.instagram.com/learnwithandi/",
+                  "https://www.youtube.com/@LearnwithAndis"
+                ]
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "ID"
+              },
+              "serviceType": ["Career Coaching", "CV Optimization", "LinkedIn Consulting"]
             },
-            "description": "Learn With Andi (LWA) adalah ekosistem belajar karier profesional yang membantu kamu siap kerja sesuai value."
-          })}
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Apakah Learn With Andi cocok untuk pemula?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ya, materi disusun dari dasar hingga advanced, cocok untuk berbagai level pengalaman, termasuk fresh graduate dan pemula."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Apakah program mentoring LWA bisa diikuti sambil bekerja?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Bisa. Jadwal fleksibel dan materi bisa diakses kapan saja, dirancang khusus untuk profesional sibuk."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Apa format belajar di Learn With Andi?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Kombinasi materi video, live session, tugas praktik nyata, dan diskusi eksklusif di komunitas LWA."
+                  }
+                }
+              ]
+            }
+          ])}
         </Script>
       </head>
       <body className={inter.className}>
