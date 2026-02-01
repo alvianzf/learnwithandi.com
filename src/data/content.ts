@@ -41,7 +41,7 @@ export const content = {
         linkedin: "https://www.linkedin.com/in/derryldt/"
       },
       {
-        name: "Fauzan Ozan",
+        name: "Muhammad Fauzan",
         role: "Digital Marketing Specialist",
         description: "Digital Marketer yang paham luar dalem soal Ads & Growth. Punya pengalaman teknis deep di industri, siap sharing rahasia campaign yang ngena dan menghasilkan cuan.",
         image: "/assets/mentors/fauzan.png",
