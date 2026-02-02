@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     siteName: 'Learn With Andi',
     images: [
       {
-        url: '/assets/andi/potrait.png',
+        url: '/assets/logo/black.png',
         width: 1200,
         height: 630,
-        alt: 'Andi Satriawan Lubis - Learn With Andi',
+        alt: 'Learn With Andi Logo',
       },
     ],
     locale: 'id_ID',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Learn With Andi',
     description: 'Bangun Karier Profesional dengan Arah yang Jelas.',
-    images: ['/assets/andi/potrait.png'],
+    images: ['/assets/logo/black.png'],
   },
   icons: {
     icon: '/assets/logo/white.png',
