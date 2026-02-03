@@ -78,4 +78,4 @@ public/
 
 ## 📄 License
 
-&copy; 2026 Learn With Andi. All rights reserved.
+Distributed under the MIT License. See `LICENSE` for more information.
