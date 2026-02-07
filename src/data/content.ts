@@ -70,7 +70,7 @@ export const content = {
     },
     secondaryCta: {
       text: "Konsultasi Dulu",
-      link: "https://wa.me/628123456789",
+      link: "http://wa.me/6282164815973",
       icon: "MessageCircle"
     },
     image: "/assets/andi/potrait.png",
@@ -259,7 +259,7 @@ export const content = {
     benefits: [],
     consultation: {
       text: "Masih Ragu? Konsultasi Dulu",
-      link: "https://wa.me/628123456789"
+      link: "http://wa.me/6282164815973"
     },
     plans: [
       {
@@ -421,7 +421,7 @@ export const content = {
     },
     secondaryCta: {
       text: "Konsultasi Dulu",
-      link: "https://wa.me/628123456789",
+      link: "http://wa.me/6282164815973",
     },
   },
   careerWins: {
