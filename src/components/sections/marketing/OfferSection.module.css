@@ -74,6 +74,18 @@
   font-size: 0.875rem;
 }
 
+.retiringBadge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: #FF0000;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+}
+
 .highlightBadge {
   position: absolute;
   top: -12px;

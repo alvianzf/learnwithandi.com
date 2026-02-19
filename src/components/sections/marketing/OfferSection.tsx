@@ -62,6 +62,7 @@ export default function OfferSection() {
               variants={item}
             >
               {plan.popular && <div className={styles.popularBadge}>Most Popular</div>}
+              {plan.retiring && <div className={styles.retiringBadge}>Retiring Soon</div>}
               {plan.highlight && <div className={styles.highlightBadge}>{plan.highlightText || 'Best Value'}</div>}
               <div className={styles.cardHeader}>
                 <span className={styles.planName}>{plan.name}</span>
