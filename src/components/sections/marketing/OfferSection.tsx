@@ -58,10 +58,10 @@ export default function OfferSection() {
           {offer.plans?.map((plan, index) => (
             <motion.div
               key={index}
-              className={`${styles.planCard} ${plan.popular ? styles.popularCard : ''} ${plan.highlight ? styles.highlightCard : ''}`}
+              className={`${styles.planCard} ${plan.highlight ? styles.highlightCard : ''}`}
               variants={item}
             >
-              {plan.popular && <div className={styles.popularBadge}>Most Popular</div>}
+
               {plan.retiring && <div className={styles.retiringBadge}>Retiring Soon</div>}
               {plan.highlight && <div className={styles.highlightBadge}>{plan.highlightText || 'Best Value'}</div>}
               <div className={styles.cardHeader}>
