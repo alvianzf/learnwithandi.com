@@ -285,7 +285,7 @@ export const content = {
       {
         name: "Basic",
         price: "Rp449.000",
-        billing: "Life Time, Retiring Soon",
+        billing: "Life Time",
         features: [
           "Weekly Meeting 2x Seminggu",
           "Dukungan Harian di Grup",
@@ -298,12 +298,14 @@ export const content = {
         cta: {
           text: "ORDER NOW",
           link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation"
-        }
+        },
+        highlight: true,
+        highlightText: "Retiring Soon"
       },
       {
         name: "Premium",
         price: "Rp699.000",
-        billing: "Life Time, Retiring Soon",
+        billing: "Life Time",
         features: [
           "Weekly Meeting 2x Seminggu",
           "Dukungan Harian di Grup",
@@ -314,11 +316,13 @@ export const content = {
           "Probation Support (Special Support)",
           "Free Roasting 1on1 90 menit"
         ],
-        popular: true,
+        // popular: true,
         cta: {
           text: "ORDER NOW",
           link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation-oyz5"
-        }
+        },
+        highlight: true,
+        highlightText: "Retiring Soon"
       }
     ],
   },
