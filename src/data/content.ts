@@ -285,7 +285,7 @@ export const content = {
       {
         name: "Basic",
         price: "Rp449.000",
-        billing: "Life Time",
+        billing: "Life Time, Retiring Soon",
         features: [
           "Weekly Meeting 2x Seminggu",
           "Dukungan Harian di Grup",
@@ -303,7 +303,7 @@ export const content = {
       {
         name: "Premium",
         price: "Rp699.000",
-        billing: "Life Time",
+        billing: "Life Time, Retiring Soon",
         features: [
           "Weekly Meeting 2x Seminggu",
           "Dukungan Harian di Grup",
