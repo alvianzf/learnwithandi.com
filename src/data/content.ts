@@ -386,6 +386,10 @@ export const content = {
         answer: "<b>Tentu bisa!</b> LearnWithAndi dibangun untuk kamu yang <b>Fresh Graduate, Shifting Career, maupun yang sudah Break Career</b> bahkan untuk kamu yang belum familiar dengan dunia digital. Materi disusun secara step-by-step, pembahasan mudah dimengerti, panduan visual yang mendukung, contoh-contoh praktis dan langsung bisa dipraktekan.",
       },
       {
+        question: "Apakah CV saya akan dibuatkan?",
+        answer: "<b>Tidak</b>, karena CV harus <b>personalized</b> kepada diri sendiri dan perusahaan yang akan dilamar. Tetapi kamu akan dibekali pengetahuan untuk membuat sendiri sampai mahir.",
+      },
+      {
         question: "Kalau saya mengalami kesulitan, bisa bertanya ke siapa?",
         answer: "<b>You'll never walk alone.</b> Tersedia akses ke <b>Grup Support Eksklusif</b> (via WhatsApp atau Discord), <b>Sesi Live Q&A Mingguan</b> bersama mentor, Respons langsung dari tim pendamping atau Andi sendiri. Kapan pun kamu mengalami kesulitan, akan selalu ada wadah bertanya dan berdiskusi.",
       },
