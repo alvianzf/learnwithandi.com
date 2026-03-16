@@ -491,6 +491,17 @@ export const content = {
       subtitle: "Mari berkolaborasi untuk memastikan setiap talenta mendapatkan kesempatan karier terbaik.",
       buttonText: "Hubungi Kami",
       link: "http://wa.me/6282164815973",
+    },
+    booking: {
+      text: "Ngobrol Dulu",
+      link: "https://calendly.com/andilubis182/partnership-initial-meeting",
+    },
+    inPerson: {
+      title: "Punya Pertanyaan Khusus?",
+      subtitle: "Sampaikan langsung kendala atau kebutuhan kolaborasi Anda dalam sesi tatap muka.",
+      description: "Kami percaya diskusi langsung adalah cara terbaik untuk memahami potensi kerjasama yang saling menguntungkan. Jadwalkan waktu untuk mengobrol santai seputar peluang kolaborasi kita.",
+      buttonText: "Ngobrol Dulu",
+      link: "https://calendly.com/andilubis182/partnership-initial-meeting",
     }
   },
 };

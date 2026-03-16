@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { content } from '@/data/content';
 import styles from './HeroSection.module.css'; // Reusing styles for consistency
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MessageSquare } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function PartnershipHero() {
@@ -34,8 +34,9 @@ export default function PartnershipHero() {
             <Link href={hero.primaryCta.link} className={styles.primaryCta}>
               {hero.primaryCta.text} <ArrowRight size={20} />
             </Link>
-            <Link href={hero.secondaryCta.link} className={styles.secondaryCta}>
-              {hero.secondaryCta.text}
+            <Link href={partnership.booking.link} className={styles.secondaryCta} target="_blank">
+              <MessageSquare size={20} style={{ marginRight: '8px' }} />
+              {partnership.booking.text}
             </Link>
           </div>
         </motion.div>

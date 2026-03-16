@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { content } from '@/data/content';
 import styles from './Navbar.module.css';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, MessageSquare } from 'lucide-react';
 
 export default function Navbar() {
   const { global } = content;
@@ -69,6 +69,17 @@ export default function Navbar() {
               Partnership
             </Link>
           )}
+
+          {isPartnership && (
+            <Link 
+              href={content.partnership.booking.link} 
+              className={styles.ctaButton}
+              target="_blank"
+            >
+              <MessageSquare size={18} style={{ marginRight: '8px', verticalAlign: 'middle' }} />
+              {content.partnership.booking.text}
+            </Link>
+          )}
         </div>
 
         {/* Mobile Toggle */}
@@ -100,6 +111,17 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Partnership
+              </Link>
+            )}
+            {isPartnership && (
+              <Link 
+                href={content.partnership.booking.link} 
+                className={styles.mobileCta}
+                onClick={() => setIsOpen(false)}
+                target="_blank"
+              >
+                <MessageSquare size={18} style={{ marginRight: '8px', verticalAlign: 'middle' }} />
+                {content.partnership.booking.text}
               </Link>
             )}
           </div>

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { content } from '@/data/content';
 import styles from './CtaSection.module.css'; // Reusing styles
-import { MessageCircle, ArrowRight } from 'lucide-react';
+import { MessageSquare, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function PartnershipCta() {
@@ -14,6 +14,7 @@ export default function PartnershipCta() {
     <section className={styles.section} id="partnership-cta">
       <motion.h2
         className={styles.title}
+        style={{ color: 'var(--color-text)' }}
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -43,9 +44,9 @@ export default function PartnershipCta() {
           <Link href={cta.link} className={styles.primaryButton}>
             {cta.buttonText} <ArrowRight size={20} />
           </Link>
-          <Link href="http://wa.me/6282164815973" className={styles.secondaryButton} target="_blank">
-            <MessageCircle size={20} />
-            Contact Support
+          <Link href={partnership.booking.link} className={styles.secondaryButton} target="_blank" style={{ background: 'var(--color-accent-blue)', border: 'none' }}>
+            <MessageSquare size={20} style={{ marginRight: '8px' }} />
+            {partnership.booking.text}
           </Link>
         </div>
       </motion.div>

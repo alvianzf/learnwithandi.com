@@ -1,6 +1,7 @@
 import PartnershipHero from '@/components/sections/marketing/PartnershipHero';
 import PartnershipSolutions from '@/components/sections/marketing/PartnershipSolutions';
 import PartnershipCta from '@/components/sections/marketing/PartnershipCta';
+import PartnershipInPerson from '@/components/sections/marketing/PartnershipInPerson';
 import PastPartners from '@/components/sections/marketing/PastPartners';
 import Footer from '@/components/layout/Footer';
 import Navbar from '@/components/layout/Navbar';
@@ -23,6 +24,7 @@ export default function PartnershipPage() {
         <PartnershipHero />
         <PastPartners />
         <PartnershipSolutions />
+        <PartnershipInPerson />
         <PartnershipCta />
         <Footer />
       </div>
