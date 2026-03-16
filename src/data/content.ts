@@ -445,7 +445,7 @@ export const content = {
   },
   partnership: {
     hero: {
-      badge: "LWA for Bootcamps",
+      badge: "Partnerships",
       headline: "Bangun Karier Lulusan Bootcamp Kamu Lebih Cepat.",
       subHeadline: "Bantu Lulusan Kamu Menguasai Seni Interview & Mendapatkan Placement Impian",
       description: "Learn With Andi (LWA) berkolaborasi dengan bootcamp untuk memberikan pembekalan khusus interview dan strategi placement, memastikan lulusan kamu siap bersaing dan segera terserap di industri.",
