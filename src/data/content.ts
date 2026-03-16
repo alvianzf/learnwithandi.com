@@ -252,7 +252,7 @@ export const content = {
           "Cek pasal-pasal pinalti yang merugikan",
           "Siap on-boarding dengan percaya diri",
         ],
-        image: "/assets/programs/6.png", // Generated image
+        image: "/assets/programs/6.png",
       },
     ],
     // Legacy benefits array for OfferSection if needed, but we used plans now.
@@ -442,5 +442,45 @@ export const content = {
     subtitle: "Powered by",
     name: "Andi Satriawan Lubis",
     copyright: "© 2026 Learn With Andi. All rights reserved.",
+  },
+  partnership: {
+    hero: {
+      badge: "LWA for Business",
+      headline: "Accelerate Your Team's Performance.",
+      subHeadline: "Invest in Your Talent's Career Growth",
+      description: "Learn With Andi (LWA) helps companies build high-performing teams through strategic career development programs, professional branding, and recruitment optimization.",
+      primaryCta: {
+        text: "Partner with Us",
+        link: "http://wa.me/6282164815973",
+      },
+      secondaryCta: {
+        text: "See Programs",
+        link: "#programs",
+      },
+      image: "/assets/andi/potrait.png", // Reuse for now
+    },
+    solutions: {
+      title: "Solutions for Business",
+      items: [
+        {
+          title: "Corporate Career Coaching",
+          description: "Empower your employees with personalized career guidance to improve engagement and retention.",
+        },
+        {
+          title: "Employer Branding",
+          description: "Enhance your company's prestige on LinkedIn and beyond to attract top-tier talent.",
+        },
+        {
+          title: "Internal Mobility Programs",
+          description: "Help your staff transition into new roles within the company effectively.",
+        },
+      ],
+    },
+    cta: {
+      title: "Ready to scale your talent?",
+      subtitle: "Let's discuss how LWA can help your organization reach its full potential.",
+      buttonText: "Schedule a Consultation",
+      link: "http://wa.me/6282164815973",
+    }
   },
 };
