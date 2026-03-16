@@ -44,7 +44,7 @@ export default function PartnershipCta() {
           <Link href={cta.link} className={styles.primaryButton}>
             {cta.buttonText} <ArrowRight size={20} />
           </Link>
-          <Link href={partnership.booking.link} className={styles.secondaryButton} target="_blank" style={{ background: 'var(--color-accent-blue)', border: 'none' }}>
+          <Link href={partnership.booking.link} className={styles.secondaryButton} target="_blank">
             <MessageSquare size={20} style={{ marginRight: '8px' }} />
             {partnership.booking.text}
           </Link>
