@@ -446,9 +446,9 @@ export const content = {
   partnership: {
     hero: {
       badge: "Partnerships",
-      headline: "Bangun Karier Lulusan Bootcamp Kamu Lebih Cepat.",
-      subHeadline: "Bantu Lulusan Kamu Menguasai Seni Interview & Mendapatkan Placement Impian",
-      description: "Learn With Andi (LWA) berkolaborasi dengan bootcamp untuk memberikan pembekalan khusus interview dan strategi placement, memastikan lulusan kamu siap bersaing dan segera terserap di industri.",
+      headline: "Bangun Karier Talenta Kamu Lebih Cepat.",
+      subHeadline: "Bantu Tim Kamu Menguasai Seni Interview & Mendapatkan Placement Impian",
+      description: "Learn With Andi (LWA) berkolaborasi dengan penyedia pelatihan untuk memberikan pembekalan khusus interview dan strategi placement, memastikan talenta kamu siap bersaing dan segera terserap di industri.",
       primaryCta: {
         text: "Jalin Kolaborasi",
         link: "http://wa.me/6282164815973",
@@ -460,25 +460,35 @@ export const content = {
       image: "/assets/andi/potrait.png", // Reuse for now
     },
     solutions: {
-      title: "Solusi Strategis untuk Bootcamp",
+      title: "Solusi Strategis untuk Kemitraan",
       items: [
         {
           title: "Intensive Interview Prep",
-          description: "Simulasi interview mendalam (mock interview) yang dirancang khusus untuk membangun kepercayaan diri dan teknik menjawab lulusan.",
+          description: "Simulasi interview mendalam (mock interview) yang dirancang khusus untuk membangun kepercayaan diri dan teknik menjawab.",
         },
         {
           title: "Placement Strategy",
-          description: "Strategi praktis untuk membantu lulusan menembus perusahaan target melalui networking dan kurasi profil yang tepat.",
+          description: "Strategi praktis untuk membantu talenta menembus perusahaan target melalui networking dan kurasi profil yang tepat.",
         },
         {
-          title: "Personal Branding for Graduates",
-          description: "Optimalisasi profil LinkedIn dan CV lulusan agar terlihat menonjol dan relevan di mata rekruter perusahaan teknologi.",
+          title: "Personal Branding",
+          description: "Optimalisasi profil LinkedIn dan CV agar terlihat menonjol dan relevan di mata rekruter perusahaan teknologi.",
         },
       ],
     },
+    pastPartners: {
+      title: "Telah Bekerja Sama Dengan",
+      logos: [
+        { name: "Partner 1", image: "https://placehold.co/200x80/000000/FFFFFF?text=Organization+A" },
+        { name: "Partner 2", image: "https://placehold.co/200x80/000000/FFFFFF?text=Organization+B" },
+        { name: "Partner 3", image: "https://placehold.co/200x80/000000/FFFFFF?text=Organization+C" },
+        { name: "Partner 4", image: "https://placehold.co/200x80/000000/FFFFFF?text=Company+D" },
+        { name: "Partner 5", image: "https://placehold.co/200x80/000000/FFFFFF?text=Company+E" },
+      ]
+    },
     cta: {
-      title: "Siap meningkatkan angka placement lulusan kamu?",
-      subtitle: "Mari berkolaborasi untuk memastikan setiap lulusan bootcamp kamu mendapatkan kesempatan karier terbaik.",
+      title: "Siap meningkatkan angka placement talenta kamu?",
+      subtitle: "Mari berkolaborasi untuk memastikan setiap talenta mendapatkan kesempatan karier terbaik.",
       buttonText: "Hubungi Kami",
       link: "http://wa.me/6282164815973",
     }

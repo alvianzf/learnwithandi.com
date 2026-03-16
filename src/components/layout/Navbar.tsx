@@ -33,7 +33,7 @@ export default function Navbar() {
   ];
 
   const partnershipLinks = [
-    { name: 'Hero', href: '#partnership-hero' },
+    { name: 'Partners', href: '#past-partners' },
     { name: 'Solusi', href: '#partnership-solutions' },
     { name: 'Kontak', href: '#partnership-cta' },
   ];

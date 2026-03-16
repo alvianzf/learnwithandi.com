@@ -1,6 +1,7 @@
 import PartnershipHero from '@/components/sections/marketing/PartnershipHero';
 import PartnershipSolutions from '@/components/sections/marketing/PartnershipSolutions';
 import PartnershipCta from '@/components/sections/marketing/PartnershipCta';
+import PastPartners from '@/components/sections/marketing/PastPartners';
 import Footer from '@/components/layout/Footer';
 import Navbar from '@/components/layout/Navbar';
 import GlobalBackground from '@/components/layout/GlobalBackground';
@@ -20,6 +21,7 @@ export default function PartnershipPage() {
       <Navbar />
       <div className={styles.content}>
         <PartnershipHero />
+        <PastPartners />
         <PartnershipSolutions />
         <PartnershipCta />
         <Footer />
