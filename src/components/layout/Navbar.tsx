@@ -2,14 +2,18 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { content } from '@/data/content';
 import styles from './Navbar.module.css';
 import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const { global } = content;
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  const isPartnership = pathname === '/partnership';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,24 +23,34 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = [
+  const homeLinks = [
     { name: 'Problem', href: '#problem' },
     { name: 'Why LWA?', href: '#solution' },
     { name: 'Testimoni', href: '#testimonials' },
     { name: 'Program', href: '#program' },
     { name: 'Mentor', href: '#mentors' },
-    { name: 'Pricing', href: '#offer' }, // Added Pricing
+    { name: 'Pricing', href: '#offer' },
   ];
+
+  const partnershipLinks = [
+    { name: 'Hero', href: '#partnership-hero' },
+    { name: 'Solusi', href: '#partnership-solutions' },
+    { name: 'Kontak', href: '#partnership-cta' },
+  ];
+
+  const navLinks = isPartnership ? partnershipLinks : homeLinks;
 
   return (
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.container}>
         <Link
-          href="#"
+          href="/"
           className={styles.logoLink}
           onClick={(e) => {
-            e.preventDefault();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            if (pathname === '/') {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
           }}
         >
           <img src={global.logo.white} alt={global.brandName} className={styles.logoImage} />
@@ -49,7 +63,12 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-
+          
+          {!isPartnership && (
+            <Link href="/partnership" className={styles.ctaButton}>
+              Partnership
+            </Link>
+          )}
         </div>
 
         {/* Mobile Toggle */}
@@ -74,7 +93,15 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-
+            {!isPartnership && (
+              <Link 
+                href="/partnership" 
+                className={styles.mobileCta}
+                onClick={() => setIsOpen(false)}
+              >
+                Partnership
+              </Link>
+            )}
           </div>
         )}
       </div>
