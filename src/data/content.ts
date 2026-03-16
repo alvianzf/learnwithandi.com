@@ -446,9 +446,9 @@ export const content = {
   partnership: {
     hero: {
       badge: "Partnerships",
-      headline: "Kolaborasi untuk Mencapai 80% Placement Rate.",
-      subHeadline: "Bantu Talenta Kamu Menguasai Seni Interview & Strategi Karier",
-      description: "Learn With Andi (LWA) berkolaborasi dengan mitra pelatihan untuk memberikan pembekalan khusus interview guna mencapai target placement yang optimal.",
+      headline: "Akselerasi Karier Talenta Kamu.",
+      subHeadline: "Bantu Tim Kamu Mencapai 80% Placement Rate dengan Seni Interview",
+      description: "Learn With Andi (LWA) berkolaborasi dengan mitra pelatihan untuk memberikan pembekalan interview strategis bagi para talenta.",
       primaryCta: {
         text: "Jalin Kolaborasi",
         link: "http://wa.me/6282164815973",
