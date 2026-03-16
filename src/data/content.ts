@@ -446,40 +446,40 @@ export const content = {
   partnership: {
     hero: {
       badge: "LWA for Business",
-      headline: "Accelerate Your Team's Performance.",
-      subHeadline: "Invest in Your Talent's Career Growth",
-      description: "Learn With Andi (LWA) helps companies build high-performing teams through strategic career development programs, professional branding, and recruitment optimization.",
+      headline: "Akselerasi Performa Tim Kamu.",
+      subHeadline: "Investasi Nyata untuk Pertumbuhan Karier Talenta Kamu",
+      description: "Learn With Andi (LWA) membantu perusahaan membangun tim berkinerja tinggi melalui program pengembangan karier strategis, personal branding profesional, dan optimasi rekrutmen.",
       primaryCta: {
-        text: "Partner with Us",
+        text: "Jadi Partner Kami",
         link: "http://wa.me/6282164815973",
       },
       secondaryCta: {
-        text: "See Programs",
-        link: "#programs",
+        text: "Lihat Program",
+        link: "#partnership-solutions",
       },
       image: "/assets/andi/potrait.png", // Reuse for now
     },
     solutions: {
-      title: "Solutions for Business",
+      title: "Solusi untuk Bisnis",
       items: [
         {
           title: "Corporate Career Coaching",
-          description: "Empower your employees with personalized career guidance to improve engagement and retention.",
+          description: "Berdayakan karyawanmu dengan bimbingan karier personal untuk meningkatkan engagement dan retensi.",
         },
         {
           title: "Employer Branding",
-          description: "Enhance your company's prestige on LinkedIn and beyond to attract top-tier talent.",
+          description: "Tingkatkan prestise perusahaan di LinkedIn untuk menarik talenta kelas atas.",
         },
         {
           title: "Internal Mobility Programs",
-          description: "Help your staff transition into new roles within the company effectively.",
+          description: "Bantu staf transisi ke peran baru di dalam perusahaan secara efektif.",
         },
       ],
     },
     cta: {
-      title: "Ready to scale your talent?",
-      subtitle: "Let's discuss how LWA can help your organization reach its full potential.",
-      buttonText: "Schedule a Consultation",
+      title: "Siap meningkatkan level talenta kamu?",
+      subtitle: "Mari diskusikan bagaimana LWA bisa membantu organisasi kamu mencapai potensi maksimalnya.",
+      buttonText: "Jadwalkan Konsultasi",
       link: "http://wa.me/6282164815973",
     }
   },

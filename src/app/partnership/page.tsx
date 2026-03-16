@@ -8,7 +8,7 @@ import styles from '../(home)/page.module.css';
 
 export const metadata = {
   title: 'Partnership | Learn With Andi',
-  description: 'Collaborate with Learn With Andi to accelerate your team&apos;s career growth and performance.',
+  description: 'Berkolaborasi dengan Learn With Andi untuk mengakselerasi pertumbuhan karier dan performa tim Anda.',
 };
 
 export default function PartnershipPage() {

@@ -24,7 +24,7 @@ export default function PartnershipHero() {
             {hero.badge}
           </div>
           <h1 className={styles.headline}>
-            {hero.headline?.replace("'s", "&apos;s")}
+            {hero.headline}
           </h1>
           <h2 className={styles.subHeadlineMain}>{hero.subHeadline}</h2>
           <p className={styles.description}>{hero.description}</p>
