@@ -446,7 +446,7 @@ export const content = {
   partnership: {
     hero: {
       badge: "Partnerships",
-      headline: "Akselerasi Karier Talenta Kamu.",
+      headline: "<span style=\"color: var(--color-accent-yellow)\">Akselerasi</span> Karier Talenta Kamu.",
       subHeadline: "Kolaborasi untuk Mencapai 80% Placement Rate dengan Seni Interview",
       description: "Learn With Andi (LWA) berkolaborasi dengan mitra pelatihan untuk memberikan pembekalan interview strategis bagi para talenta.",
       primaryCta: {

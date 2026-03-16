@@ -23,9 +23,10 @@ export default function PartnershipHero() {
           <div className={styles.badge}>
             {hero.badge}
           </div>
-          <h1 className={styles.headline}>
-            {hero.headline}
-          </h1>
+          <h1 
+            className={styles.headline}
+            dangerouslySetInnerHTML={{ __html: hero.headline }}
+          />
           <h2 className={styles.subHeadlineMain}>{hero.subHeadline}</h2>
           <p className={styles.description}>{hero.description}</p>
 
