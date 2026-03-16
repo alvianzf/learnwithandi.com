@@ -445,41 +445,41 @@ export const content = {
   },
   partnership: {
     hero: {
-      badge: "LWA for Business",
-      headline: "Akselerasi Performa Tim Kamu.",
-      subHeadline: "Investasi Nyata untuk Pertumbuhan Karier Talenta Kamu",
-      description: "Learn With Andi (LWA) membantu perusahaan membangun tim berkinerja tinggi melalui program pengembangan karier strategis, personal branding profesional, dan optimasi rekrutmen.",
+      badge: "LWA for Bootcamps",
+      headline: "Bangun Karier Lulusan Bootcamp Kamu Lebih Cepat.",
+      subHeadline: "Bantu Lulusan Kamu Menguasai Seni Interview & Mendapatkan Placement Impian",
+      description: "Learn With Andi (LWA) berkolaborasi dengan bootcamp untuk memberikan pembekalan khusus interview dan strategi placement, memastikan lulusan kamu siap bersaing dan segera terserap di industri.",
       primaryCta: {
-        text: "Jadi Partner Kami",
+        text: "Jalin Kolaborasi",
         link: "http://wa.me/6282164815973",
       },
       secondaryCta: {
-        text: "Lihat Program",
+        text: "Lihat Solusi",
         link: "#partnership-solutions",
       },
       image: "/assets/andi/potrait.png", // Reuse for now
     },
     solutions: {
-      title: "Solusi untuk Bisnis",
+      title: "Solusi Strategis untuk Bootcamp",
       items: [
         {
-          title: "Corporate Career Coaching",
-          description: "Berdayakan karyawanmu dengan bimbingan karier personal untuk meningkatkan engagement dan retensi.",
+          title: "Intensive Interview Prep",
+          description: "Simulasi interview mendalam (mock interview) yang dirancang khusus untuk membangun kepercayaan diri dan teknik menjawab lulusan.",
         },
         {
-          title: "Employer Branding",
-          description: "Tingkatkan prestise perusahaan di LinkedIn untuk menarik talenta kelas atas.",
+          title: "Placement Strategy",
+          description: "Strategi praktis untuk membantu lulusan menembus perusahaan target melalui networking dan kurasi profil yang tepat.",
         },
         {
-          title: "Internal Mobility Programs",
-          description: "Bantu staf transisi ke peran baru di dalam perusahaan secara efektif.",
+          title: "Personal Branding for Graduates",
+          description: "Optimalisasi profil LinkedIn dan CV lulusan agar terlihat menonjol dan relevan di mata rekruter perusahaan teknologi.",
         },
       ],
     },
     cta: {
-      title: "Siap meningkatkan level talenta kamu?",
-      subtitle: "Mari diskusikan bagaimana LWA bisa membantu organisasi kamu mencapai potensi maksimalnya.",
-      buttonText: "Jadwalkan Konsultasi",
+      title: "Siap meningkatkan angka placement lulusan kamu?",
+      subtitle: "Mari berkolaborasi untuk memastikan setiap lulusan bootcamp kamu mendapatkan kesempatan karier terbaik.",
+      buttonText: "Hubungi Kami",
       link: "http://wa.me/6282164815973",
     }
   },
