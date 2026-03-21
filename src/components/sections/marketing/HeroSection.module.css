@@ -117,13 +117,12 @@
   }
 
   .headline {
-    font-size: 2.25rem;
-    /* Much smaller mobile headline */
+    font-size: 1.75rem;
     margin-bottom: 1rem;
   }
 
   .subHeadlineMain {
-    font-size: 1.125rem;
+    font-size: 0.95rem;
     margin-bottom: 1.5rem;
   }
 
