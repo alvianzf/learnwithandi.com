@@ -31,6 +31,14 @@ export const metadata = {
     siteName: 'Learn With Andi',
     locale: 'id_ID',
     type: 'website',
+    images: [
+      {
+        url: 'https://learnwithandi.com/assets/logo/full-white.png',
+        width: 800,
+        height: 600,
+        alt: 'Learn With Andi — Partnership Strategis',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
