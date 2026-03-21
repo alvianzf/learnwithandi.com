@@ -1,4 +1,5 @@
 import PartnershipHero from '@/components/sections/marketing/PartnershipHero';
+import PartnershipWhy from '@/components/sections/marketing/PartnershipWhy';
 import PartnershipSolutions from '@/components/sections/marketing/PartnershipSolutions';
 import PartnershipCta from '@/components/sections/marketing/PartnershipCta';
 import PartnershipInPerson from '@/components/sections/marketing/PartnershipInPerson';
@@ -23,6 +24,7 @@ export default function PartnershipPage() {
       <div className={styles.content}>
         <PartnershipHero />
         <PastPartners />
+        <PartnershipWhy />
         <PartnershipSolutions />
         <PartnershipInPerson />
         <PartnershipCta />

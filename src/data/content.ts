@@ -459,48 +459,81 @@ export const content = {
       },
       image: "/assets/andi/potrait.png", // Reuse for now
     },
+    why: {
+      title: "Tantangan Terbesar: <span style=\"color: var(--color-accent-yellow)\">Tembus Pintu Pertama</span>",
+      description: "Mencetak talenta yang jago secara teknis itu satu hal, tapi ngebantu mereka lolos interview kadang butuh treatment beda lagi. Nyatanya, skill teknis yang mumpuni bisa sia-sia kalau kandiat masih bingung cara personal branding dan 'ngejual' diri pas ketemu rekruter.",
+      points: [
+        {
+          title: "Fokus ke yang Dicari Rekruter",
+          description: "LWA didesain langsung pakai kacamata rekruter aktif. Kita buang teori yang udah nggak relevan dan cuma fokus ke hal yang beneran dinilai sama perusahaan saat ini."
+        },
+        {
+          title: "Bantu 'Ngejual' Hard Skill",
+          description: "Ngajarin hard skill adalah porsi kamu, nah porsi LWA adalah mastiin lulusan kamu bisa percaya diri ngejelasin skill tersebut di depan HR atau User."
+        },
+        {
+          title: "Bikin Program Kamu Makin Kredibel",
+          description: "Makin cepet lulusan kamu dapet kerja, makin bagus juga nama baik program dan institusi yang udah kamu bangun."
+        }
+      ]
+    },
     solutions: {
-      title: "Solusi Strategis untuk Kemitraan",
+      title: "Bagaimana Kami <span style=\"color: var(--color-accent-yellow)\">Membantu</span> Talenta Kamu?",
       items: [
         {
-          title: "Intensive Interview Prep",
-          description: "Simulasi interview mendalam (mock interview) yang dirancang khusus untuk membangun kepercayaan diri dan teknik menjawab.",
+          title: "Lebih Nyambung sama Industri",
+          description: "Kita jembatanin gap antara silabus belajar sama ekspektasi dunia kerja asli. Biar lulusan nggak kaget bahasanya perusahaan modern.",
         },
         {
-          title: "Placement Strategy",
-          description: "Strategi praktis untuk membantu talenta menembus perusahaan target melalui networking dan kurasi profil yang tepat.",
+          title: "Bikin Profil Makin Stand-out",
+          description: "Kita dedah dan poles ulang CV serta LinkedIn mereka sampai rekruter langsung tertarik baca dari detik pertama.",
         },
         {
-          title: "Personal Branding",
-          description: "Optimalisasi profil LinkedIn dan CV agar terlihat menonjol dan relevan di mata rekruter perusahaan teknologi.",
+          title: "Latihan Interview Sampai Pede",
+          description: "Simulasi interview intensif buat bantu ngilangin rasa gugup dan ngajarin cara ngejawab pertanyaan menjebak secara taktis.",
+        },
+        {
+          title: "Taktik Nyari Kerja",
+          description: "Nggak asal apply, kita ajarin step-by-step cara nyari, ngelamar, sampai nego offering yang paling fair.",
+        },
+        {
+          title: "Teman Diskusi Pasca-Offering",
+          description: "Bantu nge-review kontrak kerja biar kandidat nggak salah langkah dan bisa ngelewatin masa probation dengan aman.",
+        },
+        {
+          title: "Masuk Circle Profesional",
+          description: "Kita hubungin lulusan kamu sama komunitas seru lintas industri biar bisa saling sharing koneksi dan info loker harian.",
         },
       ],
     },
     pastPartners: {
-      title: "Telah Bekerja Sama Dengan",
+      title: "<span style=\"color: var(--color-accent-yellow)\">Telah Bekerja Sama</span> Dengan",
       logos: [
-        { name: "Binar", image: "/assets/partners/binar.png" },
+        { name: "Binar", image: "/assets/partners/binar.png", bg: "white" },
         { name: "BatamOn", image: "/assets/partners/batamon.png" },
         { name: "Devshore", image: "/assets/partners/devshore.png" },
         { name: "Dicoding", image: "/assets/partners/dicoding.png" },
-        { name: "Dumbways", image: "/assets/partners/dumbways.png" },
+        { name: "Dumbways", image: "/assets/partners/Dumbways.png" },
+        { name: "Skilldev", image: "/assets/partners/skilldev.webp" },
+        { name: "Koda Academy", image: "/assets/partners/koda-academy.webp" },
+        { name: "Ruby Thalib", image: "/assets/partners/rubythalib.png" },
       ]
     },
     cta: {
-      title: "Siap meningkatkan angka placement talenta kamu?",
-      subtitle: "Mari berkolaborasi untuk memastikan setiap talenta mendapatkan kesempatan karier terbaik.",
-      buttonText: "Hubungi Kami",
-      link: "http://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20eksplor%20partnership%20dengan%20LearnWithAndi.",
+      title: "Siap <span style=\"color: var(--color-accent-yellow)\">bantu lulusan kamu</span> terserap lebih cepat?",
+      subtitle: "Pastiin lulusan kamu nggak cuma sekadar 'siap kerja', tapi beneran jadi kandidat incaran industri.",
+      buttonText: "Ngobrol Kolaborasi",
+      link: "http://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20ngobrol%20partnership%20dengan%20LearnWithAndi.",
     },
     booking: {
-      text: "Ngobrol Dulu",
+      text: "Eksplorasi Bersama",
       link: "https://calendly.com/andilubis182/partnership-initial-meeting",
     },
     inPerson: {
-      title: "Punya Pertanyaan Khusus?",
-      subtitle: "Sampaikan langsung kendala atau kebutuhan kolaborasi Anda dalam sesi tatap muka.",
-      description: "Kami percaya diskusi langsung adalah cara terbaik untuk memahami potensi kerjasama yang saling menguntungkan. Jadwalkan waktu untuk mengobrol santai seputar peluang kolaborasi kita.",
-      buttonText: "Ngobrol Dulu",
+      title: "Butuh Pendekatan <span style=\"color: var(--color-accent-yellow)\">Custom?</span>",
+      subtitle: "Kita sadar banget tiap program pasti punya tantangannya sendiri.",
+      description: "Yuk kita ngobrol bareng. Ceritain ekspektasi dan kendala yang lagi dihadapi sama talenta kamu. Kita bakal bantuin susun skema pendampingan yang paling pas buat ngatasin masalah itu.",
+      buttonText: "Jadwalkan Waktu",
       link: "https://calendly.com/andilubis182/partnership-initial-meeting",
     }
   },

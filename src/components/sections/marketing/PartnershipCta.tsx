@@ -19,9 +19,8 @@ export default function PartnershipCta() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-      >
-        {cta.title}
-      </motion.h2>
+        dangerouslySetInnerHTML={{ __html: cta.title }}
+      />
       <motion.p
         className={styles.subtext}
         initial={{ opacity: 0 }}

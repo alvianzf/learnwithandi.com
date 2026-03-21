@@ -19,17 +19,19 @@ export default function PastPartners() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
-        >
-          {pastPartners.title}
-        </motion.h3>
+          dangerouslySetInnerHTML={{ __html: pastPartners.title }}
+        />
 
         <div className={styles.grid}>
-          {pastPartners.logos.map((partner, index) => (
+          {pastPartners.logos.map((partner, index) => {
+            const useBorder = partner.name.toLowerCase().includes('koda') || partner.name.toLowerCase().includes('devshore');
+            return (
             <motion.div 
               key={index} 
-              className={styles.logoWrapper}
+              className={`${styles.logoWrapper} ${useBorder ? styles.borderWhite : styles.bgWhite}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.2, transition: { duration: 0.2, delay: 0 } }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
             >
@@ -40,7 +42,8 @@ export default function PastPartners() {
                 loading="lazy"
               />
             </motion.div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

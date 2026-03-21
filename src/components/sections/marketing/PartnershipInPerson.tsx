@@ -23,7 +23,7 @@ export default function PartnershipInPerson() {
             <MessageSquare size={32} />
           </div>
           
-          <h2 className={styles.title} style={{ marginBottom: '16px' }}>{inPerson.title}</h2>
+          <h2 className={styles.title} style={{ marginBottom: '16px' }} dangerouslySetInnerHTML={{ __html: inPerson.title }} />
           <h3 style={{ fontSize: '1.25rem', color: 'var(--color-accent-blue)', marginBottom: '20px', fontWeight: '600' }}>{inPerson.subtitle}</h3>
           
           <p className={styles.subtext} style={{ marginBottom: '40px', fontSize: '1.1rem', lineHeight: '1.6', color: 'rgba(255, 255, 255, 0.8)' }}>

@@ -1,15 +1,16 @@
 "use client";
 
 import { content } from '@/data/content';
-import styles from './PartnershipSolutions.module.css';
-import { Briefcase, Target, MessageSquare, TrendingUp, FileCheck, Users } from 'lucide-react';
+import styles from './PartnershipWhy.module.css';
 import { motion } from 'framer-motion';
+import { Crosshair, Briefcase, TrendingUp } from 'lucide-react';
 
-export default function PartnershipSolutions() {
-  const { partnership } = content;
-  const { solutions } = partnership;
+export default function PartnershipWhy() {
+  const why = (content.partnership as { why: any }).why;
 
-  const icons = [Briefcase, Target, MessageSquare, TrendingUp, FileCheck, Users];
+  if (!why) return null;
+
+  const icons = [Crosshair, Briefcase, TrendingUp];
 
   const container = {
     hidden: { opacity: 0 },
@@ -27,7 +28,7 @@ export default function PartnershipSolutions() {
   };
 
   return (
-    <section className={styles.section} id="partnership-solutions">
+    <section className={styles.section} id="partnership-why">
       <div className={styles.container}>
         <motion.div 
           className={styles.header}
@@ -36,7 +37,8 @@ export default function PartnershipSolutions() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className={styles.heading} dangerouslySetInnerHTML={{ __html: solutions.title }} />
+          <h2 className={styles.heading} dangerouslySetInnerHTML={{ __html: why.title }} />
+          <p className={styles.description}>{why.description}</p>
         </motion.div>
 
         <motion.div 
@@ -46,15 +48,17 @@ export default function PartnershipSolutions() {
           whileInView="show"
           viewport={{ once: true }}
         >
-          {solutions.items.map((sol, index) => {
+          {why.points.map((point: { title: string, description: string }, index: number) => {
             const Icon = icons[index % icons.length];
             return (
               <motion.div key={index} className={styles.card} variants={item}>
                 <div className={styles.iconBox}>
                   <Icon size={32} color="var(--color-accent-yellow)" />
                 </div>
-                <h3 className={styles.cardTitle}>{sol.title}</h3>
-                <p className={styles.cardDesc}>{sol.description}</p>
+                <div className={styles.cardContent}>
+                  <h3 className={styles.cardTitle}>{point.title}</h3>
+                  <p className={styles.cardDesc}>{point.description}</p>
+                </div>
               </motion.div>
             );
           })}
