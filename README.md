@@ -71,7 +71,7 @@ public/
 
 ## 🔄 Recent Updates
 
--   **Partnership Module**: Added the Partnership page featuring a grid of partner logos with optimized dark-mode visibility and pre-filled WhatsApp engagement links.
+-   **Partnership Module Overhaul**: Completely rewrote the B2B placement-oriented copywriting for the Partnership page, introducing the conversational "Tantangan Terbesar" section, expanding the Solutions grid to 6 items, and refining the logo grid with native Framer Motion hover effects and transparent logos.
 -   **Animation Overhaul**: Implemented `framer-motion` across all 12 landing page sections (`Hero`, `Problem`, `Solution`, `Testimonial`, `CareerWins`, `ProgramGallery`, `Mentors`, `Qualification`, `Offer`, `Faq`, `Cta`, `Footer`).
 -   **New Sections**: Added "Career Wins" section to showcase user success stories.
 -   **SEO/GEO**: Added and optimized `ai.txt`, `llm.txt`, and `llms.txt` for better visibility in AI-generated summaries.
