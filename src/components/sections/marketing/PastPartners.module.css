@@ -37,13 +37,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease;
-  filter: grayscale(100%) invert(1);
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
 }
 
 .logoWrapper:hover {
   transform: scale(1.05);
-  filter: grayscale(0%) invert(0);
+  filter: grayscale(0%);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
 }
 
 .logo {

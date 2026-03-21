@@ -104,7 +104,7 @@ export const content = {
     ],
   },
   stats: {
-    text: "350+ Member LWA Udah Dapat Kerja di 2025",
+    text: "400 Member LWA Udah Dapat Kerja di 2025",
   },
   careerElements: {
     title: "Elemen Penting Upgrade Karier",
@@ -451,7 +451,7 @@ export const content = {
       description: "Learn With Andi (LWA) berkolaborasi dengan mitra pelatihan untuk memberikan pembekalan interview strategis bagi para talenta.",
       primaryCta: {
         text: "Jalin Kolaborasi",
-        link: "http://wa.me/6282164815973",
+        link: "http://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20eksplor%20partnership%20dengan%20LearnWithAndi.",
       },
       secondaryCta: {
         text: "Lihat Solusi",
@@ -479,18 +479,18 @@ export const content = {
     pastPartners: {
       title: "Telah Bekerja Sama Dengan",
       logos: [
-        { name: "Partner 1", image: "https://placehold.co/200x80/000000/FFFFFF?text=Organization+A" },
-        { name: "Partner 2", image: "https://placehold.co/200x80/000000/FFFFFF?text=Organization+B" },
-        { name: "Partner 3", image: "https://placehold.co/200x80/000000/FFFFFF?text=Organization+C" },
-        { name: "Partner 4", image: "https://placehold.co/200x80/000000/FFFFFF?text=Company+D" },
-        { name: "Partner 5", image: "https://placehold.co/200x80/000000/FFFFFF?text=Company+E" },
+        { name: "Binar", image: "/assets/partners/binar.png" },
+        { name: "BatamOn", image: "/assets/partners/batamon.png" },
+        { name: "Devshore", image: "/assets/partners/devshore.png" },
+        { name: "Dicoding", image: "/assets/partners/dicoding.png" },
+        { name: "Dumbways", image: "/assets/partners/dumbways.png" },
       ]
     },
     cta: {
       title: "Siap meningkatkan angka placement talenta kamu?",
       subtitle: "Mari berkolaborasi untuk memastikan setiap talenta mendapatkan kesempatan karier terbaik.",
       buttonText: "Hubungi Kami",
-      link: "http://wa.me/6282164815973",
+      link: "http://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20eksplor%20partnership%20dengan%20LearnWithAndi.",
     },
     booking: {
       text: "Ngobrol Dulu",
