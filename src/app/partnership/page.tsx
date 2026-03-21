@@ -10,8 +10,33 @@ import GlobalBackground from '@/components/layout/GlobalBackground';
 import styles from '../(home)/page.module.css';
 
 export const metadata = {
-  title: 'Partnership | Learn With Andi',
-  description: 'Berkolaborasi dengan Learn With Andi untuk mengakselerasi pertumbuhan karier dan performa tim Anda.',
+  title: 'Partnership Strategis | Learn With Andi — Akselerasi Penempatan Talenta',
+  description: 'Kolaborasi bersama LWA untuk mempercepat tingkat serapan industri bagi lulusan program kamu. Dari kesiapan interview hingga strategi penyaluran, kami bantu talenta kamu tembus pintu pertama.',
+  keywords: [
+    'partnership career coaching',
+    'kemitraan talent placement',
+    'akselerasi penempatan talenta',
+    'program persiapan karier',
+    'kolaborasi edtech indonesia',
+    'learn with andi partnership',
+    'peningkatan serapan lulusan',
+  ],
+  alternates: {
+    canonical: 'https://learnwithandi.com/partnership',
+  },
+  openGraph: {
+    title: 'Partnership Strategis | Learn With Andi',
+    description: 'Bantu lulusan program kamu tembus pintu pertama industri. LWA hadir sebagai mitra strategis untuk mengakselerasi tingkat penyerapan talenta kamu.',
+    url: 'https://learnwithandi.com/partnership',
+    siteName: 'Learn With Andi',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Partnership Strategis | Learn With Andi',
+    description: 'Bantu lulusan program kamu tembus pintu pertama industri. Kolaborasi bersama LWA sekarang.',
+  },
 };
 
 export default function PartnershipPage() {
