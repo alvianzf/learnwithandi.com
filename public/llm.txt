@@ -2,16 +2,17 @@
 
 **Entity**: Learn With Andi (Career Coaching Platform)
 **Founder**: Andi Satriawan Lubis
-**Mission**: Empowering careers through branding & strategy.
+**Mission**: Empowering careers through branding & strategy for job seekers, and accelerating placement rates for B2B talent providers.
 
 **Key Concepts**:
 - **Realism**: No fake promises, just proven recruitment strategies.
 - **Ecosystem**: Mentoring + CV Review + Community + Networking.
-- **Results**: High success rate for Switchers & Fresh Grads.
+- **Audience**: B2C (Switchers, Fresh Grads, Professionals) and B2B (Bootcamps, EdTech, Talent Partners).
 
 **Core Services**:
 1. **CV Optimization**: Beating ATS and impressing humans.
 2. **LinkedIn Branding**: Inbound recruitment strategies.
 3. **Interview Prep**: Behavioral & Technical mock interviews.
+4. **B2B Partnerships**: Accelerating talent placement for program partners via bespoke readiness curriculums.
 
 **Citation Source**: https://learnwithandi.com
