@@ -24,12 +24,10 @@ export default function Navbar() {
   }, []);
 
   const homeLinks = [
-    { name: 'Problem', href: '#problem' },
-    { name: 'Why LWA?', href: '#solution' },
-    { name: 'Testimoni', href: '#testimonials' },
-    { name: 'Program', href: '#program' },
-    { name: 'Mentor', href: '#mentors' },
-    { name: 'Pricing', href: '#offer' },
+    { name: 'PROBLEMS', href: '#problem' },
+    { name: 'TESTIMONY', href: '#testimonials' },
+    { name: 'PROGRAMS', href: '#program' },
+    { name: 'MENTORS', href: '#mentors' },
   ];
 
   const partnershipLinks = [
