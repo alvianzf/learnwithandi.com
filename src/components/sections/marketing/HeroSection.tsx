@@ -3,13 +3,12 @@
 import Link from 'next/link';
 import { content } from '@/data/content';
 import styles from './HeroSection.module.css';
-import { MessageCircle, ArrowRight } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 import { motion } from 'framer-motion';
 
 export default function HeroSection() {
-  const { hero, global } = content;
-
+  const { hero } = content;
   return (
     <section className={styles.hero} id="hero">
       <div className={styles.container}>
@@ -31,7 +30,7 @@ export default function HeroSection() {
 
           <div className={styles.ctaContainer}>
             <Link href={hero.primaryCta.link} className={styles.primaryCta}>
-              {hero.primaryCta.text} <ArrowRight size={20} />
+              {hero.primaryCta.text}
             </Link>
             <Link href={hero.secondaryCta.link} className={styles.secondaryCta} target="_blank">
               <MessageCircle size={20} className={styles.icon} />

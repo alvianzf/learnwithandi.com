@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { content } from '@/data/content';
 import styles from './CtaSection.module.css';
-import { MessageCircle, ArrowRight, Compass, Users, Wallet, Briefcase } from 'lucide-react';
+import { MessageCircle, Compass, Users, Wallet, Briefcase } from 'lucide-react';
 
 import { motion } from 'framer-motion';
 
@@ -54,7 +54,7 @@ export default function CtaSection() {
 
         <div className={styles.buttonGroup}>
           <Link href={finalCta.primaryCta.link} className={styles.primaryButton}>
-            {finalCta.primaryCta.text} <ArrowRight size={20} />
+            {finalCta.primaryCta.text}
           </Link>
           <Link href={finalCta.secondaryCta.link} className={styles.secondaryButton} target="_blank">
             <MessageCircle size={20} />

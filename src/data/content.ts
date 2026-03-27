@@ -69,7 +69,7 @@ export const content = {
       link: "#offer",
     },
     secondaryCta: {
-      text: "Konsultasi Dulu",
+      text: "Tanya LWAna",
       link: "http://wa.me/6282164815973",
       icon: "MessageCircle"
     },
@@ -258,7 +258,7 @@ export const content = {
     // Legacy benefits array for OfferSection if needed, but we used plans now.
     benefits: [],
     consultation: {
-      text: "Masih Ragu? Konsultasi Dulu",
+      text: "Masih Ragu? Tanya LWAna",
       link: "http://wa.me/6282164815973"
     },
     plans: [
@@ -426,7 +426,7 @@ export const content = {
       link: "#offer",
     },
     secondaryCta: {
-      text: "Konsultasi Dulu",
+      text: "Tanya LWAna",
       link: "http://wa.me/6282164815973",
     },
   },
