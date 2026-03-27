@@ -61,9 +61,9 @@ export const content = {
   },
   hero: {
     badge: "Career Coaching Indonesia",
-    headline: "STOP Cari Kerja Sendiri.",
-    subHeadline: "Mulai Bangun Karier dengan Arah yang Jelas",
-    description: "Learn With Andi (LWA) adalah ekosistem belajar berkarier secara profesional yang membantu kamu siap kerja sesuai value, naik level, atau shifting career secara realistis, tanpa janji instan.",
+    headline: "STOP Cari Kerja Sendiri",
+    subHeadline: "Mulai Bangun Karier dengan Arah yang Jelas.",
+    description: "Learn With Andi (LWA) merupakan ekosistem belajar untuk berkarier secara profesional, bantu kamu agar siap kerja sesuai value, naik level, atau shifting career secara realistis.",
     primaryCta: {
       text: "Join LWA",
       link: "#offer",
@@ -77,12 +77,12 @@ export const content = {
   },
   problem: {
     id: "problem",
-    title: "Pernah ngerasain posisi kayak gini?",
+    title: "Pernah Di Posisi Gini?",
     painPoints: [
-      "Sudah apply puluhan sampai ratusan lowongan, tapi jarang dipanggil",
-      "CV dibilang bagus, tapi tetap dighosting",
-      "LinkedIn ada, tapi sepi",
-      "Interview sering, tapi blank",
+      "Sudah apply puluhan bahkan ratusan lowker, tapi jarang dapet panggilan",
+      'CV "dibilang" bagus, tapi tetap dighosting',
+      "LinkedIn ada, tapi dibiarin gitu aja, bingung mau posting apa, dan diapain.",
+      "Interview sering, tapi sering nge-blank di beberapa pertanyaan HR",
       "Takut belajar karena takut buang uang",
       "Bingung harus mulai darimana untuk upgrade karir", // Inferred 6th point
     ],
