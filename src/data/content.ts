@@ -527,14 +527,14 @@ export const content = {
     },
     booking: {
       text: "Eksplorasi Bersama",
-      link: "https://calendly.com/andilubis182/partnership-initial-meeting",
+      link: "https://calendar.app.google/toxeLy6KXKx5pXu97",
     },
     inPerson: {
       title: "Butuh Pendekatan <span style=\"color: var(--color-accent-yellow)\">Custom?</span>",
       subtitle: "Kita sadar banget tiap program pasti punya tantangannya sendiri.",
       description: "Yuk kita ngobrol bareng. Ceritain ekspektasi dan kendala yang lagi dihadapi sama talenta kamu. Kita bakal bantuin susun skema pendampingan yang paling pas buat ngatasin masalah itu.",
       buttonText: "Jadwalkan Waktu",
-      link: "https://calendly.com/andilubis182/partnership-initial-meeting",
+      link: "https://calendar.app.google/toxeLy6KXKx5pXu97",
     }
   },
 };
