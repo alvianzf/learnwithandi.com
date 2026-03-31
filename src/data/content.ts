@@ -298,6 +298,8 @@ export const content = {
           "Probation Support (Special Support)"
         ],
         retiring: true,
+        highlight: false,
+        highlightText: "",
         cta: {
           text: "ORDER NOW",
           link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation"
@@ -319,6 +321,8 @@ export const content = {
         ],
         // popular: true,
         retiring: true,
+        highlight: false,
+        highlightText: "",
         cta: {
           text: "ORDER NOW",
           link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation-oyz5"
