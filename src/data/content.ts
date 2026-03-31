@@ -79,12 +79,12 @@ export const content = {
     id: "problem",
     title: "Pernah Di Posisi Gini?",
     painPoints: [
-      "Sudah apply puluhan bahkan ratusan lowker, tapi jarang dapet panggilan",
-      'CV "dibilang" bagus, tapi tetep aja dighosting ',
+      "Sudah apply puluhan bahkan ratusan lowker, tapi jarang dapet panggilan.",
+      'CV "dibilang" bagus, tapi tetep aja dighosting.',
       "LinkedIn ada, tapi dibiarin gitu aja, bingung mau posting apa, dan diapain.",
-      "Interview sering, tapi sering nge-blank di beberapa pertanyaan HR",
-      "Takut belajar karena takut buang uang (jadi mubazir)",
-      "Bingung harus mulai darimana untuk upgrade karir", // Inferred 6th point
+      "Interview sering, tapi sering nge-blank di beberapa pertanyaan HR.",
+      "Takut belajar karena takut buang uang (jadi mubazir).",
+      "Bingung harus mulai darimana untuk upgrade karir.", // Inferred 6th point
     ],
     closingQuote: "“Tahu salah, tapi nggak tahu salahnya di mana.”",
   },
@@ -92,9 +92,9 @@ export const content = {
     id: "solution",
     coreMessages: [
       "Di LWA, bukan cuma belajar, tapi ditemani, dibimbing, diCoaching sampai bener-bener paham.",
-      "Karier bukan soal hoki, ada mind mapnya, ada strukturnya, ada polanya, dan bisa dipelajari",
+      "Karier bukan soal hoki, ada mind mapnya, ada strukturnya, ada polanya, dan bisa dipelajari.",
       "Tidak instan, berproses, runut, empiris, jadi paham langkah demi langkahnya.",
-      "Strategi ter-update, arah jelas, dan konsisten",
+      "Strategi ter-update, arah jelas, dan konsisten.",
     ],
     practicalElements: [
       "Materi siap pakai",
@@ -115,7 +115,7 @@ export const content = {
       },
       {
         title: "Winning",
-        description: "Tetap Stand-out di bursa kerja profesional dengan mengoptimalkan cv dan profile linkedin yang sesuai with expertise kamu",
+        description: "Tetap Stand-out di bursa kerja profesional dengan mengoptimalkan cv dan profile linkedin yang sesuai with expertise kamu.",
       },
       {
         title: "Achieving",
