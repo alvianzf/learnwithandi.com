@@ -175,7 +175,7 @@ export const content = {
   offer: {
     id: "offer",
     programName: "Investment Plans",
-    price: "Rp100.000 per bulan", // Legacy
+    // price: "Rp100.000 per bulan", // Legacy
     description: "Pilih paket coaching yang paling pas buat goals dan dompet kamu.",
     programSteps: [ // Replaces programDetails for the 1-5 gallery
       {
@@ -262,6 +262,7 @@ export const content = {
       link: "http://wa.me/6282164815973"
     },
     plans: [
+      /*
       {
         name: "Support",
         price: "Rp100.000",
@@ -282,6 +283,7 @@ export const content = {
         highlight: true, // "Most Economical" or similar
         highlightText: "Most Economical"
       },
+      */
       {
         name: "Basic",
         price: "Rp449.000",
