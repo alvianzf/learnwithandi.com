@@ -262,7 +262,6 @@ export const content = {
       link: "http://wa.me/6282164815973"
     },
     plans: [
-      /*
       {
         name: "Support",
         price: "Rp100.000",
@@ -283,7 +282,6 @@ export const content = {
         highlight: true, // "Most Economical" or similar
         highlightText: "Most Economical"
       },
-      */
       {
         name: "Basic",
         price: "Rp449.000",
