@@ -62,7 +62,7 @@ export const content = {
   hero: {
     badge: "Career Coaching Indonesia",
     headline: "STOP Cari Kerja Sendiri",
-    subHeadline: "Mulai Bangun Karier dengan Arah yang Jelas.",
+    subHeadline: "Mulai Bangun Karier Dengan Arah yang Lebih Jelas.",
     description: "Learn With Andi (LWA) merupakan ekosistem belajar untuk berkarier secara profesional, bantu kamu agar siap kerja sesuai value, naik level, atau shifting career secara realistis.",
     primaryCta: {
       text: "Join LWA",
@@ -80,10 +80,10 @@ export const content = {
     title: "Pernah Di Posisi Gini?",
     painPoints: [
       "Sudah apply puluhan bahkan ratusan lowker, tapi jarang dapet panggilan",
-      'CV "dibilang" bagus, tapi tetap dighosting',
+      'CV "dibilang" bagus, tapi tetep aja dighosting ',
       "LinkedIn ada, tapi dibiarin gitu aja, bingung mau posting apa, dan diapain.",
       "Interview sering, tapi sering nge-blank di beberapa pertanyaan HR",
-      "Takut belajar karena takut buang uang",
+      "Takut belajar karena takut buang uang (jadi mubazir)",
       "Bingung harus mulai darimana untuk upgrade karir", // Inferred 6th point
     ],
     closingQuote: "“Tahu salah, tapi nggak tahu salahnya di mana.”",
@@ -91,16 +91,16 @@ export const content = {
   solution: {
     id: "solution",
     coreMessages: [
-      "Di LWA, bukan cuma belajar, tapi ditemani sampai paham",
-      "Karier bukan soal hoki",
-      "Tidak instan",
-      "Butuh strategi yang update, arah jelas, dan konsistensi",
+      "Di LWA, bukan cuma belajar, tapi ditemani, dibimbing, diCoaching sampai bener-bener paham.",
+      "Karier bukan soal hoki, ada mind mapnya, ada strukturnya, ada polanya, dan bisa dipelajari",
+      "Tidak instan, berproses, runut, empiris, jadi paham langkah demi langkahnya.",
+      "Strategi ter-update, arah jelas, dan konsisten",
     ],
     practicalElements: [
       "Materi siap pakai",
       "Mentor dan komunitas aktif",
       "Review, diskusi, dan feedback",
-      "Fokus ke dunia kerja nyata, bukan teori",
+      "Fokus ke dunia kerja nyata, bukan sekadar teori",
     ],
   },
   stats: {
@@ -115,7 +115,7 @@ export const content = {
       },
       {
         title: "Winning",
-        description: "Tetap Stand-out di bursa kerja proffesional dengan mengoptimalkan cv dan profile linkedin yang sesuai dengan expertise kamu",
+        description: "Tetap Stand-out di bursa kerja profesional dengan mengoptimalkan cv dan profile linkedin yang sesuai with expertise kamu",
       },
       {
         title: "Achieving",
@@ -155,8 +155,8 @@ export const content = {
   },
   qualification: {
     id: "qualification",
-    doTitle: "KALAU KAMU BENERAN NIAT",
-    dontTitle: "TAPI JANGAN JOIN KALAU...",
+    doTitle: "Kalau Mau JOIN pastiin:",
+    dontTitle: "JANGAN JOIN KALAU...",
     dos: [
       "Career Level-UP, tapi bingung mulai darimana",
       "Sukses Interview dan pede jawab setiap pertanyaannya",
@@ -165,18 +165,18 @@ export const content = {
       "Cari Strategi yang relevan buat naikin Level Career kamu",
     ],
     donts: [
-      "Suka rebahan tapi bingung uangnya mau buat apa",
-      "Kerjaan yang penting dapat uang (Konsistensi buat apa?)",
-      "Merasa CV dan Profile LinkedIn sudah paten (Yang Penting Apply Ratusan Kali)",
-      "Solo Levelling adalah Jalan Ninjaku",
-      "Selama Papa Mama masih kasih duit ngapain Kerja ?",
+      "Masih NYAMAN di zona sekarang",
+      "1 kerjaan udah cukup",
+      "Merasa belum dipanggil kerja, karena kurang banyak apply lowker",
+      "Sudah bisa jalan sendiri, tak perlu arahan",
+      "Merasa belum perlu optimalkan potensi diri",
     ],
   },
   offer: {
     id: "offer",
     programName: "Investment Plans",
     // price: "Rp100.000 per bulan", // Legacy
-    description: "Pilih paket coaching yang paling pas buat goals dan dompet kamu.",
+    description: "Pilih paket coaching yang paling sesuai sama goals & dompet kamu.",
     programSteps: [ // Replaces programDetails for the 1-5 gallery
       {
         number: "01",
@@ -200,7 +200,7 @@ export const content = {
           "Naikin visibilitas pakai keyword yang tepat di LI.",
           "Cara bangun personal branding secara konsisten",
           "Bangun value diri biar relevan sama perusahaan yang kamu incar..",
-          "Manfaatin fitur-fitur LI: open to work, endorsements, dan networking secara brutal.",
+          "Manfaatin fitur-fitur LI: open to work, endorsements, dan bernetworking secara efisien dan tepat sesuai dengan ranah industri pekerjaan kamu.",
         ],
         image: "/assets/programs/2.webp",
       },
@@ -208,7 +208,7 @@ export const content = {
         number: "03",
         title: "Interview Strategies",
         subtitle: "Siapin Arsenalmu",
-        description: "Di sini kamu dibekali strategi biar tampil PE-DE dan meyakinkan saat interview, yang kamu pelajari di tahap ini:",
+        description: "Di sini kamu dibekali strategi biar tampil meyakinkan saat interview, yang kamu pelajari di tahap ini:",
         points: [
           "Latihan jawab pertanyaan umum dan spesifik sesuai posisi yang kamu incar.",
           "Kenali gaya interview (behavioral, case, situational) + the most effective way to answer",
@@ -246,7 +246,7 @@ export const content = {
         number: "06",
         title: "Offered",
         subtitle: "Review Offering & Sign",
-        description: "Tahap final! Kita bantu review offering letter biar kamu nggak salah tanda tangan dan nyesel di akhir.",
+        description: "Tahap final! LWA bantu review offering letter biar kamu nggak salah tanda tangan dan nyesel di tengah jalan.",
         points: [
           "Review kontrak kerja & benefit",
           "Cek pasal-pasal pinalti yang merugikan",
@@ -420,12 +420,12 @@ export const content = {
   finalCta: {
     id: "final-cta",
     title: "Siap Gaspol Bareng LWA?",
-    subtext: "Yuk, pilih program yang paling masuk akal buat karier kamu.",
+    subtext: "Yuk, pilih program yang paling make sense buat kebutuhan karier kamu.",
     values: [
-      "Belajar dengan arah",
-      "Didampingi, bukan sendirian",
+      "Belajar dengan arahan yang jelas dan terstruktur",
+      "Didampingi dan dicoaching",
       "Biaya ringan, value jangka panjang",
-      "Fokus dunia kerja nyata",
+      "Fokus dunia kerja nyata (baik remote working maupun on-site)",
     ],
     primaryCta: {
       text: "Join LWA",
