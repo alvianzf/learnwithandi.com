@@ -57,9 +57,8 @@
 }
 
 .highlightCard {
-  border-color: #4ADE80;
-  /* Green */
-  background: #1f2a1f;
+  border-color: var(--highlight-color, #4ADE80);
+  background: color-mix(in srgb, var(--highlight-color, #4ADE80) 15%, #1f1f1f);
 }
 
 .popularBadge {
@@ -90,7 +89,7 @@
   position: absolute;
   top: -12px;
   left: 20px;
-  background: #4ADE80;
+  background: var(--highlight-color, #4ADE80);
   color: #000;
   font-weight: 700;
   padding: 0.25rem 0.75rem;
@@ -172,11 +171,11 @@
 }
 
 .highlightCard .ctaButton {
-  background: #4ADE80;
+  background: var(--highlight-color, #4ADE80);
 }
 
 .highlightCard .ctaButton:hover {
-  background: #45ce76;
+  background: color-mix(in srgb, var(--highlight-color, #4ADE80) 80%, black);
 }
 
 .consultationWrapper {

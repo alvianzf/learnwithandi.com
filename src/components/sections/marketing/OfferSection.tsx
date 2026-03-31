@@ -6,8 +6,24 @@ import { CheckCircle2, MessageCircle } from 'lucide-react';
 
 import { motion } from 'framer-motion';
 
+interface Plan {
+  name: string;
+  price: string;
+  billing: string;
+  features: string[];
+  cta: {
+    text: string;
+    link: string;
+  };
+  highlight: boolean;
+  highlightText: string;
+  highlightColor?: string;
+  retiring?: boolean;
+}
+
 export default function OfferSection() {
   const { offer } = content;
+  const plans = offer.plans as Plan[];
 
   const container = {
     hidden: { opacity: 0 },
@@ -55,11 +71,14 @@ export default function OfferSection() {
           whileInView="show"
           viewport={{ once: true, margin: "-50px" }}
         >
-          {offer.plans?.map((plan, index) => (
+          {plans?.map((plan, index) => (
             <motion.div
               key={index}
               className={`${styles.planCard} ${plan.highlight ? styles.highlightCard : ''}`}
               variants={item}
+              style={{
+                '--highlight-color': plan.highlightColor || '#4ADE80'
+              } as React.CSSProperties}
             >
 
               {plan.retiring && <div className={styles.retiringBadge}>Retiring Soon</div>}
@@ -73,7 +92,7 @@ export default function OfferSection() {
               <ul className={styles.benefits}>
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className={styles.benefitItem}>
-                    <CheckCircle2 color="#FFD700" size={20} className={styles.check} />
+                    <CheckCircle2 color={plan.highlight ? "var(--highlight-color)" : "#FFD700"} size={20} className={styles.check} />
                     <span>{feature}</span>
                   </li>
                 ))}

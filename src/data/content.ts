@@ -279,8 +279,9 @@ export const content = {
           text: "ORDER NOW",
           link: "https://learnwithandi.myr.id/membership/monthly-subscription-90-days-get-jobs-online-courses-linkedin-and-cv-optimisation-68399"
         },
-        highlight: true, // "Most Economical" or similar
-        highlightText: "Most Economical"
+        highlight: false, // "Most Economical" or similar
+        highlightText: "",
+        highlightColor: "#4ADE80"
       },
       {
         name: "Basic",
@@ -298,6 +299,7 @@ export const content = {
         retiring: true,
         highlight: false,
         highlightText: "",
+        highlightColor: "#4ADE80",
         cta: {
           text: "ORDER NOW",
           link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation"
@@ -319,8 +321,9 @@ export const content = {
         ],
         // popular: true,
         retiring: true,
-        highlight: false,
-        highlightText: "",
+        highlight: true,
+        highlightText: "Most Popular",
+        highlightColor: "#ffd000ff",
         cta: {
           text: "ORDER NOW",
           link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation-oyz5"
