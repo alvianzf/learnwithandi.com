@@ -26,19 +26,19 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
-  max-width: 900px;
-  /* Constrain width to keep it looking nice 2x2 */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .grid {
-    grid-template-columns: 1fr;
-    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
   }
 }
+
 
 .card {
   background: #000;
@@ -191,4 +191,74 @@
 
 .socialButton svg {
   flex-shrink: 0;
+}
+
+.dotsContainer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    align-items: stretch;
+  }
+  
+  .grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    min-width: 300px;
+    max-width: 320px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    height: auto;
+  }
+  
+  .content {
+    padding: 1.5rem;
+  }
+
+  .name {
+    font-size: 1.25rem;
+  }
+
+  .role {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .dotsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #444;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .dotActive {
+    background: var(--color-accent-yellow, #FFD700);
+    width: 24px;
+    border-radius: 4px;
+  }
 }

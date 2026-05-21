@@ -27,9 +27,63 @@ const MentorImage = ({ src, alt, className }: { src: string, alt: string, classN
 };
 
 import { motion } from 'framer-motion';
+import { useRef, useEffect } from 'react';
 
 export default function MentorsSection() {
   const { mentors } = content;
+  const [activeIndex, setActiveIndex] = useState(0);
+  const sliderRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!sliderRef.current || window.innerWidth > 768) return;
+      const children = Array.from(sliderRef.current.children);
+      let closestIndex = 0;
+      let minDistance = Infinity;
+      children.forEach((child, index) => {
+        const rect = child.getBoundingClientRect();
+        const childCenter = rect.left + rect.width / 2;
+        const containerRect = sliderRef.current!.getBoundingClientRect();
+        const containerCenter = containerRect.left + containerRect.width / 2;
+        const distance = Math.abs(childCenter - containerCenter);
+        if (distance < minDistance) {
+          minDistance = distance;
+          closestIndex = index;
+        }
+      });
+      setActiveIndex(closestIndex);
+    };
+
+    const slider = sliderRef.current;
+    if (slider) {
+      slider.addEventListener('scroll', handleScroll);
+      // init
+      handleScroll();
+    }
+    return () => slider?.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    // Auto slide every 2 seconds
+    const interval = setInterval(() => {
+      if (window.innerWidth > 768 || !sliderRef.current) return;
+      const slider = sliderRef.current;
+      const totalItems = mentors?.items.length || 0;
+      let nextIndex = activeIndex + 1;
+      if (nextIndex >= totalItems) {
+        nextIndex = 0;
+      }
+      const targetChild = slider.children[nextIndex] as HTMLElement;
+      if (targetChild) {
+        slider.scrollTo({
+          left: targetChild.offsetLeft - slider.offsetLeft,
+          behavior: 'smooth'
+        });
+      }
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, [activeIndex, mentors?.items.length]);
 
   if (!mentors) return null;
 
@@ -46,6 +100,19 @@ export default function MentorsSection() {
   const item = {
     hidden: { opacity: 0, y: 30 },
     show: { opacity: 1, y: 0 }
+  };
+
+  const handleDotClick = (index: number) => {
+    if (!sliderRef.current) return;
+    const slider = sliderRef.current;
+    const targetChild = slider.children[index] as HTMLElement;
+    if (targetChild) {
+      slider.scrollTo({
+        left: targetChild.offsetLeft - slider.offsetLeft,
+        behavior: 'smooth'
+      });
+      setActiveIndex(index);
+    }
   };
 
   return (
@@ -73,6 +140,7 @@ export default function MentorsSection() {
         </div>
 
         <motion.div
+          ref={sliderRef}
           className={styles.grid}
           variants={container}
           initial="hidden"
@@ -139,6 +207,17 @@ export default function MentorsSection() {
             </motion.div>
           ))}
         </motion.div>
+
+        <div className={styles.dotsContainer}>
+          {mentors.items.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => handleDotClick(index)}
+              className={`${styles.dot} ${activeIndex === index ? styles.dotActive : ''}`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

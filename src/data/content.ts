@@ -41,6 +41,20 @@ export const content = {
         linkedin: "https://www.linkedin.com/in/derryldt/"
       },
       {
+        name: "Taufik Hidayat",
+        role: "Senior Android Engineer & HR Mock Interviewer",
+        description: "Selain aktif sebagai Senior Android Engineer, Taufik juga berpengalaman sebagai Tech Lead yang sering menyeleksi kandidat. Dengan jam terbang me-review 3K+ portofolio, ia siap simulasi interview dan kasih feedback dari kacamata Hiring Manager.",
+        image: "/assets/mentors/taufik.png",
+        linkedin: "https://www.linkedin.com/in/taufik-hidayat/"
+      },
+      {
+        name: "Diaz Rizky Agista",
+        role: "HR Mock Interviewer",
+        description: "Regional Talent Acquisition dengan pengalaman 6+ tahun rekrutmen lintas negara di APAC. Punya jam terbang tinggi nyari top talent buat berbagai industri, Diaz siap bantu kamu simulasi interview dan ngasih insight dari kacamata rekruter multinasional.",
+        image: "/assets/mentors/diaz.png",
+        linkedin: "https://www.linkedin.com/in/diazagista/"
+      },
+      {
         name: "Muhammad Fauzan",
         role: "Digital Marketing Specialist",
         description: "Digital Marketer yang paham luar dalem soal Ads & Growth. Punya pengalaman teknis deep di industri, siap sharing rahasia campaign yang ngena dan menghasilkan cuan.",
@@ -104,7 +118,7 @@ export const content = {
     ],
   },
   stats: {
-    text: "400 Member LWA Udah Dapat Kerja di 2025",
+    text: "428+ Member LWA Sudah Dapat Kerja di 2025-2026",
   },
   careerElements: {
     title: "Elemen Penting Upgrade Karier",
