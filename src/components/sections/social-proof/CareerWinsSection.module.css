@@ -52,6 +52,31 @@
   text-align: center;
 }
 
+.counterWrapper {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counterNumber {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 800;
+  color: var(--color-accent-yellow, #FFD700);
+  line-height: 1;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.counterLabel {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.5rem;
+}
+
 .marqueeWrapper {
   position: relative;
   width: 100%;
@@ -111,7 +136,14 @@
   display: flex;
   gap: 2rem;
   padding: 2rem 0;
-  width: max-content;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* Allow scrolling to start from center slightly or just standard */
+}
+
+.marqueeTrack::-webkit-scrollbar {
+  display: none;
 }
 
 .monthCard {
@@ -123,6 +155,30 @@
   display: flex;
   flex-direction: column;
   height: 450px;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #444;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dotActive {
+  background: var(--color-accent-yellow, #FFD700);
+  width: 24px;
+  border-radius: 4px;
 }
 
 .cardHeader {
