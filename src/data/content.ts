@@ -118,7 +118,7 @@ export const content = {
     ],
   },
   stats: {
-    text: "428+ Member LWA Sudah Dapat Kerja di 2025-2026",
+    text: "450+ Member LWA Sudah Dapat Kerja di 2025-2026",
   },
   careerElements: {
     title: "Elemen Penting Upgrade Karier",
