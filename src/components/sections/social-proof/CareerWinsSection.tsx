@@ -36,7 +36,7 @@ export default function CareerWinsSection() {
   const isHovered = useRef(false);
   const isManualScrolling = useRef(false);
   const manualTimeout = useRef<NodeJS.Timeout | null>(null);
-  const reqRef = useRef<number>();
+  const reqRef = useRef<number>(0);
 
   // Doubling the list for infinite continuous effect
   const displayPlacements = [...placements, ...placements];
