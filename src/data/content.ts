@@ -299,8 +299,8 @@ export const content = {
       },
       {
         name: "Basic",
-        price: "Rp449.000",
-        billing: "Life Time",
+        price: "Rp499.000",
+        billing: "Yearly",
         features: [
           "Weekly Meeting 2x Seminggu",
           "Dukungan Harian di Grup",
@@ -310,19 +310,18 @@ export const content = {
           "Akses ke Semua Grup Support",
           "Probation Support (Special Support)"
         ],
-        retiring: true,
         highlight: false,
         highlightText: "",
         highlightColor: "#4ADE80",
         cta: {
           text: "ORDER NOW",
-          link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation"
+          link: "https://learnwithandi.myr.id/membership/basic-package-1-year-access-90-days-get-jobs-online-courses-linkedin-and-cv-optimisation"
         },
       },
       {
         name: "Premium",
-        price: "Rp699.000",
-        billing: "Life Time",
+        price: "Rp799.000",
+        billing: "Yearly",
         features: [
           "Weekly Meeting 2x Seminggu",
           "Dukungan Harian di Grup",
@@ -334,13 +333,12 @@ export const content = {
           "Free Roasting 1on1 90 menit"
         ],
         // popular: true,
-        retiring: true,
         highlight: true,
         highlightText: "Most Popular",
         highlightColor: "#ffd000ff",
         cta: {
           text: "ORDER NOW",
-          link: "https://learnwithandi.myr.id/course/90-days-get-jobs-online-courses-linkedin-and-cv-optimisation-oyz5"
+          link: "https://learnwithandi.myr.id/membership/premium-package-1-year-access-90-days-get-jobs-online-courses-linkedin-and-cv-optimisation"
         },
       }
     ],

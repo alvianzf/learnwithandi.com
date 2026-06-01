@@ -25,9 +25,9 @@ export default function Navbar() {
 
   const homeLinks = [
     { name: 'PROBLEMS', href: '#problem' },
-    { name: 'TESTIMONY', href: '#testimonials' },
     { name: 'PROGRAMS', href: '#program' },
     { name: 'MENTORS', href: '#mentors' },
+    { name: 'PLACEMENTS', href: '#career-wins' },
   ];
 
   const partnershipLinks = [
