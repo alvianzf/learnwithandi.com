@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const CSV_PATH = process.argv[2] || path.join(__dirname, '../../Downloads/Data LWA - Placement (1).csv');
+const CSV_PATH = process.argv[2] || path.join(__dirname, '../Data LWA - Placement.csv');
 const OUT_PATH = path.join(__dirname, '../src/data/placements.json');
 
 const MONTH_NAMES = [
