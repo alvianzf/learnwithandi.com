@@ -1,7 +1,740 @@
 [
   {
+    "month": "June 2026",
+    "count": 7,
+    "items": [
+      {
+        "name": "Ananda Dwi Rahma",
+        "linkedin": "https://www.linkedin.com/in/nandadwir/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Elfarabi Amien",
+        "linkedin": "https://www.linkedin.com/in/elfarabi/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Fazzy Lazuardi",
+        "linkedin": "https://www.linkedin.com/in/fazzylazuardi/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Annisaa Nur Ekaputri",
+        "linkedin": "https://www.linkedin.com/in/annisaa-nur-ekaputri/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Fadel Muhammad Haris",
+        "linkedin": "https://www.linkedin.com/in/fadelmha/",
+        "role": "Sales Marketing Executive",
+        "company": "Royal Brunei Airlines",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Irfan Maulana",
+        "linkedin": "https://www.linkedin.com/in/maulana-irfan/",
+        "role": "Business Data Analyst",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Andi Faishal",
+        "linkedin": "",
+        "role": "Finance Manager",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      }
+    ]
+  },
+  {
+    "month": "May 2026",
+    "count": 35,
+    "items": [
+      {
+        "name": "Pitasari Sianturi",
+        "linkedin": "https://www.linkedin.com/in/pitasari-sianturi-981288169/",
+        "role": "Credit Analyst",
+        "company": "PT BPR Banda Raya",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Luthfi Luluk Fadhila",
+        "linkedin": "https://www.linkedin.com/in/luthfi-luluk/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Howard Lauson",
+        "linkedin": "https://www.linkedin.com/in/howardlauson/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Geral Nius Bakhan",
+        "linkedin": "https://www.linkedin.com/in/geralniusbakhan/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Messiah Richardo Faykusa",
+        "linkedin": "https://www.linkedin.com/in/messiah-faykusa/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Arkan Hadna",
+        "linkedin": "https://www.linkedin.com/in/arkanhadna/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Irhash Putra",
+        "linkedin": "https://www.linkedin.com/in/irhashputra/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Susanti Budiari",
+        "linkedin": "https://www.linkedin.com/in/santi-budiari/",
+        "role": "Data Curator",
+        "company": "Veeva Systems",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Virgil Imanuel Ambar",
+        "linkedin": "https://www.linkedin.com/in/virgil-i-ambar/",
+        "role": "Fullstack Developer",
+        "company": "PT Bank BCA",
+        "month": "May 2026",
+        "is_b2b": true,
+        "b2b_logo": "/assets/partners/koda-academy.webp",
+        "partner_name": "Koda",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Didik Setiawan",
+        "linkedin": "https://www.linkedin.com/in/didiksetiawanid/",
+        "role": "Application Engineer",
+        "company": "PT Indojaya Mitra Sarana",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Vincentius Dwi Prasetyo",
+        "linkedin": "https://www.linkedin.com/in/vincentiusdwiprasetyo/",
+        "role": "Fullstack Developer",
+        "company": "PT Bank BCA",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Fauzan Prima Mukti",
+        "linkedin": "https://www.linkedin.com/in/fauzanprimamukti/",
+        "role": "CSS Associate Engineer",
+        "company": "IT Group Inc",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Mohamad Fayyaz",
+        "linkedin": "https://www.linkedin.com/in/mohamad-fayyaz/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Citra Deslan Khatarina",
+        "linkedin": "https://www.linkedin.com/in/cdkh/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Mori Harahap",
+        "linkedin": "https://www.linkedin.com/in/moriharahap/",
+        "role": "Project Manager",
+        "company": "Markethac",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Ardhi Kusuma Wisnu Wardhana",
+        "linkedin": "https://www.linkedin.com/in/ardhiphakdhewkusuma/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Nipe Setiawan Harefa",
+        "linkedin": "https://www.linkedin.com/in/nipeharefa/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Sulvia",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Muhammad Irwansyah",
+        "linkedin": "https://www.linkedin.com/in/muhammadirwansyah/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Hariyanto Yanto",
+        "linkedin": "https://www.linkedin.com/in/hariyanto-yanto-737494372/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Joshua Ryandafres Pangaribuan",
+        "linkedin": "https://www.linkedin.com/in/joshuapangaribuan/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Amarendra Zufar Nibroos",
+        "linkedin": "https://www.linkedin.com/in/amarendrazufarn/",
+        "role": "Consultant & Partnership Officer",
+        "company": "PT Pijar Integra Psikologi Unpad",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Gavra Justine Samuel Sihombing",
+        "linkedin": "https://www.linkedin.com/in/gavrasihombing/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Muhammad Ghazian",
+        "linkedin": "https://www.linkedin.com/in/muhghazian/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Raissa Rahmani Putri",
+        "linkedin": "https://www.linkedin.com/in/raissarahmani/",
+        "role": "Fullstack Developer",
+        "company": "PT Bank BCA",
+        "month": "May 2026",
+        "is_b2b": true,
+        "b2b_logo": "/assets/partners/koda-academy.webp",
+        "partner_name": "Koda",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Arif Rahman",
+        "linkedin": "https://www.linkedin.com/in/arifrahman03/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": true,
+        "b2b_logo": "/assets/partners/koda-academy.webp",
+        "partner_name": "Koda",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Gazanuha Alhilal Fathiakbar",
+        "linkedin": "https://www.linkedin.com/in/alhilalfathi/",
+        "role": "Fullstack Developer",
+        "company": "PT Bank BCA",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Abdur Rochman",
+        "linkedin": "https://www.linkedin.com/in/abdur-rochmann/",
+        "role": "Fullstack Developer",
+        "company": "Raj Hikmatul Karomah",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Fahreza Akbar Susilo",
+        "linkedin": "https://www.linkedin.com/in/fakhreza-akbar-susilo/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Armada Afga Adrian Nasar",
+        "linkedin": "https://www.linkedin.com/in/armadanasar/",
+        "role": "Fullstack Engineer",
+        "company": "Gabo AI",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "iqfar Mutaqin",
+        "linkedin": "https://www.linkedin.com/in/iqfar-mutaqin-602a95171/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Ghalih J.",
+        "linkedin": "https://www.linkedin.com/in/ghalih-jatnika/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Kharis Isriyanto",
+        "linkedin": "https://linkedin.com/in/kharis-isriyanto",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Vitasari Doras Insani Manalu",
+        "linkedin": "https://www.linkedin.com/in/vitasarimanalu/",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      },
+      {
+        "name": "Rangga B2B",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "May 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-05"
+      }
+    ]
+  },
+  {
+    "month": "April 2026",
+    "count": 23,
+    "items": [
+      {
+        "name": "A Fikri Attoyyibi",
+        "linkedin": "https://www.linkedin.com/in/a-fikri/",
+        "role": "Fullstack",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": true,
+        "b2b_logo": "/assets/partners/koda-academy.webp",
+        "partner_name": "Koda",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Nugraha Panca Wibisana",
+        "linkedin": "https://www.linkedin.com/in/nugrahapancawibisana/",
+        "role": "Information Technology System Engineer",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": true,
+        "b2b_logo": "/assets/partners/koda-academy.webp",
+        "partner_name": "Koda",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Ari Ramadhan",
+        "linkedin": "https://www.linkedin.com/in/ariramadhan89/",
+        "role": "Fullstack",
+        "company": "Mandiri Utama Finance",
+        "month": "April 2026",
+        "is_b2b": true,
+        "b2b_logo": "/assets/partners/koda-academy.webp",
+        "partner_name": "Koda",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Dionisius Andrean Sihombing",
+        "linkedin": "https://www.linkedin.com/in/imandreans/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Kiki Rena Situmorang",
+        "linkedin": "https://www.linkedin.com/in/kikisitumorang/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Muhammad Ihsan",
+        "linkedin": "https://www.linkedin.com/in/emhaihsan/",
+        "role": "Lecturer",
+        "company": "Politeknik Murakata",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Salsabiela Milenia Putri",
+        "linkedin": "https://www.linkedin.com/in/salsabielamileniaputri/",
+        "role": "Quality Assurance",
+        "company": "PT Mulia Farma Suci",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Budi Hari",
+        "linkedin": "https://www.linkedin.com/in/budi-hari/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Muhamad Syarif",
+        "linkedin": "https://www.linkedin.com/in/muhamad-syarif/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Sri Lutfiya Dwiyeni",
+        "linkedin": "https://www.linkedin.com/in/sri-lutfiya-dwiyeni/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Elzana Mardhia",
+        "linkedin": "https://www.linkedin.com/in/elzanamardhia/",
+        "role": "Human Resource Specialist",
+        "company": "B2BE",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Dien Muhammad",
+        "linkedin": "https://www.linkedin.com/in/dienm/",
+        "role": "Information Technology Sales Consultant",
+        "company": "Asiaquest Indonesia",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Diaz Rizky Agista",
+        "linkedin": "https://www.linkedin.com/in/diazagista/",
+        "role": "Recruitment Consutant",
+        "company": "Nes Fircroft",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Ari Putra",
+        "linkedin": "https://www.linkedin.com/in/ariputra/",
+        "role": "Senior Fullstack",
+        "company": "HReasiliy",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Rahmat Mulyadi",
+        "linkedin": "https://www.linkedin.com/in/rahmat-mulyadi-video-editor/",
+        "role": "Video Editor",
+        "company": "Qualitest North America",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Ucok Wahyu Nurteja",
+        "linkedin": "https://www.linkedin.com/in/ucok-wahyu-nurteja/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Afiff Aulia",
+        "linkedin": "https://www.linkedin.com/in/afiff-aulia/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Rafli Rizkya Sakti Nugraha",
+        "linkedin": "https://www.linkedin.com/in/raflirzkyaa/",
+        "role": "Business Development Analyst",
+        "company": "PT Pipamas Primasejati",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Arvianto D. Wicaksono",
+        "linkedin": "https://www.linkedin.com/in/arviantodwi/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Alvitra Choirin Nisa'",
+        "linkedin": "https://www.linkedin.com/in/alvitrachoi/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Alif Wisesa Muhammad",
+        "linkedin": "https://www.linkedin.com/in/alif-wisesa-muhammad/",
+        "role": "Presales Executive",
+        "company": "PT Dans Multi Pro",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Dhita Kusuma",
+        "linkedin": "https://www.linkedin.com/in/dhitakusuma/",
+        "role": "Presales & Analytics COnsultant",
+        "company": "CRIF",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      },
+      {
+        "name": "Amalia Nurlita",
+        "linkedin": "https://www.linkedin.com/in/amalianurlita/",
+        "role": "Other",
+        "company": "",
+        "month": "April 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-04"
+      }
+    ]
+  },
+  {
     "month": "March 2026",
-    "count": 22,
+    "count": 23,
     "items": [
       {
         "name": "Citra Anandya",
@@ -9,10 +742,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Siti Irmawati",
@@ -20,10 +753,10 @@
         "role": "System Administrator",
         "company": "PT. Sejahtera Bersama Indotama",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Damida Shu Mudita",
@@ -31,10 +764,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Didit A. Irwantoko",
@@ -42,10 +775,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Rangga Dewa Lukita",
@@ -53,10 +786,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Hilman Fajri Fahriansyah",
@@ -64,10 +797,10 @@
         "role": "Software Engineer",
         "company": "Mekari",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Rika Yuliani",
@@ -75,10 +808,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Mukhlis Purnomo Aji",
@@ -86,10 +819,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Irfandy J.",
@@ -97,10 +830,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Fitdha Khairadini",
@@ -108,10 +841,21 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
+      },
+      {
+        "name": "Nanda",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "March 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Frensky Oey",
@@ -119,10 +863,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Beta Narulita Aprilia",
@@ -130,10 +874,10 @@
         "role": "Data Engineer & Automation Report",
         "company": "Telkomsel",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Calvin Sugianto",
@@ -141,10 +885,10 @@
         "role": "Functional Consultant",
         "company": "PT. Berca Hardayaperkasa",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Ridwan Indriansyah",
@@ -152,10 +896,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Alvin Rikardo",
@@ -163,10 +907,10 @@
         "role": "Fullstack Developer",
         "company": "Pt. Indotek Buana Karya",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Ananda Vijaya",
@@ -174,10 +918,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Fina Mustika",
@@ -185,10 +929,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Denny Ferdiansyah",
@@ -196,10 +940,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Faisal Rahman",
@@ -207,10 +951,10 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Mohamad Dimas Prayoga",
@@ -218,10 +962,10 @@
         "role": "Cloud Engineer",
         "company": "NTT Data",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Fadhlul Rahman",
@@ -229,10 +973,10 @@
         "role": "Fullstack",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       },
       {
         "name": "Safira Aulia Fadhillah",
@@ -240,16 +984,16 @@
         "role": "Other",
         "company": "",
         "month": "March 2026",
-        "sort_key": "2026-03",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-03"
       }
     ]
   },
   {
     "month": "February 2026",
-    "count": 21,
+    "count": 23,
     "items": [
       {
         "name": "Tengku Rasdisyah",
@@ -257,10 +1001,10 @@
         "role": "Country Head",
         "company": "MOVV",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Ardhi Kusuma Wisnu Wardhana",
@@ -268,10 +1012,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Ramadhani Akbar",
@@ -279,10 +1023,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Khoirunnisa K.",
@@ -290,10 +1034,10 @@
         "role": "HR Operations",
         "company": "PT. Afriwinsyah Cipta Sedaya",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Fachry Andika Rachman",
@@ -301,10 +1045,21 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
+      },
+      {
+        "name": "Ridho M",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "February 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Geral Nius Bakhan",
@@ -312,10 +1067,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Ismail Shalih Abdul Kholiq",
@@ -323,10 +1078,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "I Gede Prasetya Mahaputra",
@@ -334,10 +1089,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "MUHAMAD SUGANDHI RAMADHAN",
@@ -345,10 +1100,10 @@
         "role": "Graphic Designer",
         "company": "Astro",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Adji Putra",
@@ -356,10 +1111,10 @@
         "role": "Social Media Lead",
         "company": "Think Policy Indonesia",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Fikri Raihan",
@@ -367,10 +1122,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Ahmad Khoirul S. Prawiranegara",
@@ -378,10 +1133,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Rika Yuliani",
@@ -389,10 +1144,10 @@
         "role": "Production Supervisor",
         "company": "PT. Metaline Technology Indonesia",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Alfionita Saadah",
@@ -400,10 +1155,10 @@
         "role": "Software Engineer",
         "company": "ERP Tohama Co., LTD",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Alief Akbar",
@@ -411,10 +1166,10 @@
         "role": "Data Engineer",
         "company": "Rata.ID",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Satriyo Budi Utomo",
@@ -422,10 +1177,21 @@
         "role": "Software Engineer",
         "company": "Hingoray Company",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
+      },
+      {
+        "name": "Abang2 Senior Android",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "February 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "waliyadi",
@@ -433,10 +1199,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Kurnia Anwar Ra'if",
@@ -444,10 +1210,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Abdullah fikri",
@@ -455,10 +1221,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Mohamad Dimas Prayoga",
@@ -466,10 +1232,10 @@
         "role": "Other",
         "company": "",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       },
       {
         "name": "Harun Al Rasyid",
@@ -477,16 +1243,16 @@
         "role": "Software Engineer",
         "company": "KYC Hospitality",
         "month": "February 2026",
-        "sort_key": "2026-02",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-02"
       }
     ]
   },
   {
     "month": "January 2026",
-    "count": 29,
+    "count": 28,
     "items": [
       {
         "name": "Ari Eka Saputra",
@@ -494,10 +1260,10 @@
         "role": "Software Developer",
         "company": "PT Optimal Untuk Negeri",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Anggi Prayoga",
@@ -505,10 +1271,10 @@
         "role": "Software Developer",
         "company": "PT Optimal Untuk Negeri",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Mulia Yusuf",
@@ -516,10 +1282,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Taufik Hidayat",
@@ -527,10 +1293,10 @@
         "role": "Android Developer",
         "company": "PT. Bank Tabungan Negara",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Devy Mutiara Sari",
@@ -538,10 +1304,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Ruth Echo G",
@@ -549,10 +1315,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Hesti Atina Dewi",
@@ -560,10 +1326,10 @@
         "role": "Administrator",
         "company": "Tradha Group",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Laurensius Adrian Wibowo",
@@ -571,10 +1337,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Andreas Lelu Bastian",
@@ -582,10 +1348,10 @@
         "role": "Product Engineering Manager",
         "company": "Combine Will International Holdings Limited",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Mohammad Saifulloh Arif",
@@ -593,10 +1359,10 @@
         "role": "Customer Service Export Officer",
         "company": "MSC Mediterranean Shipping Company",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Margareta Yubella M.M.K",
@@ -604,10 +1370,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Federus Rudi",
@@ -615,10 +1381,10 @@
         "role": "Fullstack",
         "company": "OCBC Indonesia",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Farid Rhamadhan Darari",
@@ -626,10 +1392,10 @@
         "role": "Fullstack",
         "company": "OCBC Indonesia",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Muhammad Sandi Maulana Y",
@@ -637,10 +1403,10 @@
         "role": "Backend",
         "company": "PT. Global Energi Lestari",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Imanul Aufa",
@@ -648,21 +1414,10 @@
         "role": "Information Technology Programmer",
         "company": "Bhinneka Nusantara Mandiri",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
-      },
-      {
-        "name": "Anggi Prayoga",
-        "linkedin": "https://www.linkedin.com/in/anggi-prayoga/",
-        "role": "Software Developer",
-        "company": "PT Optimal Untuk Negeri",
-        "month": "January 2026",
-        "sort_key": "2026-01",
-        "is_b2b": true,
-        "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Ahmad Mukhlis Saputra",
@@ -670,10 +1425,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Devandira P",
@@ -681,10 +1436,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Juwita Maulida Rahmawati",
@@ -692,10 +1447,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Itsna Maulana Hasan",
@@ -703,10 +1458,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Ismail Shalih Abdul Kholiq",
@@ -714,10 +1469,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Rayhan Syahputra",
@@ -725,10 +1480,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Dendy Kurniari Agman",
@@ -736,10 +1491,10 @@
         "role": "Data Analyst",
         "company": "Agros",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Ahmad Hafidh Ayatullah",
@@ -747,10 +1502,10 @@
         "role": "Backend",
         "company": "The Business Tailor LLP",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       },
       {
         "name": "Titus Rangga",
@@ -758,10 +1513,10 @@
         "role": "Backend",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Ma'la Iliyati",
@@ -769,10 +1524,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Muhammad Yusuf",
@@ -780,10 +1535,10 @@
         "role": "Fullstack",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Radifan Muhammad A",
@@ -791,10 +1546,10 @@
         "role": "Other",
         "company": "",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2026-01"
       },
       {
         "name": "Giska Adilah Sharfina Saputra",
@@ -802,16 +1557,16 @@
         "role": "Digital Marketing Specialist",
         "company": "Hejaz",
         "month": "January 2026",
-        "sort_key": "2026-01",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2026-01"
       }
     ]
   },
   {
     "month": "December 2025",
-    "count": 24,
+    "count": 29,
     "items": [
       {
         "name": "Zacky Miftahul Ulum",
@@ -819,10 +1574,10 @@
         "role": "Business Acquisition Executive",
         "company": "Accurate Indonesia",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Affa Alfiandy",
@@ -830,10 +1585,21 @@
         "role": "ML Engineer",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
+      },
+      {
+        "name": "Wildan S",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "December 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Rayhan Prastya",
@@ -841,10 +1607,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Iriyanto",
@@ -852,10 +1618,10 @@
         "role": "System Analyst",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Agustina Ampuni",
@@ -863,10 +1629,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Fawwaz Muhammad Tsani",
@@ -874,10 +1640,21 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
+      },
+      {
+        "name": "Sharon Agustine Supriyadi",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "December 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Ma'la Iliyati",
@@ -885,10 +1662,10 @@
         "role": "Fullstack",
         "company": "Solusi Teknologi Kreatif",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2025-12"
       },
       {
         "name": "Hafidh Irsyad Khairuddin",
@@ -896,10 +1673,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Adimas Putra Pratama",
@@ -907,10 +1684,10 @@
         "role": "Backend",
         "company": "MSIG Life",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Rafli Rafiky",
@@ -918,10 +1695,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Ahmad Mukhlis Saputra",
@@ -929,10 +1706,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Rosyida Salsabila",
@@ -940,10 +1717,10 @@
         "role": "Senior Social Media",
         "company": "PT. Tumbuh Karya Abadi",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Muhammad Ghazian",
@@ -951,10 +1728,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Muhammad Adlan Jazuli",
@@ -962,10 +1739,10 @@
         "role": "Backend",
         "company": "PT Bank Mandiri",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Nur Alawiyah",
@@ -973,10 +1750,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Azhari",
@@ -984,10 +1761,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Roissyah Fernanda",
@@ -995,10 +1772,10 @@
         "role": "Machine Learning Engineer",
         "company": "Cavos",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Tis Jalaludin",
@@ -1006,10 +1783,10 @@
         "role": "UI/UX",
         "company": "PT Aria Karsa Eterna",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Kurnia Anwar Ra'if",
@@ -1017,10 +1794,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Haringun Nur Adha",
@@ -1028,10 +1805,10 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Amarullah",
@@ -1039,10 +1816,10 @@
         "role": "Warehouse Supervisor",
         "company": "PT. Porto Indonesia Sejahtera",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Septiadi",
@@ -1050,10 +1827,32 @@
         "role": "Fullstack",
         "company": "Aido Health Indonesia",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
+      },
+      {
+        "name": "Fadzrian Gibran",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "December 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-12"
+      },
+      {
+        "name": "Prima",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "December 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Muhammad Zulfarhan",
@@ -1061,10 +1860,10 @@
         "role": "Data Engineer",
         "company": "NashTa Group",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
       },
       {
         "name": "Muhammad Anggoro",
@@ -1072,16 +1871,27 @@
         "role": "Other",
         "company": "",
         "month": "December 2025",
-        "sort_key": "2025-12",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-12"
+      },
+      {
+        "name": "Thariq",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "December 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-12"
       }
     ]
   },
   {
     "month": "November 2025",
-    "count": 23,
+    "count": 24,
     "items": [
       {
         "name": "Dini Aulia",
@@ -1089,10 +1899,10 @@
         "role": "Warehouse",
         "company": "Pou Chen Group Indonesia",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Najmul Azka",
@@ -1100,10 +1910,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Ade Rahmanp",
@@ -1111,10 +1921,21 @@
         "role": "Technical Project Manager",
         "company": "Kata.ai",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
+      },
+      {
+        "name": "Lifnur",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "November 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Nurina Evawani",
@@ -1122,10 +1943,10 @@
         "role": "Product Management",
         "company": "Meratus Group",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Aksana Akta Pradika",
@@ -1133,10 +1954,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Andi Kurniawan",
@@ -1144,10 +1965,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Rangga Lukita",
@@ -1155,10 +1976,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Margareta Kristiana",
@@ -1166,10 +1987,10 @@
         "role": "Programmer",
         "company": "Universitas Katolik Soegijapranata",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Hadibroto Agastya",
@@ -1177,10 +1998,10 @@
         "role": "Digital Marketing Specialist",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Irhash",
@@ -1188,10 +2009,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Verdyanza Budiyanto",
@@ -1199,10 +2020,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Siti Nur Annisa",
@@ -1210,10 +2031,10 @@
         "role": "Site Verifier",
         "company": "Confirmis",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "khoirunnisak",
@@ -1221,10 +2042,10 @@
         "role": "Virtual Assistant",
         "company": "Devshore",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Warda Laila",
@@ -1232,10 +2053,10 @@
         "role": "Fullstack",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Radif Aghnadiin",
@@ -1243,10 +2064,10 @@
         "role": "IT System Engineer",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2025-11"
       },
       {
         "name": "Recky Arisenta",
@@ -1254,10 +2075,10 @@
         "role": "Onsite Engineer",
         "company": "PT. Magnus Sedaya Selaras",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Simon Rais Sihombing",
@@ -1265,10 +2086,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Ahmad Mukhlis Saputra",
@@ -1276,10 +2097,10 @@
         "role": "Mobile Architect & Technology Consultant",
         "company": "PT. Lentera Duta Persada",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Muhammad Firdaus",
@@ -1287,10 +2108,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Setyo Budi Utomo",
@@ -1298,10 +2119,10 @@
         "role": "Project Engineer",
         "company": "PT. Mercatura Indonesia",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Anwar Abdullah",
@@ -1309,10 +2130,10 @@
         "role": "Fullstack",
         "company": "Wayfindr",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Ilyas Fahru Riza",
@@ -1320,10 +2141,10 @@
         "role": "Other",
         "company": "",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       },
       {
         "name": "Susanti Budiari",
@@ -1331,16 +2152,16 @@
         "role": "Virtual Assistant",
         "company": "Keep Nomad",
         "month": "November 2025",
-        "sort_key": "2025-11",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-11"
       }
     ]
   },
   {
     "month": "October 2025",
-    "count": 24,
+    "count": 26,
     "items": [
       {
         "name": "Rizki Johan",
@@ -1348,10 +2169,10 @@
         "role": "Frontend",
         "company": "StoreFrame",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Ade Kurniawan",
@@ -1359,10 +2180,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Harun Al Rasyid",
@@ -1370,10 +2191,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Andi Faishal",
@@ -1381,10 +2202,10 @@
         "role": "Senior Accountant",
         "company": "Stealth",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Anak Kusuma",
@@ -1392,10 +2213,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Muhammad Furqan",
@@ -1403,10 +2224,32 @@
         "role": "Frontend",
         "company": "Kementerian Keuangan Republik Indonesia",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
+      },
+      {
+        "name": "Alif",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "October 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-10"
+      },
+      {
+        "name": "Septya Ayu Vatrina",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "October 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Jordan Yo",
@@ -1414,10 +2257,10 @@
         "role": "Product Design Lead",
         "company": "Sobat Bisnis Group",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Tis Jalaludin",
@@ -1425,10 +2268,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Raffel Prama Andhika",
@@ -1436,10 +2279,10 @@
         "role": "Research and Development Engineer (AI)",
         "company": "Gositus",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Hanindya Mantrastungkara",
@@ -1447,10 +2290,10 @@
         "role": "Junior Content Strategist",
         "company": "Beertiga Creative",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Mukhlis Purnomo Aji",
@@ -1458,10 +2301,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Muchamad Coirul Anwar",
@@ -1469,10 +2312,10 @@
         "role": "Fullstack",
         "company": "PT BRI",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Anggi Renaldy Pratama",
@@ -1480,10 +2323,10 @@
         "role": "Country Manager",
         "company": "Zotov",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Budi Hari",
@@ -1491,10 +2334,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Zaenal Arifin",
@@ -1502,10 +2345,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Aditya Wicaksana",
@@ -1513,10 +2356,10 @@
         "role": "Project Manager",
         "company": "PT Griyanet",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Selma Fatimah",
@@ -1524,10 +2367,10 @@
         "role": "Senior Creative Designer",
         "company": "Practice Growth Studio",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Ilham Wibisono",
@@ -1535,10 +2378,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Yudistiro Septian Dwi Saputro",
@@ -1546,10 +2389,10 @@
         "role": "Android Engineer",
         "company": "Tuntun Sekuritas Indonesia",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Farhan Adi Nugraha",
@@ -1557,10 +2400,10 @@
         "role": "Low Code App Developer",
         "company": "PT. Pharos Indonesia",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Shreevatsa Uthama",
@@ -1568,10 +2411,10 @@
         "role": "Application Tester",
         "company": "Stankevicius",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Aprisa Anggraeni",
@@ -1579,10 +2422,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "Firman Alhadiansyah",
@@ -1590,10 +2433,10 @@
         "role": "Other",
         "company": "",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       },
       {
         "name": "I Gede Prasetya Mahaputra",
@@ -1601,16 +2444,16 @@
         "role": "Fullstack",
         "company": "CloudTeam Digital",
         "month": "October 2025",
-        "sort_key": "2025-10",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-10"
       }
     ]
   },
   {
     "month": "September 2025",
-    "count": 24,
+    "count": 26,
     "items": [
       {
         "name": "Rananda",
@@ -1618,10 +2461,10 @@
         "role": "Software Developer",
         "company": "Huawei",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2025-09"
       },
       {
         "name": "Muhammad muchson",
@@ -1629,10 +2472,10 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Ahmad Khairul Anwar",
@@ -1640,10 +2483,10 @@
         "role": "Frontend",
         "company": "PT. Pegadaian",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Hendradito Dwi Aprillian",
@@ -1651,10 +2494,10 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Awe Aerlend Putra Anas",
@@ -1662,10 +2505,10 @@
         "role": "Maintenance Technician",
         "company": "PT Pelayanan Energi Batam",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Hilarius Bryan",
@@ -1673,10 +2516,10 @@
         "role": "UI/UX Designer",
         "company": "Doitpay",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Susanti Budiari",
@@ -1684,10 +2527,10 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Muhamad Yasir",
@@ -1695,10 +2538,10 @@
         "role": "Frontend",
         "company": "Nashta Group",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2025-09"
       },
       {
         "name": "Abu Hasan Baskara",
@@ -1706,10 +2549,10 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Nuriya Amin",
@@ -1717,10 +2560,10 @@
         "role": "International Account Manager",
         "company": "Second Talent",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Ryo Martin",
@@ -1728,10 +2571,10 @@
         "role": "Android Developer",
         "company": "PT BRI",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "khoirunnisak",
@@ -1739,10 +2582,10 @@
         "role": "Recruiter",
         "company": "PT Brexa Indonesia",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Muhammad Fatih D",
@@ -1750,10 +2593,10 @@
         "role": "Digital Marketing Specialist",
         "company": "PeMad International",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Ahmad Dzaky H.",
@@ -1761,10 +2604,10 @@
         "role": "Product Manager",
         "company": "PT BRI",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Ika Wahyu Safitri",
@@ -1772,10 +2615,10 @@
         "role": "Talent Acquisition",
         "company": "Haritsa Corp",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Muhammad Davinda Rinaldy",
@@ -1783,10 +2626,21 @@
         "role": "Frontend",
         "company": "PT. Soluix Finteknologi Indonesia",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/koda-academy.webp",
-        "partner_name": "Koda"
+        "partner_name": "Koda",
+        "sort_key": "2025-09"
+      },
+      {
+        "name": "Shafira Alvina",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "September 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Kurnia Anwar Ra'if",
@@ -1794,10 +2648,10 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Aprisa Anggraeni",
@@ -1805,10 +2659,10 @@
         "role": "Game Designer",
         "company": "Not Boring Company",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Imam Bahri Alwi",
@@ -1816,10 +2670,10 @@
         "role": "Fullstack",
         "company": "DRX",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Hanom Yoga",
@@ -1827,10 +2681,10 @@
         "role": "Marketing Data Analyst",
         "company": "MagicBlocks",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Janice Kariyadi",
@@ -1838,10 +2692,10 @@
         "role": "Project Manager",
         "company": "Splash Productions Pte Ltd",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-09"
       },
       {
         "name": "Reinka Elena Aqilla",
@@ -1849,10 +2703,10 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-09"
       },
       {
         "name": "Erina",
@@ -1860,10 +2714,21 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
+      },
+      {
+        "name": "Ms D",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "September 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-09"
       },
       {
         "name": "Alda Navira",
@@ -1871,16 +2736,16 @@
         "role": "Other",
         "company": "",
         "month": "September 2025",
-        "sort_key": "2025-09",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-09"
       }
     ]
   },
   {
     "month": "August 2025",
-    "count": 48,
+    "count": 46,
     "items": [
       {
         "name": "Wahyu Anggara",
@@ -1888,10 +2753,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Eri Irawan",
@@ -1899,10 +2764,10 @@
         "role": "Backend",
         "company": "Code.ID",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Fadzrian Gibran",
@@ -1910,10 +2775,10 @@
         "role": "UI Designer",
         "company": "Tru",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Aldo Lim",
@@ -1921,10 +2786,10 @@
         "role": "Quality Assurance",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Bagus Widhyatmo",
@@ -1932,10 +2797,10 @@
         "role": "Operations Manager",
         "company": "PT.Lestari Lingkungan Indonesia",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Eri Irawan",
@@ -1943,10 +2808,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Fadzrian Gibran",
@@ -1954,10 +2819,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Aldo Lim",
@@ -1965,10 +2830,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Shafira Febrilyanti",
@@ -1976,10 +2841,10 @@
         "role": "Marketing Communications Specialist",
         "company": "Heritage Resto & Cafe",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Michael Stevan Lapandio",
@@ -1987,10 +2852,10 @@
         "role": "Backend",
         "company": "Stealth Startup",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Andi Satriawan Lubis",
@@ -1998,10 +2863,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Muhammad Fauzan",
@@ -2009,10 +2874,10 @@
         "role": "Enterprise Account Manager",
         "company": "GetFound",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Dhiya Ilham Trihatmaja",
@@ -2020,10 +2885,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Surya Dwipayana",
@@ -2031,10 +2896,10 @@
         "role": "Lecturer",
         "company": "PIP College",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Herdian Chandra",
@@ -2042,10 +2907,10 @@
         "role": "Quality Assurance",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Dedy Prasetyo Hermawan",
@@ -2053,10 +2918,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Hanif Maghfur",
@@ -2064,10 +2929,10 @@
         "role": "Software Engineer",
         "company": "Telkom Indonesia",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Hanif Razin Rahmatullah",
@@ -2075,10 +2940,10 @@
         "role": "Quality Assurance",
         "company": "PT BNI",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Deni Prayoga",
@@ -2086,10 +2951,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Hanif Aisyah",
@@ -2097,10 +2962,10 @@
         "role": "Digital Performance Marketer",
         "company": "Insira Memorial park",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Iska Dinarristy",
@@ -2108,10 +2973,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Mohamad Hanif Fadillah Budiman Akbar",
@@ -2119,10 +2984,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Harun",
@@ -2130,10 +2995,10 @@
         "role": "Frontend",
         "company": "PT Lion Super Indo",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Hasban Fardani",
@@ -2141,10 +3006,10 @@
         "role": "Insiyur Full Stack",
         "company": "PT Maxximum Digital",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Hafiz Aryan Siregar",
@@ -2152,10 +3017,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Bagus Untoro",
@@ -2163,10 +3028,10 @@
         "role": "Software Developer",
         "company": "PT. Rahadhyan Integrasi Nusantara",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Muhammad Hanif",
@@ -2174,21 +3039,10 @@
         "role": "Recruitment",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
-      },
-      {
-        "name": "PE",
-        "linkedin": "https://www.linkedin.com/in/eka-pasha/",
-        "role": "Backend",
-        "company": "",
-        "month": "August 2025",
-        "sort_key": "2025-08",
-        "is_b2b": false,
-        "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Dhiya Ilham Trihatmaja",
@@ -2196,10 +3050,10 @@
         "role": "Data Analyst",
         "company": "PT. OLX",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Diaz Rizky Agista",
@@ -2207,10 +3061,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Anif Hidayat",
@@ -2218,10 +3072,10 @@
         "role": "Digital Support Analyst",
         "company": "Qatar Airways",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Restu diah",
@@ -2229,10 +3083,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Dwi Anggita",
@@ -2240,10 +3094,10 @@
         "role": "Social Media Marketing",
         "company": "Legacy Healthcare Advantage",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Alpredo Pandiangan",
@@ -2251,10 +3105,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Andi Faishal",
@@ -2262,10 +3116,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Bimo Vallentino Achmad",
@@ -2273,10 +3127,10 @@
         "role": "Senior Android Developer",
         "company": "PT. Appfuxion Consulting Indonesia",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Ricky Xie",
@@ -2284,10 +3138,10 @@
         "role": "Backend",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Faris Nur Adlin",
@@ -2295,10 +3149,10 @@
         "role": "Fullstack Engineer",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Derryl Ditramaneti",
@@ -2306,10 +3160,10 @@
         "role": "CEO Office",
         "company": "YOBO",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Resvi Gumilar",
@@ -2317,10 +3171,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Anwar Abdullah",
@@ -2328,10 +3182,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Amalia Nurlita",
@@ -2339,21 +3193,10 @@
         "role": "Frontend",
         "company": "AJARI.AI",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
-      },
-      {
-        "name": "Michael Stevan Lapandio",
-        "linkedin": "https://www.linkedin.com/in/mlapandio/",
-        "role": "Backend",
-        "company": "Stealth Startup",
-        "month": "August 2025",
-        "sort_key": "2025-08",
-        "is_b2b": false,
-        "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Misbakhul Kharis",
@@ -2361,10 +3204,10 @@
         "role": "Senior Software Developer",
         "company": "Taiwan Mobile",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Christo Okulian Purba",
@@ -2372,10 +3215,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Kafin Salim",
@@ -2383,10 +3226,10 @@
         "role": "Technical Lead",
         "company": "Fokuslah",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Betty Mariyani",
@@ -2394,10 +3237,10 @@
         "role": "Other",
         "company": "",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       },
       {
         "name": "Annastasya Fitri A R",
@@ -2405,16 +3248,16 @@
         "role": "Product Designer",
         "company": "Krida Technologies",
         "month": "August 2025",
-        "sort_key": "2025-08",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-08"
       }
     ]
   },
   {
     "month": "July 2025",
-    "count": 20,
+    "count": 22,
     "items": [
       {
         "name": "Ghifari Khanif",
@@ -2422,10 +3265,10 @@
         "role": "Data Processing Specialist",
         "company": "NielsenlQ",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Gandhi Suryanata",
@@ -2433,10 +3276,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Faruk Maulana",
@@ -2444,10 +3287,21 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
+      },
+      {
+        "name": "Binsar Samuel",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "July 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Hendradito Dwi Aprillian",
@@ -2455,10 +3309,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Fikri Irsyad Muhammad",
@@ -2466,10 +3320,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Angga Sukma Prinata",
@@ -2477,10 +3331,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Fadillah Bilqis",
@@ -2488,10 +3342,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Ashhab Karami",
@@ -2499,10 +3353,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Hakim",
@@ -2510,10 +3364,21 @@
         "role": "Software Engineer",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
+      },
+      {
+        "name": "Fatur Gautama Sukran",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "July 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Muhammad Nazief Maulidinnur",
@@ -2521,10 +3386,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Faris Nur Adlin",
@@ -2532,10 +3397,10 @@
         "role": "Fullstack Developer",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Hanif Razin Rahmatullah",
@@ -2543,10 +3408,10 @@
         "role": "Quality Assurance",
         "company": "PT Loket Pintar Indonesia",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Zeha Irawan",
@@ -2554,10 +3419,10 @@
         "role": "Other",
         "company": "",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Julia Veronica",
@@ -2565,10 +3430,10 @@
         "role": "Web Developer",
         "company": "LYK Repair",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Inez",
@@ -2576,10 +3441,10 @@
         "role": "Retail Network Development Manager",
         "company": "PT. Terang Dunia Internusa (United Bike)",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Rifka Aisyah Rokhmah",
@@ -2587,10 +3452,10 @@
         "role": "Coding Educator",
         "company": "SkoolOfCode",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Neila Ismahunnisa",
@@ -2598,10 +3463,10 @@
         "role": "Project Manager",
         "company": "GameChange",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Muchammad Thohari Akbar",
@@ -2609,10 +3474,10 @@
         "role": "Web Developer",
         "company": "Ahti Interiors",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Bagus Widhyatmo",
@@ -2620,10 +3485,10 @@
         "role": "Operations Manager",
         "company": "PT.Lestari Lingkungan Indonesia",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       },
       {
         "name": "Arief Fitranto",
@@ -2631,16 +3496,16 @@
         "role": "Senior Software Engineer",
         "company": "ZOLO",
         "month": "July 2025",
-        "sort_key": "2025-07",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-07"
       }
     ]
   },
   {
     "month": "June 2025",
-    "count": 22,
+    "count": 23,
     "items": [
       {
         "name": "Ivan Azis Nabawi",
@@ -2648,10 +3513,10 @@
         "role": "Senior Backend",
         "company": "Jobseeker Company",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Falgi Faisal",
@@ -2659,10 +3524,10 @@
         "role": "Devops",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Labba Awwabi",
@@ -2670,10 +3535,10 @@
         "role": "Senior Software Engineer",
         "company": "CheckProof",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Alvin Mantovani",
@@ -2681,10 +3546,10 @@
         "role": "Frontend",
         "company": "Synergy Financial Advisers Ltd",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Aida Fitriya Sebrina",
@@ -2692,10 +3557,10 @@
         "role": "Center Coordinator",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Abu Hasan Baskara",
@@ -2703,10 +3568,10 @@
         "role": "Lead Mobile Developer",
         "company": "Halal Navi",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Muhammad Nazief Maulidinnur",
@@ -2714,10 +3579,10 @@
         "role": "Commisioning Specialist",
         "company": "PT Borneo Indobara",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Rianita",
@@ -2725,10 +3590,10 @@
         "role": "English Mentor",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Ashhab Karami",
@@ -2736,10 +3601,10 @@
         "role": "Area Operation Staff",
         "company": "GoTo",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Pratomo Djati Nugroho",
@@ -2747,10 +3612,10 @@
         "role": "Other",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Dedy Prasetyo Hermawan",
@@ -2758,10 +3623,10 @@
         "role": "Senior Software Engineer",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Siti Lisnawati",
@@ -2769,10 +3634,10 @@
         "role": "Data Collection & Research Assistant",
         "company": "60 Decibels",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Ghifari Khanif",
@@ -2780,10 +3645,10 @@
         "role": "Data Processing Specialist",
         "company": "NielsenlQ",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Bagus Budi Cahyono",
@@ -2791,10 +3656,10 @@
         "role": "Other",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Fahdzian Merzadi",
@@ -2802,10 +3667,10 @@
         "role": "Other",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Gandhi Suryanata",
@@ -2813,10 +3678,10 @@
         "role": "Other",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Fadillah Bilqis",
@@ -2824,10 +3689,10 @@
         "role": "Software Engineer",
         "company": "UX Atelier",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Faruk Maulana",
@@ -2835,10 +3700,21 @@
         "role": "Fullstack Developer",
         "company": "CXS Analytics",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
+      },
+      {
+        "name": "Binsar Samuel",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "June 2025",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Hendradito Dwi Aprillian",
@@ -2846,10 +3722,10 @@
         "role": "Application Support Developer",
         "company": "PT Intelix Global Crossing",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Fikri Irsyad Muhammad",
@@ -2857,10 +3733,10 @@
         "role": "Data Scientics",
         "company": "Asa Ren",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Angga Sukma Prinata",
@@ -2868,21 +3744,21 @@
         "role": "Section Manager",
         "company": "RevoU",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       },
       {
         "name": "Gigih Pambuko",
-        "linkedin": "Backend Developer",
-        "role": "Other",
+        "linkedin": "https://www.linkedin.com/in/gigihko/",
+        "role": "Backend",
         "company": "",
         "month": "June 2025",
-        "sort_key": "2025-06",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-06"
       }
     ]
   },
@@ -2896,10 +3772,10 @@
         "role": "Project Manager",
         "company": "The Business Tailor LLP",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-05"
       },
       {
         "name": "Aprilian Adha Eka Pasha",
@@ -2907,10 +3783,10 @@
         "role": "Other",
         "company": "",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-05"
       },
       {
         "name": "Susanti Budiari",
@@ -2918,10 +3794,10 @@
         "role": "Business Development",
         "company": "Green Gold Asia",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Denny Arfansyah",
@@ -2929,10 +3805,10 @@
         "role": "Other",
         "company": "",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Agus Kianto",
@@ -2940,10 +3816,10 @@
         "role": "Technical Lead",
         "company": "Rakuten",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Fahdzian Merzadi",
@@ -2951,10 +3827,10 @@
         "role": "Assistant manager Training Prisma",
         "company": "Roundtable on Sustainable Palm Oil",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Abid Hanifussafly",
@@ -2962,10 +3838,10 @@
         "role": "UI/UX",
         "company": "Aleph-Labs",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Eko Febriyanto",
@@ -2973,10 +3849,10 @@
         "role": "Other",
         "company": "",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Felic Komarno",
@@ -2984,10 +3860,10 @@
         "role": "Fullstack Developer",
         "company": "PT Digital Official",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Putu Gede Pradana Adnyana",
@@ -2995,10 +3871,10 @@
         "role": "ML Engineer",
         "company": "",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Mochamad Y.",
@@ -3006,10 +3882,10 @@
         "role": "Senior Frontend",
         "company": "Nusantech",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Alvin Mantovani",
@@ -3017,10 +3893,10 @@
         "role": "Frontend",
         "company": "Synergy Financial Advisers Ltd",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "A Wahid Saphadi",
@@ -3028,21 +3904,21 @@
         "role": "Backend",
         "company": "",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
-        "name": "Hilman Sya\u2019ban Sulthoni",
+        "name": "Hilman Sya’ban Sulthoni",
         "linkedin": "https://www.linkedin.com/in/hilmanss/",
         "role": "UI/UX",
         "company": "",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Giska Adilah",
@@ -3050,10 +3926,10 @@
         "role": "Other",
         "company": "",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       },
       {
         "name": "Muhammad Zulfikar Noorfan",
@@ -3061,10 +3937,10 @@
         "role": "iOS Developer",
         "company": "GITS.ID",
         "month": "May 2025",
-        "sort_key": "2025-05",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-05"
       }
     ]
   },
@@ -3078,10 +3954,10 @@
         "role": "DevOps",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Uswatun Hasanah",
@@ -3089,10 +3965,10 @@
         "role": "Designer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Gunawan",
@@ -3100,10 +3976,10 @@
         "role": "Senior Manager Production",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Channy Lim",
@@ -3111,10 +3987,10 @@
         "role": "Web Developer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Fajar Setiawan",
@@ -3122,10 +3998,10 @@
         "role": "Senior Developer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Aufal Marom",
@@ -3133,10 +4009,10 @@
         "role": "Web Developer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Taufik Achmad",
@@ -3144,10 +4020,10 @@
         "role": "Process Engineer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Bagus Budi Cahyono",
@@ -3155,10 +4031,10 @@
         "role": "Backend Engineer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Yudhi Aldino",
@@ -3166,10 +4042,10 @@
         "role": "Senior Designer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Rangga Dewa",
@@ -3177,10 +4053,10 @@
         "role": "Wordpress Developer & Project Officer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Winda Sari",
@@ -3188,10 +4064,10 @@
         "role": "Special Project Executive",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Amanda Prihandono",
@@ -3199,10 +4075,10 @@
         "role": "Account Executive",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Dian Novita",
@@ -3210,10 +4086,10 @@
         "role": "Graphic Designer",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Muhammad Khodri",
@@ -3221,10 +4097,10 @@
         "role": "Social Media Executive",
         "company": "Respect SG",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": true,
         "b2b_logo": "/assets/partners/batamon.png",
-        "partner_name": "BatamOn Asia"
+        "partner_name": "BatamOn Asia",
+        "sort_key": "2025-04"
       },
       {
         "name": "Denny Ferdiansyah",
@@ -3232,10 +4108,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Arif Himawan",
@@ -3243,10 +4119,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Muhammad Syawalluddin",
@@ -3254,10 +4130,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Andi Kurniawan",
@@ -3265,10 +4141,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Andreas Lelu Bastian",
@@ -3276,10 +4152,10 @@
         "role": "Senior Product manager",
         "company": "Gotrade",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Dien Muhammad",
@@ -3287,10 +4163,10 @@
         "role": "Cloud Sales Specialist",
         "company": "Wowrack Indonesia",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Gilang Pradana",
@@ -3298,10 +4174,10 @@
         "role": "Performance Marketing Manager",
         "company": "Mirah Investment & Development",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Nadir Basalamah",
@@ -3309,10 +4185,10 @@
         "role": "Fullstack Developer",
         "company": "PT Santai Berkualitas Syberindo",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Fuad Najibullah",
@@ -3320,10 +4196,10 @@
         "role": "Backend",
         "company": "OneByOne",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Nicholas Alexander",
@@ -3331,10 +4207,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Gandhi Suryanata",
@@ -3342,10 +4218,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Rovica Rahmawati",
@@ -3353,10 +4229,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Tia Anna Widati",
@@ -3364,10 +4240,10 @@
         "role": "Internal Audit Executive",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Wildan Azzam Shalahuddin",
@@ -3375,10 +4251,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Nadhia Noor Kamila",
@@ -3386,10 +4262,10 @@
         "role": "Business Development",
         "company": "AdsUp Indonesia",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Nilam Hananti",
@@ -3397,10 +4273,10 @@
         "role": "Associate Lawyer",
         "company": "Law Office Jaka Marhaen S.H And Associates",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Kartika Yuniarti",
@@ -3408,10 +4284,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Senno Hananto",
@@ -3419,10 +4295,10 @@
         "role": "Software Developer",
         "company": "Talent Strategist Network",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Kevin Tanes",
@@ -3430,10 +4306,10 @@
         "role": "Fullstack Developer",
         "company": "Cheil Wordwide Indonesia",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Elvando Andha E.",
@@ -3441,10 +4317,10 @@
         "role": "Product Designer",
         "company": "PT BRI",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Ilyas Panji Hutomo",
@@ -3452,10 +4328,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Mohamad Hanif Fadillah Budiman Akbar",
@@ -3463,10 +4339,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Muchammad Rif'an Fahmi",
@@ -3474,10 +4350,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Prisnia Darliany",
@@ -3485,10 +4361,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Ega Damasya",
@@ -3496,10 +4372,10 @@
         "role": "Other",
         "company": "",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       },
       {
         "name": "Fajar Moh Khoerudin",
@@ -3507,10 +4383,10 @@
         "role": "Marketplace Specialist",
         "company": "PT Fomo Inovasi Teknologi",
         "month": "April 2025",
-        "sort_key": "2025-04",
         "is_b2b": false,
         "b2b_logo": "",
-        "partner_name": ""
+        "partner_name": "",
+        "sort_key": "2025-04"
       }
     ]
   }
