@@ -62,3 +62,17 @@
   line-height: 1.6;
   color: #aaa;
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1.25rem;
+  }
+
+  .heading {
+    font-size: 1.75rem;
+  }
+
+  .header {
+    margin-bottom: 2.5rem;
+  }
+}

@@ -59,3 +59,15 @@
   color: var(--color-accent-yellow);
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .question {
+    font-size: 1rem;
+    padding: 1.25rem 0;
+  }
+}

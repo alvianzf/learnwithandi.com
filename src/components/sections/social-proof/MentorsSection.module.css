@@ -198,6 +198,10 @@
 }
 
 @media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+
   .grid {
     display: flex;
     overflow-x: auto;

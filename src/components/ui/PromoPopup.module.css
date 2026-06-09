@@ -81,3 +81,23 @@
 .cta:hover {
   background-color: var(--color-accent-yellow);
 }
+
+@media (max-width: 480px) {
+  .popup {
+    max-width: calc(100vw - 2rem);
+    margin: 1rem;
+  }
+
+  .imageContainer {
+    height: 150px;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .cta {
+    font-size: 0.85rem;
+    padding: 0.65rem 1.25rem;
+  }
+}

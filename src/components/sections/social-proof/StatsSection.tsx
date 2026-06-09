@@ -1,22 +1,12 @@
 import { content } from '@/data/content';
+import styles from './StatsSection.module.css';
 
 export default function StatsSection() {
   const { stats } = content;
 
   return (
-    <section style={{
-      padding: '4rem 1.5rem',
-      textAlign: 'center',
-      background: 'rgba(255, 255, 255, 0.03)',
-      borderTop: '1px solid #333',
-      borderBottom: '1px solid #333'
-    }}>
-      <h2 style={{
-        fontSize: '3rem',
-        fontWeight: 800,
-        color: '#fff',
-        fontFamily: 'inherit'
-      }}>
+    <section className={styles.section}>
+      <h2 className={styles.heading}>
         {stats.text}
       </h2>
     </section>
