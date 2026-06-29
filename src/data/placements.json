@@ -1,7 +1,7 @@
 [
   {
     "month": "June 2026",
-    "count": 7,
+    "count": 17,
     "items": [
       {
         "name": "Ananda Dwi Rahma",
@@ -73,6 +73,116 @@
         "name": "Andi Faishal",
         "linkedin": "",
         "role": "Finance Manager",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Muhammad Najib",
+        "linkedin": "https://www.linkedin.com/in/msnajeeb/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Hanom Yoga Bintoro",
+        "linkedin": "https://www.linkedin.com/in/hanomyoga/",
+        "role": "Growth Marketing Specialist",
+        "company": "3Point1 Consulting",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Agustina Ampuni",
+        "linkedin": "https://www.linkedin.com/in/agustinaampuni/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Fajar Setiawan Siagian",
+        "linkedin": "https://www.linkedin.com/in/fajarsiagian/",
+        "role": "Senior Backend Engineer",
+        "company": "Topremit",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Toriq Abdul Rosyid",
+        "linkedin": "https://www.linkedin.com/in/toriqrosid/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Calvin",
+        "linkedin": "",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Ibtihal Haniah Guston",
+        "linkedin": "https://www.linkedin.com/in/niaguston/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Anggi Dwifiani",
+        "linkedin": "https://www.linkedin.com/in/anggi-dwifiani/",
+        "role": "AI Data Specialist",
+        "company": "RWS Group",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Hanafi Abdul Aziz",
+        "linkedin": "https://www.linkedin.com/in/hanafiabdulaziz/",
+        "role": "Other",
+        "company": "",
+        "month": "June 2026",
+        "is_b2b": false,
+        "b2b_logo": "",
+        "partner_name": "",
+        "sort_key": "2026-06"
+      },
+      {
+        "name": "Budi Hakim Santoso",
+        "linkedin": "https://www.linkedin.com/in/budi-hakim/",
+        "role": "Other",
         "company": "",
         "month": "June 2026",
         "is_b2b": false,
