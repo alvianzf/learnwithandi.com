@@ -2,6 +2,8 @@
   text-align: center;
   padding: 8rem 1.5rem;
   /* Increased padding for "whitespace" */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .title {
