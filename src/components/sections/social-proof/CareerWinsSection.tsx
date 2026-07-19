@@ -65,6 +65,9 @@ export default function CareerWinsSection() {
     const track = trackRef.current;
     if (!track) return;
 
+    // CSS cannot stop a rAF loop, so honour the reduced-motion preference here.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
     const scrollSpeed = 1; // 1 pixel per frame for slow continuous scroll
     
     const loop = () => {

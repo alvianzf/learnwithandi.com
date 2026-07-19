@@ -176,7 +176,7 @@
   background: transparent;
   border: none;
   border-radius: 8px;
-  color: #666;
+  color: var(--color-grey-light);
   font-size: 1.5rem;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -255,7 +255,12 @@
     border-radius: 50%;
     background: #444;
     border: none;
-    padding: 0;
+  /* 8px visual dot, 44px hit area. Padding is transparent via content-box
+     clipping; the negative margin keeps the row's original spacing. */
+  padding: 18px;
+  background-clip: content-box;
+  box-sizing: content-box;
+  margin: -12px;
     cursor: pointer;
     transition: all 0.3s ease;
   }

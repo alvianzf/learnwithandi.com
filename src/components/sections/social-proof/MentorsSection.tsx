@@ -63,13 +63,22 @@ export default function MentorsSection() {
     return () => slider?.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // The interval reads the live index through a ref. Depending on `activeIndex`
+  // directly tore the timer down and rebuilt it on every scroll event — and the
+  // interval's own smooth scroll fires scroll events, so the advance never
+  // actually ran on a fixed period.
+  const activeIndexRef = useRef(0);
+  useEffect(() => { activeIndexRef.current = activeIndex; }, [activeIndex]);
+
   useEffect(() => {
-    // Auto slide every 2 seconds
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    // Auto slide. 2s fought the user mid-swipe; 6s leaves room to read a card.
     const interval = setInterval(() => {
       if (window.innerWidth > 768 || !sliderRef.current) return;
       const slider = sliderRef.current;
       const totalItems = mentors?.items.length || 0;
-      let nextIndex = activeIndex + 1;
+      let nextIndex = activeIndexRef.current + 1;
       if (nextIndex >= totalItems) {
         nextIndex = 0;
       }
@@ -80,10 +89,10 @@ export default function MentorsSection() {
           behavior: 'smooth'
         });
       }
-    }, 2000);
+    }, 6000);
 
     return () => clearInterval(interval);
-  }, [activeIndex, mentors?.items.length]);
+  }, [mentors?.items.length]);
 
   if (!mentors) return null;
 

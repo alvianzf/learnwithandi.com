@@ -33,6 +33,34 @@ a {
   text-decoration: none;
 }
 
+/* Several controls set `border: none` on dark backgrounds, which leaves the UA
+   focus ring invisible or absent. One rule covers every focusable element. */
+:focus-visible {
+  outline: 2px solid var(--color-accent-yellow);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* The site runs continuous marquees, a per-frame rAF scroll loop and
+   scroll-triggered transforms on most sections. Give users who ask for less
+   motion a way out. */
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  html,
+  body {
+    scroll-behavior: auto;
+  }
+}
+
 /* Sections span the full viewport so their backgrounds bleed edge to edge.
    Content width is capped per-section by an inner container, not here — a
    max-width on the element itself also clips the background. */

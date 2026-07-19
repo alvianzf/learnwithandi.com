@@ -40,7 +40,7 @@
 
 .copyright {
   font-size: 0.875rem;
-  color: #666;
+  color: var(--color-grey-light);
   margin-top: 1rem;
 }
 
@@ -57,6 +57,14 @@
 }
 
 .socialLink {
+  /* 24px icon, 44px hit area (WCAG 2.5.8). Negative margin absorbs the padding
+     so the row keeps its original 1.5rem visual gap. */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  margin: -10px;
   color: #fff;
   transition: color 0.2s, transform 0.2s;
 }
@@ -74,7 +82,7 @@
 
 .hiddenLink {
   font-size: 0.75rem;
-  color: #666;
+  color: var(--color-grey-light);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
