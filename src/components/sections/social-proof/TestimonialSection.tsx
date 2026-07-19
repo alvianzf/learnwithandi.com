@@ -1,6 +1,7 @@
 "use client";
 
 import { content } from '@/data/content';
+import placementsSummary from '@/data/placements-summary.json';
 import styles from './TestimonialSection.module.css';
 
 // Define the two rows of images
@@ -23,7 +24,7 @@ export default function TestimonialSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          {content.stats.text}
+          {content.stats.text.replace('{count}', String(placementsSummary.total))}
         </motion.h2>
       </div>
 

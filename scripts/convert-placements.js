@@ -6,6 +6,12 @@ const path = require('path');
 
 const CSV_PATH = process.argv[2] || path.join(__dirname, '../Data LWA - Placement.csv');
 const OUT_PATH = path.join(__dirname, '../src/data/placements.json');
+const SUMMARY_PATH = path.join(__dirname, '../src/data/placements-summary.json');
+
+// A bad CSV export (renamed file, changed delimiter) makes every row unparseable.
+// Without a floor the script would happily write [] and let the build succeed
+// with an empty Career Wins section.
+const MIN_EXPECTED_ENTRIES = 300;
 
 const MONTH_NAMES = [
   '', 'January', 'February', 'March', 'April', 'May', 'June',
@@ -70,15 +76,39 @@ function parseDate(s) {
   };
 }
 
-function parseLine(line) {
-  // The CSV wraps rows containing commas in double quotes to protect commas in notes.
-  // Since we split by semicolons (not commas), simply strip surrounding quotes.
-  let raw = line.trim();
-  if (raw.startsWith('"') && raw.endsWith('"')) {
-    raw = raw.slice(1, -1);
-  }
+// Splits on the delimiter while respecting double-quoted fields, so a semicolon
+// inside a quoted note does not shift every column after it. Handles "" escapes.
+function splitCSV(line, delim = ';') {
+  const out = [];
+  let cur = '';
+  let inQuotes = false;
 
-  const fields = raw.split(';').map(f => f.trim());
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') {
+      if (inQuotes && line[i + 1] === '"') { cur += '"'; i++; }
+      else inQuotes = !inQuotes;
+    } else if (c === delim && !inQuotes) {
+      out.push(cur);
+      cur = '';
+    } else {
+      cur += c;
+    }
+  }
+  out.push(cur);
+  return out;
+}
+
+// This export wraps whole rows in double quotes (not individual fields), so the
+// row-level wrapper has to come off before delimiter-aware splitting — otherwise
+// the entire row reads as one quoted field and never splits.
+function stripRowQuotes(line) {
+  const raw = line.trim();
+  return raw.startsWith('"') && raw.endsWith('"') ? raw.slice(1, -1) : raw;
+}
+
+function parseLine(line) {
+  const fields = splitCSV(stripRowQuotes(line)).map(f => f.trim());
 
   // Remove trailing empty/comma fields
   while (fields.length && (fields[fields.length - 1] === '' || fields[fields.length - 1] === ',')) {
@@ -160,6 +190,12 @@ function parseLine(line) {
 }
 
 function convert(csvPath) {
+  if (!fs.existsSync(csvPath)) {
+    console.error(`Placement CSV not found at: ${csvPath}`);
+    console.error('Pass an explicit path as the first argument if it moved.');
+    process.exit(1);
+  }
+
   const raw = fs.readFileSync(csvPath, 'utf8');
   const lines = raw.split('\n').map(l => l.replace(/\r$/, ''));
 
@@ -167,14 +203,32 @@ function convert(csvPath) {
   // Track seen entries per month to avoid duplicates (same name+linkedin)
   const seen = new Map();
 
+  // Rows leave the pipeline for three very different reasons. Counting them
+  // separately keeps a genuine parse regression from hiding inside the
+  // deliberate anonymisation skips.
+  const dropped = { unparseable: 0, anonymised: 0, duplicate: 0 };
+  const unparseableSamples = [];
+
   for (const line of lines) {
     if (!line.trim() || line.startsWith('Placement;')) continue;
 
     const entry = parseLine(line);
-    if (!entry) continue;
+    if (!entry) {
+      // Distinguish "no date field" (a real parse failure) from an intentionally
+      // withheld name (B2B / "minta di hide"), which parseLine also rejects.
+      const fields = splitCSV(stripRowQuotes(line)).map(f => f.trim());
+      const dateIdx = fields.findIndex(f => parseDate(f));
+      if (dateIdx === -1) {
+        dropped.unparseable++;
+        if (unparseableSamples.length < 5) unparseableSamples.push(line.slice(0, 100));
+      } else {
+        dropped.anonymised++;
+      }
+      continue;
+    }
 
     const key = `${entry.sort_key}::${entry.name}::${entry.linkedin}::${entry.role}::${entry.company}`;
-    if (seen.has(key)) continue;
+    if (seen.has(key)) { dropped.duplicate++; continue; }
     seen.set(key, true);
 
     if (!byMonth.has(entry.month)) {
@@ -196,8 +250,40 @@ function convert(csvPath) {
     items: g.items,
   }));
 
+  const shown = result.reduce((s, g) => s + g.count, 0);
+
+  if (dropped.unparseable > 0) {
+    console.warn(`\n${dropped.unparseable} row(s) had no parseable date and were dropped:`);
+    unparseableSamples.forEach(s => console.warn(`  ${s}`));
+  }
+
+  if (shown < MIN_EXPECTED_ENTRIES) {
+    console.error(
+      `\nRefusing to write: parsed only ${shown} entries from ${lines.length} lines ` +
+      `(expected at least ${MIN_EXPECTED_ENTRIES}). The CSV format has probably changed.`
+    );
+    process.exit(1);
+  }
+
+  // `shown` is the publicly listed subset. `anonymised` are real placements the
+  // member asked to withhold (B2B contracts, "minta di hide") — they count
+  // toward the headline total but carry no name, so they are not rendered.
+  const summary = {
+    shown,
+    anonymised: dropped.anonymised,
+    total: shown + dropped.anonymised,
+    generatedFrom: path.basename(csvPath),
+  };
+
   fs.writeFileSync(OUT_PATH, JSON.stringify(result, null, 2));
-  console.log(`Converted ${lines.length} lines → ${result.length} months, ${result.reduce((s, g) => s + g.count, 0)} entries`);
+  fs.writeFileSync(SUMMARY_PATH, JSON.stringify(summary, null, 2));
+
+  console.log(`Converted ${lines.length} lines → ${result.length} months, ${shown} entries`);
+  console.log(
+    `  dropped: ${dropped.anonymised} anonymised, ${dropped.duplicate} duplicate, ` +
+    `${dropped.unparseable} unparseable`
+  );
+  console.log(`  headline total: ${summary.total} (${shown} listed + ${summary.anonymised} withheld)`);
   result.forEach(g => console.log(`  ${g.month}: ${g.count}`));
 }
 

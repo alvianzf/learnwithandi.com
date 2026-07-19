@@ -2,6 +2,7 @@
 
 import { content } from '@/data/content';
 import placementsData from '@/data/placements.json';
+import placementsSummary from '@/data/placements-summary.json';
 import styles from './CareerWinsSection.module.css';
 import { motion, animate, useInView } from 'framer-motion';
 import { Linkedin, Briefcase, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -41,9 +42,14 @@ export default function CareerWinsSection() {
   // Doubling the list for infinite continuous effect
   const displayPlacements = [...placements, ...placements];
 
+  // Derived from the CSV rather than hardcoded, so it cannot drift as the data
+  // grows. Counts every recorded placement, including the ones whose names are
+  // withheld by request and therefore never rendered in the carousel below.
+  const totalPlacements = placementsSummary.total;
+
   useEffect(() => {
     if (isInView) {
-      const animation = animate(0, 450, {
+      const animation = animate(0, totalPlacements, {
         duration: 2.5,
         ease: "easeOut",
         onUpdate: (latest) => {
@@ -52,7 +58,7 @@ export default function CareerWinsSection() {
       });
       return animation.stop;
     }
-  }, [isInView]);
+  }, [isInView, totalPlacements]);
 
   // Continuous slow scroll loop
   useEffect(() => {
@@ -103,7 +109,7 @@ export default function CareerWinsSection() {
   useEffect(() => {
     const handleScroll = () => {
       const closestPhysicalIndex = getClosestPhysicalIndex();
-      setActiveIndex(closestPhysicalIndex % placements.length);
+      setActiveIndex(placements.length ? closestPhysicalIndex % placements.length : 0);
     };
 
     const track = trackRef.current;
