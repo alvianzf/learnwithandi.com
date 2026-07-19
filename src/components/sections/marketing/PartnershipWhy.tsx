@@ -6,9 +6,10 @@ import { motion } from 'framer-motion';
 import { Crosshair, Briefcase, TrendingUp } from 'lucide-react';
 
 export default function PartnershipWhy() {
-  const why = (content.partnership as { why: any }).why;
-
-  if (!why) return null;
+  // content is a static literal, so `why` is always present and typed by
+  // inference. The previous `as { why: any }` cast defeated exactly the check
+  // that would catch a rename in content.ts before it reached the page.
+  const { why } = content.partnership;
 
   const icons = [Crosshair, Briefcase, TrendingUp];
 
@@ -48,7 +49,7 @@ export default function PartnershipWhy() {
           whileInView="show"
           viewport={{ once: true }}
         >
-          {why.points.map((point: { title: string, description: string }, index: number) => {
+          {why.points.map((point, index) => {
             const Icon = icons[index % icons.length];
             return (
               <motion.div key={index} className={styles.card} variants={item}>

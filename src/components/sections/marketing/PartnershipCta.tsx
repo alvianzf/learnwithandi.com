@@ -40,7 +40,7 @@ export default function PartnershipCta() {
         transition={{ delay: 0.4, duration: 0.6 }}
       >
         <div className={styles.buttonGroup}>
-          <Link href={cta.link} className={styles.primaryButton}>
+          <Link href={cta.link} className={styles.primaryButton} target="_blank" rel="noopener noreferrer">
             {cta.buttonText} <ArrowRight size={20} />
           </Link>
           <Link href={partnership.booking.link} className={styles.secondaryButton} target="_blank">

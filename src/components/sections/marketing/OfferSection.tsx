@@ -18,7 +18,6 @@ interface Plan {
   highlight: boolean;
   highlightText: string;
   highlightColor?: string;
-  retiring?: boolean;
 }
 
 export default function OfferSection() {
@@ -81,7 +80,6 @@ export default function OfferSection() {
               } as React.CSSProperties}
             >
 
-              {plan.retiring && <div className={styles.retiringBadge}>Retiring Soon</div>}
               {plan.highlight && <div className={styles.highlightBadge}>{plan.highlightText || 'Best Value'}</div>}
               <div className={styles.cardHeader}>
                 <span className={styles.planName}>{plan.name}</span>
