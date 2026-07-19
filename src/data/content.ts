@@ -7,7 +7,7 @@ export const content = {
       linkedin: "https://www.linkedin.com/in/andisatr/",
       youtube: "https://www.youtube.com/@LearnwithAndis",
       threads: "https://www.threads.com/@learnwithandi",
-      whatsapp: "http://wa.me/6282164815973",
+      whatsapp: "https://wa.me/6282164815973",
     },
     logo: {
       black: "/assets/logo/full-black.png",
@@ -84,7 +84,7 @@ export const content = {
     },
     secondaryCta: {
       text: "Tanya LWAna",
-      link: "http://wa.me/6282164815973",
+      link: "https://wa.me/6282164815973",
       icon: "MessageCircle"
     },
     image: "/assets/andi/potrait.png",
@@ -191,7 +191,6 @@ export const content = {
   offer: {
     id: "offer",
     programName: "Investment Plans",
-    // price: "Rp100.000 per bulan", // Legacy
     description: "Pilih paket coaching yang paling sesuai sama goals & dompet kamu.",
     programSteps: [ // Replaces programDetails for the 1-5 gallery
       {
@@ -271,11 +270,9 @@ export const content = {
         image: "/assets/programs/6.png",
       },
     ],
-    // Legacy benefits array for OfferSection if needed, but we used plans now.
-    benefits: [],
     consultation: {
       text: "Masih Ragu? Tanya LWAna",
-      link: "http://wa.me/6282164815973"
+      link: "https://wa.me/6282164815973"
     },
     plans: [
       {
@@ -448,7 +445,7 @@ export const content = {
     },
     secondaryCta: {
       text: "Tanya LWAna",
-      link: "http://wa.me/6282164815973",
+      link: "https://wa.me/6282164815973",
     },
   },
   careerWins: {
@@ -472,7 +469,7 @@ export const content = {
       description: "Learn With Andi (LWA) berkolaborasi dengan mitra pelatihan untuk memberikan pembekalan interview strategis bagi para talenta.",
       primaryCta: {
         text: "Jalin Kolaborasi",
-        link: "http://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20eksplor%20partnership%20dengan%20LearnWithAndi.",
+        link: "https://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20eksplor%20partnership%20dengan%20LearnWithAndi.",
       },
       secondaryCta: {
         text: "Lihat Solusi",
@@ -544,7 +541,7 @@ export const content = {
       title: "Siap <span style=\"color: var(--color-accent-yellow)\">bantu lulusan kamu</span> terserap lebih cepat?",
       subtitle: "Pastiin lulusan kamu nggak cuma sekadar 'siap kerja', tapi beneran jadi kandidat incaran industri.",
       buttonText: "Ngobrol Kolaborasi",
-      link: "http://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20ngobrol%20partnership%20dengan%20LearnWithAndi.",
+      link: "https://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20ngobrol%20partnership%20dengan%20LearnWithAndi.",
     },
     booking: {
       text: "Eksplorasi Bersama",

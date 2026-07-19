@@ -97,8 +97,13 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
-        <Script id="structured-data" type="application/ld+json" strategy="afterInteractive">
-          {JSON.stringify([
+        {/* Emitted directly rather than through next/script: with
+            strategy="afterInteractive" the JSON-LD only ever reached the
+            hydration payload, so the served HTML contained no ld+json tag at
+            all and non-rendering crawlers saw no structured data. */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify([
             {
               "@context": "https://schema.org",
               "@type": "ProfessionalService",
@@ -135,39 +140,9 @@ export default function RootLayout({
                   "jobTitle": "Digital Marketing Specialist"
                 }
               ]
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "Apakah Learn With Andi cocok untuk pemula?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Materi di LWA disusun dari fundamental sampai tingkat lanjut, jadi sangat pas buat fresh graduate maupun pemula yang mau lari di trek karier yang benar."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Pelatihannya bisa sambil kerja?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sangat bisa. Kita desain programnya fleksibel dengan akses materi kapan pun, pas banget buat profesional yang lagi sibuk upgrade diri."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Format belajarnya gimana?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Campuran antara materi video, live mentoring mingguan, tugas praktik yang relevan dengan dunia kerja, dan support komunitas 24/7."
-                  }
-                }
-              ]
             }
-          ])}
-        </Script>
+          ]) }}
+        />
       </head>
       <body className={inter.className}>
         {children}
