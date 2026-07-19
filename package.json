@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "node scripts/convert-placements.js && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:overflow": "node scripts/check-overflow.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.29.2",
@@ -22,6 +23,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "playwright": "^1.61.1",
     "typescript": "^5"
   }
 }
