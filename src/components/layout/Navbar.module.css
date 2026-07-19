@@ -80,8 +80,10 @@
 }
 
 .mobileMenu {
-  position: absolute;
-  top: 100%;
+  /* Was `absolute; top: 100%` with height:100vh, which appended a full
+     viewport of scrollable page below the fold whenever the menu opened. */
+  position: fixed;
+  top: 0;
   left: 0;
   width: 100%;
   background-color: #000;
@@ -91,7 +93,8 @@
   flex-direction: column;
   gap: 1.5rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-  height: 100vh;
+  height: 100dvh;
+  padding-top: 6rem;
   /* Full screen mobile menu */
 }
 

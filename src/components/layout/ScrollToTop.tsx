@@ -16,7 +16,8 @@ export default function ScrollToTop() {
       }
     };
 
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener('scroll', toggleVisibility, { passive: true });
+    toggleVisibility(); // sync on mount: reloading mid-page left the button hidden
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 

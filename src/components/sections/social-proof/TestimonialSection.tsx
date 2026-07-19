@@ -3,6 +3,7 @@
 import { content } from '@/data/content';
 import placementsSummary from '@/data/placements-summary.json';
 import styles from './TestimonialSection.module.css';
+import ImageWithFallback from '@/components/ui/ImageWithFallback';
 
 // Define the two rows of images
 // Missing 2.webp
@@ -39,12 +40,13 @@ export default function TestimonialSection() {
           {/* Row 1 - Scrolling Left */}
           <div className={`${styles.marqueeRow} ${styles.marqueeToLeft}`}>
             {[...row1Images, ...row1Images].map((num, idx) => (
-              <img
+              <ImageWithFallback
                 key={`r1-${idx}`}
                 src={`/assets/members/${num}.webp`}
                 alt={`Member testimony ${num}`}
                 className={styles.imageItem}
                 loading="lazy"
+                fallback={<div className={`${styles.imageItem} ${styles.imagePlaceholder}`} aria-hidden="true" />}
               />
             ))}
           </div>
@@ -52,12 +54,13 @@ export default function TestimonialSection() {
           {/* Row 2 - Scrolling Right */}
           <div className={`${styles.marqueeRow} ${styles.marqueeToRight}`}>
             {[...row2Images, ...row2Images].map((num, idx) => (
-              <img
+              <ImageWithFallback
                 key={`r2-${idx}`}
                 src={`/assets/members/${num}.webp`}
                 alt={`Member testimony ${num}`}
                 className={styles.imageItem}
                 loading="lazy"
+                fallback={<div className={`${styles.imageItem} ${styles.imagePlaceholder}`} aria-hidden="true" />}
               />
             ))}
           </div>
