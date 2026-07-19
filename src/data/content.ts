@@ -118,7 +118,9 @@ export const content = {
     ],
   },
   stats: {
-    text: "450+ Member LWA Sudah Dapat Kerja di 2025-2026",
+    // {count} is filled from placements-summary.json at render time so the
+    // headline number tracks the placement data instead of drifting from it.
+    text: "{count}+ Member LWA Sudah Dapat Kerja di 2025-2026",
   },
   careerElements: {
     title: "Elemen Penting Upgrade Karier",
