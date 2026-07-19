@@ -110,11 +110,25 @@
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  opacity: 0;
+  /* Visible by default so touch users can find them; the hover-reveal only
+     applies where a real pointer exists. opacity:0 also left a tabbable but
+     invisible focus stop for keyboard users. */
+  opacity: 0.6;
 }
 
-.marqueeWrapper:hover .navButton {
+.navButton:hover,
+.navButton:focus-visible {
   opacity: 1;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .navButton {
+    opacity: 0;
+  }
+
+  .marqueeWrapper:hover .navButton {
+    opacity: 1;
+  }
 }
 
 .navButton:hover {
@@ -170,7 +184,12 @@
   border-radius: 50%;
   background: #444;
   border: none;
-  padding: 0;
+  /* 8px visual dot, 44px hit area. Padding is transparent via content-box
+     clipping; the negative margin keeps the row's original spacing. */
+  padding: 18px;
+  background-clip: content-box;
+  box-sizing: content-box;
+  margin: -12px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -248,7 +267,7 @@
 
 .itemRole {
   font-size: 0.75rem;
-  color: #666;
+  color: var(--color-grey-light);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

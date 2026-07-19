@@ -2,7 +2,17 @@
 
 import { content } from '@/data/content';
 import styles from './Footer.module.css';
-import { Instagram, Linkedin, Youtube, MessageCircle, AtSign } from 'lucide-react';
+import { Instagram, Linkedin, Youtube, MessageCircle, AtSign, type LucideIcon } from 'lucide-react';
+
+// Module scope: this was rebuilt on every iteration of the render loop, and the
+// `any` typing meant a typo in a `socials` key silently dropped the link.
+const SOCIAL_ICONS: Record<string, LucideIcon> = {
+  instagram: Instagram,
+  linkedin: Linkedin,
+  youtube: Youtube,
+  threads: AtSign,
+  whatsapp: MessageCircle,
+};
 
 import { useEffect } from 'react'; // Add import
 
@@ -40,18 +50,18 @@ export default function Footer() {
           <div className={styles.socials}>
             {Object.entries(global.socials).map(([key, url]) => {
               if (!url) return null;
-              const Icons: Record<string, any> = {
-                instagram: Instagram,
-                linkedin: Linkedin,
-                youtube: Youtube,
-                threads: AtSign,
-                whatsapp: MessageCircle
-              };
-              const Icon = Icons[key];
+              const Icon = SOCIAL_ICONS[key];
               if (!Icon) return null;
 
               return (
-                <a key={key} href={url} target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+                <a
+                  key={key}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${global.brandName} on ${key}`}
+                  className={styles.socialLink}
+                >
                   <Icon size={24} />
                 </a>
               );
