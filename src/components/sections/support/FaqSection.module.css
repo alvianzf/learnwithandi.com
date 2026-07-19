@@ -7,6 +7,10 @@
   font-size: 2.5rem;
   margin-bottom: 3rem;
   color: #fff;
+  /* Keeps the pre-full-bleed wrap width now that section spans the viewport. */
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list {

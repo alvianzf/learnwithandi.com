@@ -6,6 +6,8 @@
   background-color: transparent;
   /* Let global background show through */
   padding: 6rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .heading {

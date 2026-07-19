@@ -33,8 +33,9 @@ a {
   text-decoration: none;
 }
 
+/* Sections span the full viewport so their backgrounds bleed edge to edge.
+   Content width is capped per-section by an inner container, not here — a
+   max-width on the element itself also clips the background. */
 section {
   padding: var(--spacing-section) 1.5rem;
-  max-width: 1200px;
-  margin: 0 auto;
 }
