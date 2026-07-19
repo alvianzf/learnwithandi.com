@@ -114,7 +114,9 @@
   margin-top: 1rem;
 }
 
-@media (max-width: 768px) {
+/* The desktop menu needs ~890px to sit beside the logo without overflowing;
+   below that it pushes off the right edge, so hand over to the mobile menu. */
+@media (max-width: 900px) {
   .desktopMenu {
     display: none;
   }
