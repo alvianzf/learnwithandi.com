@@ -1,2 +1,14 @@
 node_modules
 .next/
+
+# macOS metadata
+.DS_Store
+
+# TypeScript incremental build artifact (tsconfig.json sets "incremental": true)
+*.tsbuildinfo
+
+# Local env
+.env*.local
+
+# Playwright browser downloads
+/test-results/
