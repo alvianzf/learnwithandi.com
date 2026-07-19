@@ -23,6 +23,7 @@
 }
 
 .question {
+  gap: 1rem;
   width: 100%;
   text-align: left;
   background: none;
@@ -38,18 +39,25 @@
 }
 
 .icon {
+  flex-shrink: 0;
   font-size: 1.5rem;
   color: var(--color-accent-yellow);
 }
 
+/* height: 0 -> auto cannot be interpolated, so the panel snapped open despite
+   the declared transition. grid-template-rows 0fr -> 1fr does animate. */
 .answerContainer {
-  height: 0;
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.answerContainer > * {
   overflow: hidden;
-  transition: height 0.3s ease;
 }
 
 .answerContainer.open {
-  height: auto;
+  grid-template-rows: 1fr;
   padding-bottom: 1.5rem;
 }
 

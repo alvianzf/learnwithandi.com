@@ -13,6 +13,10 @@
   text-align: center;
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
+  /* .section is `padding: 4rem 0` so the marquee rows can bleed; the gutter has
+     to live here or the headline touches both screen edges on narrow phones. */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   max-width: 800px;
   margin-left: auto;
@@ -126,4 +130,10 @@
   .marqueeRow {
     gap: 1rem;
   }
+}
+/* Shown in place of a member photo that fails to load, so a gap in the
+   hardcoded index ranges degrades to a blank tile rather than a broken icon. */
+.imagePlaceholder {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
 }

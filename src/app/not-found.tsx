@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Home, ArrowLeft } from 'lucide-react';
+import { Home } from 'lucide-react';
 import styles from './not-found.module.css';
 
 export default function NotFound() {

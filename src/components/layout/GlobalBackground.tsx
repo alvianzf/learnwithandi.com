@@ -8,7 +8,8 @@ export default function GlobalBackground() {
 
   useEffect(() => {
     const handleScroll = () => setOffsetY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // sync on mount
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 

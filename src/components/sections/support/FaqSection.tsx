@@ -53,11 +53,16 @@ export default function FaqSection() {
               className={styles.question}
               onClick={() => toggle(index)}
               aria-expanded={openIndex === index}
+              aria-controls={`faq-panel-${index}`}
+              id={`faq-trigger-${index}`}
             >
               {faqItem.question}
               <span className={styles.icon}>{openIndex === index ? '−' : '+'}</span>
             </button>
             <div
+              id={`faq-panel-${index}`}
+              role="region"
+              aria-labelledby={`faq-trigger-${index}`}
               className={`${styles.answerContainer} ${openIndex === index ? styles.open : ''}`}
             >
               <div

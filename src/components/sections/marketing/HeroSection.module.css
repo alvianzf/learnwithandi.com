@@ -58,12 +58,23 @@
 }
 
 
+/* Referenced by HeroSection and PartnershipHero but never defined, so the
+   wrapper rendered unstyled and the image overflowed it — only kept on screen
+   by `overflow: hidden` on .hero. */
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  overflow: hidden;
+}
+
 .heroImage {
   height: 85%;
   /* Use 85% to allow centering space */
   max-height: 95%;
   width: auto;
-  max-width: none;
+  max-width: 100%;
   transform: translateX(15%);
   /* Shift right to hide transparency */
   object-fit: contain;
@@ -193,7 +204,7 @@
 .heroImage {
   height: 80vh;
   width: auto;
-  max-width: none;
+  max-width: 100%;
   display: block;
 }
 

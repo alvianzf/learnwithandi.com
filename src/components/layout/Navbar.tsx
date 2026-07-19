@@ -19,9 +19,24 @@ export default function Navbar() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // sync on mount: a reload mid-page rendered the bar transparent
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // The menu is full-height and fixed; without locking the body the page
+  // behind it stays scrollable and the menu can be scrolled off screen.
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsOpen(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [isOpen]);
 
   const homeLinks = [
     { name: 'PROBLEMS', href: '#problem' },
@@ -85,6 +100,7 @@ export default function Navbar() {
           className={styles.mobileToggle}
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
+          aria-expanded={isOpen}
         >
           {isOpen ? <X color="white" /> : <Menu color="white" />}
         </button>
