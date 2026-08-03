@@ -7,7 +7,7 @@ export const content = {
       linkedin: "https://www.linkedin.com/in/andisatr/",
       youtube: "https://www.youtube.com/@LearnwithAndis",
       threads: "https://www.threads.com/@learnwithandi",
-      whatsapp: "https://wa.me/6282164815973",
+      whatsapp: "https://wa.me/628973956515",
     },
     logo: {
       black: "/assets/logo/full-black.png",
@@ -84,7 +84,7 @@ export const content = {
     },
     secondaryCta: {
       text: "Tanya LWAna",
-      link: "https://wa.me/6282164815973",
+      link: "https://wa.me/628973956515",
       icon: "MessageCircle"
     },
     image: "/assets/andi/potrait.png",
@@ -272,7 +272,7 @@ export const content = {
     ],
     consultation: {
       text: "Masih Ragu? Tanya LWAna",
-      link: "https://wa.me/6282164815973"
+      link: "https://wa.me/628973956515"
     },
     plans: [
       {
@@ -445,7 +445,7 @@ export const content = {
     },
     secondaryCta: {
       text: "Tanya LWAna",
-      link: "https://wa.me/6282164815973",
+      link: "https://wa.me/628973956515",
     },
   },
   careerWins: {
@@ -469,7 +469,7 @@ export const content = {
       description: "Learn With Andi (LWA) berkolaborasi dengan mitra pelatihan untuk memberikan pembekalan interview strategis bagi para talenta.",
       primaryCta: {
         text: "Jalin Kolaborasi",
-        link: "https://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20eksplor%20partnership%20dengan%20LearnWithAndi.",
+        link: "https://wa.me/628973956515?text=Halo,%20saya%20tertarik%20untuk%20eksplor%20partnership%20dengan%20LearnWithAndi.",
       },
       secondaryCta: {
         text: "Lihat Solusi",
@@ -541,7 +541,7 @@ export const content = {
       title: "Siap <span style=\"color: var(--color-accent-yellow)\">bantu lulusan kamu</span> terserap lebih cepat?",
       subtitle: "Pastiin lulusan kamu nggak cuma sekadar 'siap kerja', tapi beneran jadi kandidat incaran industri.",
       buttonText: "Ngobrol Kolaborasi",
-      link: "https://wa.me/6282164815973?text=Halo,%20saya%20tertarik%20untuk%20ngobrol%20partnership%20dengan%20LearnWithAndi.",
+      link: "https://wa.me/628973956515?text=Halo,%20saya%20tertarik%20untuk%20ngobrol%20partnership%20dengan%20LearnWithAndi.",
     },
     booking: {
       text: "Eksplorasi Bersama",
