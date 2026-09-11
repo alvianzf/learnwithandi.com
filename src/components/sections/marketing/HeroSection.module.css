@@ -16,7 +16,7 @@
 /* Ensure spacing is better */
 /* Grid remains 2 columns but we break it for the massive image overlap */
 .container {
-  max-width: 1600px;
+  max-width: 1400px;
   width: 100%;
   padding: 0 2rem;
   z-index: 2;
