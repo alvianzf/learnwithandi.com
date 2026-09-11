@@ -76,9 +76,9 @@ function parseDate(s) {
   };
 }
 
-// Splits on the delimiter while respecting double-quoted fields, so a semicolon
+// Splits on the delimiter while respecting double-quoted fields, so a comma
 // inside a quoted note does not shift every column after it. Handles "" escapes.
-function splitCSV(line, delim = ';') {
+function splitCSV(line, delim = ',') {
   const out = [];
   let cur = '';
   let inQuotes = false;
@@ -196,7 +196,7 @@ function convert(csvPath) {
     process.exit(1);
   }
 
-  const raw = fs.readFileSync(csvPath, 'utf8');
+  const raw = fs.readFileSync(csvPath, 'utf8').replace(/^﻿/, '');
   const lines = raw.split('\n').map(l => l.replace(/\r$/, ''));
 
   const byMonth = new Map();
@@ -210,7 +210,7 @@ function convert(csvPath) {
   const unparseableSamples = [];
 
   for (const line of lines) {
-    if (!line.trim() || line.startsWith('Placement;')) continue;
+    if (!line.trim() || line.startsWith('No Placement,')) continue;
 
     const entry = parseLine(line);
     if (!entry) {
