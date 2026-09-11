@@ -5,7 +5,7 @@ import placementsData from '@/data/placements.json';
 import placementsSummary from '@/data/placements-summary.json';
 import styles from './CareerWinsSection.module.css';
 import { motion, animate, useInView } from 'framer-motion';
-import { Linkedin, Briefcase, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Linkedin, Handshake, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useEffect, useState, useRef } from 'react';
 
 interface Placement {
@@ -241,7 +241,7 @@ export default function CareerWinsSection() {
                             />
                           )}
                           {item.is_b2b && !item.b2b_logo && (
-                            <Briefcase size={16} className={styles.partnerIcon} />
+                            <Handshake size={16} className={styles.partnerIcon} />
                           )}
                         </div>
                       </div>
